@@ -1,0 +1,56 @@
+{
+  "solution": {
+    "uniqueName": "JiraTrackersApp",
+    "displayName": "Jira Trackers Web App",
+    "description": "React-based Jira ticket tracking application for Power Apps",
+    "version": "1.0.0",
+    "publisher": {
+      "uniqueName": "JiraTrackersPublisher",
+      "displayName": "Jira Trackers",
+      "email": "admin@example.com"
+    }
+  },
+  "webResources": [
+    {
+      "name": "jiratracker_index_html",
+      "displayName": "Jira Tracker Main Page",
+      "description": "Main HTML page for Jira Tracker application",
+      "type": 1,
+      "fileName": "index.html"
+    },
+    {
+      "name": "jiratracker_css",
+      "displayName": "Jira Tracker Styles",
+      "description": "CSS stylesheet for Jira Tracker application",
+      "type": 3,
+      "fileName": "assets/main.css"
+    },
+    {
+      "name": "jiratracker_app_js",
+      "displayName": "Jira Tracker Application",
+      "description": "Main JavaScript bundle for Jira Tracker application",
+      "type": 2,
+      "fileName": "assets/main.js"
+    }
+  ],
+  "buildConfig": {
+    "buildPath": "./dist",
+    "buildEntryPoint": "index.html",
+    "outputFile": "JiraTrackersApp_{version}_unmanaged.zip"
+  },
+  "deployment": {
+    "environmentId": "fd7b5d45-444c-e5f6-a197-9d287331c409",
+    "region": "prod",
+    "type": "unmanaged"
+  },
+  "changelog": {
+    "1.0.0": {
+      "date": "2026-10-07",
+      "changes": [
+        "Initial release",
+        "Web resource solution created",
+        "React app integrated with Power Apps"
+      ]
+    }
+  }
+}

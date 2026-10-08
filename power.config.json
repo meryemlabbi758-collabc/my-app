@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "appId": "587533ed-ea36-4a8b-9686-5e56b60e608b",
+  "appDisplayName": "JiraTrackers",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "fd7b5d45-444c-e5f6-a197-9d287331c409",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {}
+}

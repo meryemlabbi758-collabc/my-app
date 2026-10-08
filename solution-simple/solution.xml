@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/crm/2011/ImportExportXml">
+  <SolutionManifest>
+    <UniqueName>JiraTrackersApp</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Jira Trackers" languageid="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Jira Trackers" languageid="1033" />
+    </Descriptions>
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>JiraTrackersPublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Jira Trackers" languageid="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Jira Trackers" languageid="1033" />
+      </Descriptions>
+      <EMailAddress>info@example.com</EMailAddress>
+      <SupportedLanguages>1033</SupportedLanguages>
+    </Publisher>
+    <RootComponents />
+  </SolutionManifest>
+</ImportExportXml>

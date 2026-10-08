@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev",
+  "env": {
+    "VITE_DATAVERSE_ENABLED": "@dataverse_enabled",
+    "VITE_DATAVERSE_URL": "@dataverse_url"
+  }
+}

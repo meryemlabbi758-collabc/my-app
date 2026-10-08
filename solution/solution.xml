@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/crm/2011/ImportExportXml">
+  <SolutionManifest>
+    <UniqueName>JiraTrackersApp</UniqueName>
+    <LocalizedNames><LocalizedName description="Jira Trackers" languageid="1033" /></LocalizedNames>
+    <Version>1.0.0</Version><Managed>0</Managed>
+    <Publisher><UniqueName>DXC</UniqueName><LocalizedNames><LocalizedName description="DXC" languageid="1033" /></LocalizedNames></Publisher>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/crm/2011/ImportExportXml">
+  <WebResources>
+    <WebResource><Name>jiratracker_index</Name><DisplayName>Jira Tracker</DisplayName><Type>1</Type><IsEnabled>1</IsEnabled><FileName>Other\WebResources\index.html</FileName></WebResource>
+    <WebResource><Name>jiratracker_css</Name><DisplayName>Jira Tracker CSS</DisplayName><Type>3</Type><IsEnabled>1</IsEnabled><FileName>Other\WebResources\assets\index-BhCRhfZa.css</FileName></WebResource>
+    <WebResource><Name>jiratracker_js</Name><DisplayName>Jira Tracker JS</DisplayName><Type>2</Type><IsEnabled>1</IsEnabled><FileName>Other\WebResources\assets\index-D5bUmSN2.js</FileName></WebResource>
+  </WebResources>
+</ImportExportXml>
