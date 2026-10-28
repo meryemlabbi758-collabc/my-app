@@ -9,8 +9,9 @@ import type { Cra69_teammembers } from '@/generated/models/Cra69_teammembersMode
 import { Cra69_clientsService } from '@/generated/services/Cra69_clientsService'
 import { Cra69_environmentsService } from '@/generated/services/Cra69_environmentsService'
 import { Cra69_dimassigneesService } from '@/generated/services/Cra69_dimassigneesService'
+import { De_powerbi_delta_open_releasesesService } from '@/generated/services/De_powerbi_delta_open_releasesesService'
+import type { De_powerbi_delta_open_releaseses } from '@/generated/models/De_powerbi_delta_open_releasesesModel'
 import { Cra69_ticketsService } from '@/generated/services/Cra69_ticketsService'
-import type { Cra69_tickets } from '@/generated/models/Cra69_ticketsModel'
 
 export async function getClientsFromDataverse(): Promise<Client[]> {
   const result = await Cra69_clientsService.getAll({
@@ -66,21 +67,24 @@ export async function getClientEnvironmentsFromDataverse(
 }
 
 const TICKET_COLUMNS = [
-  'cra69_ticketid', '_cra69_clientt_value', 'cra69_jirakey', 'cra69_summary', 'cra69_scriptname', 'cra69_owner',
-  'cra69_assenee', 'cra69_priority', 'cra69_status', 'cra69_deadline',
-  'cra69_executiontime', 'cra69_deliverysprintname',
+  'de_powerbi_delta_open_releasesid', 'de_issuekey', 'de_summary', 'de_assignee', 'de_priority', 'de_status',
+  'de_fixversions', 'de_buildversion', 'de_expectedsprint', 'de_issuetype', 'de_commitmenttype', 'de_resolution',
 ] as const
 
-const STATUS_MAP: Record<number, Ticket['status']> = {
-  902190000: 'in-progress',
-  902190001: 'done',
+// The open-releases table is a virtual (external) table: read-only
+export const TICKETS_EDITABLE = false
+
+function toStatus(raw?: string): Ticket['status'] {
+  const v = (raw || '').trim().toLowerCase()
+  if (!v) return 'open'
+  return /done|closed|resolved|deliver|complete/.test(v) ? 'done' : 'in-progress'
 }
 
-const PRIORITY_MAP: Record<number, Ticket['priority']> = {
-  902190000: 'medium',
-  902190001: 'critical',
-  902190002: 'medium',
-  902190003: 'low',
+function toPriority(raw?: string): Ticket['priority'] {
+  const v = (raw || '').trim().toLowerCase()
+  if (/critical|blocker|highest|high|major/.test(v)) return 'critical'
+  if (/low|minor|trivial/.test(v)) return 'low'
+  return 'medium'
 }
 
 type AssigneeNames = Map<string, string>
@@ -107,28 +111,32 @@ function resolveAssignee(raw: string | undefined, names: AssigneeNames): string 
   return names.get(raw.trim().toLowerCase()) || raw
 }
 
-function toTicket(t: Cra69_tickets, names: AssigneeNames): TicketDetail {
+function toTicket(t: De_powerbi_delta_open_releaseses, names: AssigneeNames): TicketDetail {
   return {
-    id: t.cra69_ticketid,
-    title: t.cra69_jirakey,
-    summary: t.cra69_summary || t.cra69_scriptname || '',
-    status: t.cra69_status !== undefined ? STATUS_MAP[t.cra69_status] ?? 'open' : 'open',
-    priority: t.cra69_priority !== undefined ? PRIORITY_MAP[t.cra69_priority] ?? 'medium' : 'medium',
-    assignee: resolveAssignee(t.cra69_assenee, names),
-    dueDate: t.cra69_deadline ? t.cra69_deadline.slice(0, 10) : '',
-    fixVersion: t.cra69_executiontime !== undefined && t.cra69_executiontime !== null ? String(t.cra69_executiontime) : '',
-    buildId: t.cra69_deliverysprintname || '',
-    sprint: t.cra69_deliverysprintname || '',
-    clientId: t._cra69_clientt_value || t.cra69_owner || '',
+    id: t.de_powerbi_delta_open_releasesid,
+    title: t.de_issuekey,
+    summary: t.de_summary || '',
+    status: toStatus(t.de_status),
+    priority: toPriority(t.de_priority),
+    assignee: resolveAssignee(t.de_assignee, names),
+    dueDate: '',
+    fixVersion: t.de_fixversions || '',
+    buildId: t.de_buildversion || '',
+    sprint: t.de_expectedsprint || '',
+    issueType: t.de_issuetype || '',
+    commitmentType: t.de_commitmenttype || '',
+    resolution: t.de_resolution || '',
+    statusText: t.de_status || '',
+    priorityText: t.de_priority || '',
+    clientId: '',
     environment: '',
   }
 }
 
-async function fetchTickets(filter?: string): Promise<TicketDetail[]> {
-  const result = await Cra69_ticketsService.getAll({
+async function fetchTickets(): Promise<TicketDetail[]> {
+  const result = await De_powerbi_delta_open_releasesesService.getAll({
     select: [...TICKET_COLUMNS],
-    filter,
-    orderBy: ['cra69_jirakey asc'],
+    orderBy: ['de_issuekey asc'],
   })
   if (result.error) {
     console.error('[Dataverse] tickets error:', result.error)
@@ -138,14 +146,12 @@ async function fetchTickets(filter?: string): Promise<TicketDetail[]> {
   return (result.data || []).map(t => toTicket(t, names))
 }
 
+// The source table has no client/environment column, so every client sees all open releases
 export async function getTicketsFromDataverse(
-  client?: Pick<Client, 'id' | 'name'>
+  _client?: Pick<Client, 'id' | 'name'>
 ): Promise<Ticket[]> {
-  if (!client) return fetchTickets()
-  const name = client.name.replace(/'/g, "''")
-  return fetchTickets(`(_cra69_clientt_value eq ${client.id} or cra69_owner eq '${name}')`)
+  return fetchTickets()
 }
-
 export async function getClients(): Promise<Client[]> {
   return getClientsFromDataverse()
 }
@@ -169,7 +175,7 @@ export async function getTicketsByClientAndEnvironment(clientId: string, _enviro
 }
 
 export async function getTicketById(ticketId: string): Promise<TicketDetail | null> {
-  const result = await Cra69_ticketsService.get(ticketId, { select: [...TICKET_COLUMNS] })
+  const result = await De_powerbi_delta_open_releasesesService.get(ticketId, { select: [...TICKET_COLUMNS] })
   if (result.error || !result.data) return null
   return toTicket(result.data, await getAssigneeNames())
 }

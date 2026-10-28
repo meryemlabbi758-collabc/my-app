@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { ArrowRight, Building2, CircleCheck, Clock, TicketIcon } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
-import { useClients, useTickets } from "@/hooks/useDataverse"
+import { useClients, useCurrentUserName, useTickets } from "@/hooks/useDataverse"
 import type { Ticket } from "@/services/types"
 
 const statusStyle: Record<Ticket["status"], string> = {
@@ -74,6 +74,7 @@ function Kpi({
 export default function HomePage() {
   const { clients, loading: clientsLoading } = useClients()
   const { tickets, loading: ticketsLoading } = useTickets()
+  const userName = useCurrentUserName()
 
   const total = tickets.length
   const delivered = tickets.filter((t) => t.status === "done").length
@@ -86,7 +87,7 @@ export default function HomePage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">Welcome back, Meryem Lebbi</h1>
+        <h1 className="text-2xl font-bold tracking-tight">{userName ? `Welcome back, ${userName}` : "Welcome back"}</h1>
         <p className="text-sm text-muted-foreground">Here is what is happening with your deliverables today.</p>
       </div>
 

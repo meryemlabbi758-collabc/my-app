@@ -35,8 +35,8 @@ const KINDS: Record<string, { label: string; className: string }> = {
   note: { label: "Note", className: "italic" },
 }
 
-const MONTHS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
-const DAYS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 const pad = (n: number) => String(n).padStart(2, "0")
 const iso = (y: number, m: number, d: number) => `${y}-${pad(m + 1)}-${pad(d)}`
@@ -244,7 +244,7 @@ export default function CalendarPage() {
                   </th>
                 ))}
                 <th rowSpan={2} className={`${headCell} w-64`}>
-                  Opérations autres / Commentaires
+                  Other operations / Comments
                 </th>
               </tr>
               <tr className="bg-[#0E1020] text-white">
@@ -286,7 +286,7 @@ export default function CalendarPage() {
                           isToday ? "bg-red-600 font-bold italic text-white" : ""
                         }`}
                       >
-                        {DAYS[dow]} {day} {MONTHS[month]} {year}
+                        {DAYS[dow]} {MONTHS[month]} {day}, {year}
                       </td>
                       {[...envs, COMMENTS].map((env) => {
                         const list = byCell.get(`${date}|${env}`) ?? []

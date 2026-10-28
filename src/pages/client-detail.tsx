@@ -67,12 +67,12 @@ export default function ClientDetailPage() {
         <Link to="/clients">
           <Button variant="outline" size="sm">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour aux clients
+            Back to clients
           </Button>
         </Link>
         <Card className="border-destructive">
           <CardContent className="pt-6">
-            <p className="text-destructive">Client non trouvé</p>
+            <p className="text-destructive">Client not found</p>
           </CardContent>
         </Card>
       </div>
@@ -81,7 +81,7 @@ export default function ClientDetailPage() {
 
   const copyToClipboard = (text: string, label: string) => {
     navigator.clipboard.writeText(text)
-    toast.success(`${label} copié!`)
+    toast.success(`${label} copied!`)
   }
 
   return (
@@ -89,7 +89,7 @@ export default function ClientDetailPage() {
       <Link to="/clients">
         <Button variant="outline" size="sm">
           <ArrowLeft className="w-4 h-4 mr-2" />
-          Retour aux clients
+          Back to clients
         </Button>
       </Link>
 
@@ -99,7 +99,7 @@ export default function ClientDetailPage() {
             <div className="text-8xl">{client.logo}</div>
             <div>
               <h2 className="text-4xl font-bold">{client.name}</h2>
-              <p className="text-muted-foreground mt-2">Détails de build et version</p>
+              <p className="text-muted-foreground mt-2">Build and version details</p>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function ClientDetailPage() {
           <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
               <CardTitle>Build ID</CardTitle>
-              <CardDescription>Identifiant unique du build</CardDescription>
+              <CardDescription>Unique build identifier</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="bg-muted p-4 rounded-lg font-mono text-sm break-all">
@@ -130,21 +130,21 @@ export default function ClientDetailPage() {
           {/* Fix Version Card */}
           <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
-              <CardTitle>Version Fix</CardTitle>
-              <CardDescription>Version de correction actuelle</CardDescription>
+              <CardTitle>Fix version</CardTitle>
+              <CardDescription>Current fix version</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="bg-muted p-4 rounded-lg font-mono text-sm break-all">
                 {client.fixVersion}
               </div>
               <Button
-                onClick={() => copyToClipboard(client.fixVersion, "Version Fix")}
+                onClick={() => copyToClipboard(client.fixVersion, "Fix version")}
                 variant="outline"
                 size="sm"
                 className="w-full"
               >
                 <Copy className="w-4 h-4 mr-2" />
-                Copier Version Fix
+                Copier Fix version
               </Button>
             </CardContent>
           </Card>
@@ -153,16 +153,16 @@ export default function ClientDetailPage() {
         {/* Additional Info */}
         <Card className="mt-6">
           <CardHeader>
-            <CardTitle>Informations Supplémentaires</CardTitle>
+            <CardTitle>Additional information</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <p className="text-sm text-muted-foreground mb-1">Identifiant Client</p>
+                <p className="text-sm text-muted-foreground mb-1">Client ID</p>
                 <p className="font-mono">{client.id}</p>
               </div>
               <div>
-                <p className="text-sm text-muted-foreground mb-1">Nom du Client</p>
+                <p className="text-sm text-muted-foreground mb-1">Client name</p>
                 <p className="font-semibold">{client.name}</p>
               </div>
             </div>

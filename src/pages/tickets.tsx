@@ -87,7 +87,7 @@ export default function TicketsPage() {
       <div className="space-y-8 pb-8">
         <div className="flex items-center justify-center py-12">
           <Loader className="w-8 h-8 animate-spin text-primary" />
-          <p className="ml-3 text-muted-foreground">Chargement des données...</p>
+          <p className="ml-3 text-muted-foreground">Loading data...</p>
         </div>
       </div>
     )
@@ -99,12 +99,12 @@ export default function TicketsPage() {
         <Link to="/clients">
           <Button variant="outline" size="sm">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour aux clients
+            Back to clients
           </Button>
         </Link>
         <Card className="border-destructive">
           <CardContent className="pt-6">
-            <p className="text-destructive">Données non trouvées. Veuillez sélectionner un client et un environnement.</p>
+            <p className="text-destructive">Data not found. Please select a client and an environment.</p>
           </CardContent>
         </Card>
       </div>
@@ -141,7 +141,7 @@ export default function TicketsPage() {
           <div>
             <h1 className="text-2xl font-bold leading-tight tracking-tight">Jira Delivery Tickets</h1>
             <p className="text-sm text-muted-foreground">
-              {scoped && client && envData ? `Tickets pour ${client.name} - ${envData.name}` : "Tous les tickets"}
+              {scoped && client && envData ? `Tickets for ${client.name} - ${envData.name}` : "All tickets"}
             </p>
           </div>
         </div>
@@ -170,13 +170,13 @@ export default function TicketsPage() {
       {/* Filters + total on one line */}
       <Card className="py-0">
         <CardContent className="flex flex-wrap items-end gap-x-5 gap-y-3 p-4">
-          <h2 className="mr-1 self-center text-base font-semibold">Filtrer les Tickets</h2>
+          <h2 className="mr-1 self-center text-base font-semibold">Filter tickets</h2>
 
           <div className="space-y-1">
             <label className="text-xs font-medium text-muted-foreground">Fix version</label>
             <Select value={fixVersion} onValueChange={setFixVersion}>
               <SelectTrigger className="w-44">
-                <SelectValue placeholder="Toutes les versions" />
+                <SelectValue placeholder="All versions" />
               </SelectTrigger>
               <SelectContent>
                 {uniqueFixVersions.map((version) => (
@@ -192,7 +192,7 @@ export default function TicketsPage() {
             <label className="text-xs font-medium text-muted-foreground">Build ID</label>
             <Select value={buildId} onValueChange={setBuildId}>
               <SelectTrigger className="w-44">
-                <SelectValue placeholder="Tous les builds" />
+                <SelectValue placeholder="All builds" />
               </SelectTrigger>
               <SelectContent>
                 {uniqueBuildIds.map((id) => (
@@ -208,7 +208,7 @@ export default function TicketsPage() {
             <label className="text-xs font-medium text-muted-foreground">Status</label>
             <Select value={statusFilter} onValueChange={setStatusFilter}>
               <SelectTrigger className="w-44">
-                <SelectValue placeholder="Tous les statuts" />
+                <SelectValue placeholder="All statuses" />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="open">Open</SelectItem>
@@ -225,7 +225,7 @@ export default function TicketsPage() {
               className="flex items-center gap-1 self-center pt-4 text-sm text-muted-foreground hover:text-foreground"
             >
               <X className="w-4 h-4" />
-              Effacer les filtres
+              Clear filters
             </button>
           )}
 
@@ -244,19 +244,24 @@ export default function TicketsPage() {
         {ticketsLoading ? (
           <div className="flex items-center justify-center py-10">
             <Loader className="w-6 h-6 animate-spin text-primary" />
-            <p className="ml-3 text-muted-foreground">Chargement des tickets...</p>
+            <p className="ml-3 text-muted-foreground">Loading tickets...</p>
           </div>
         ) : filteredTickets.length > 0 ? (
           <div className="overflow-x-auto">
             <Table>
               <TableHeader>
                 <TableRow className="bg-muted/40 hover:bg-muted/40">
-                  <TableHead className="px-4 text-[11px] font-semibold uppercase tracking-wide">ID</TableHead>
-                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Title</TableHead>
-                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Status</TableHead>
-                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Priority</TableHead>
-                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Assignee</TableHead>
-                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Due Date</TableHead>
+                  <TableHead className="px-4 text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Issue Key</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Summary</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Issue Type</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Status</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Priority</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Assignee</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Resolution</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Commitment Type</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Expected Sprint</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Build Version</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide whitespace-nowrap">Fix Versions</TableHead>
                   <TableHead className="w-10" />
                 </TableRow>
               </TableHeader>
@@ -267,16 +272,21 @@ export default function TicketsPage() {
                     onClick={() => navigate(`/tickets/${ticket.id}`)}
                     className="cursor-pointer transition-colors hover:bg-muted/50"
                   >
-                    <TableCell className="px-4 font-semibold text-primary">{ticket.title}</TableCell>
+                    <TableCell className="px-4 font-semibold text-primary whitespace-nowrap">{ticket.title}</TableCell>
                     <TableCell className="max-w-md truncate">{ticket.summary}</TableCell>
+                    <TableCell className="text-sm whitespace-nowrap">{ticket.issueType || "—"}</TableCell>
                     <TableCell>
-                      <Badge className={getStatusColor(ticket.status)}>{ticket.status}</Badge>
+                      <Badge className={getStatusColor(ticket.status)}>{ticket.statusText || ticket.status}</Badge>
                     </TableCell>
                     <TableCell>
-                      <Badge className={getPriorityColor(ticket.priority)}>{ticket.priority}</Badge>
+                      <Badge className={getPriorityColor(ticket.priority)}>{ticket.priorityText || ticket.priority}</Badge>
                     </TableCell>
-                    <TableCell className="text-sm">{ticket.assignee}</TableCell>
-                    <TableCell className="text-sm">{ticket.dueDate || "—"}</TableCell>
+                    <TableCell className="text-sm whitespace-nowrap">{ticket.assignee}</TableCell>
+                    <TableCell className="text-sm whitespace-nowrap">{ticket.resolution || "—"}</TableCell>
+                    <TableCell className="text-sm whitespace-nowrap">{ticket.commitmentType || "—"}</TableCell>
+                    <TableCell className="text-sm whitespace-nowrap">{ticket.sprint || "—"}</TableCell>
+                    <TableCell className="text-sm whitespace-nowrap">{ticket.buildId || "—"}</TableCell>
+                    <TableCell className="text-sm whitespace-nowrap">{ticket.fixVersion || "—"}</TableCell>
                     <TableCell>
                       <ChevronRight className="size-4 text-muted-foreground" />
                     </TableCell>
@@ -287,7 +297,7 @@ export default function TicketsPage() {
           </div>
         ) : (
           <div className="py-10 text-center">
-            <p className="text-muted-foreground">Aucun ticket trouvé pour cet environnement</p>
+            <p className="text-muted-foreground">No tickets found for this environment</p>
           </div>
         )}
       </Card>

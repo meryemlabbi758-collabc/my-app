@@ -11,6 +11,7 @@ export * as Cra69_environmentsModel from './models/Cra69_environmentsModel';
 export * as Cra69_teammembersModel from './models/Cra69_teammembersModel';
 export * as Cra69_ticketsModel from './models/Cra69_ticketsModel';
 export * as Cra69_versionentriesModel from './models/Cra69_versionentriesModel';
+export * as De_powerbi_delta_open_releasesesModel from './models/De_powerbi_delta_open_releasesesModel';
 
 // Services
 export * from './services/Cra69_clientsService';
@@ -19,3 +20,4 @@ export * from './services/Cra69_environmentsService';
 export * from './services/Cra69_teammembersService';
 export * from './services/Cra69_ticketsService';
 export * from './services/Cra69_versionentriesService';
+export * from './services/De_powerbi_delta_open_releasesesService';

@@ -26,6 +26,12 @@ export interface Ticket {
   dueDate: string
   clientId: string
   environment: string
+  sprint?: string
+  issueType?: string
+  commitmentType?: string
+  resolution?: string
+  statusText?: string
+  priorityText?: string
 }
 
 export interface ClientWithEnvironments {

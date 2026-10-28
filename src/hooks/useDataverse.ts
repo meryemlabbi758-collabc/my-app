@@ -177,6 +177,22 @@ export function useCurrentUserEmail() {
 }
 
 /**
+ * Display name of the signed-in user (falls back to the email prefix)
+ */
+export function useCurrentUserName() {
+  const [name, setName] = useState('')
+  useEffect(() => {
+    getContext()
+      .then(ctx => {
+        const upn = ctx.user.userPrincipalName || ''
+        setName((ctx.user.fullName || '').trim() || upn.split('@')[0])
+      })
+      .catch(() => setName(''))
+  }, [])
+  return name
+}
+
+/**
  * Whether the signed-in user may edit tickets: member of the Developers or Build group
  */
 export function useCanEditTickets() {

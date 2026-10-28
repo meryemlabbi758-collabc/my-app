@@ -1,0 +1,128 @@
+{
+  "name": "de_powerbi_delta_open_releases",
+  "title": "powerbi_.delta_open_releases",
+  "schema": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "x-ms-dataverse-entity": true,
+      "x-ms-dataverse-entityset": "de_powerbi_delta_open_releaseses",
+      "x-ms-dataverse-primary-id": "de_powerbi_delta_open_releasesid",
+      "x-ms-dataverse-primary-name": "de_issuekey",
+      "properties": {
+        "de_assignee": {
+          "type": "string",
+          "title": "Assignee",
+          "x-ms-dataverse-attribute": "de_assignee",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_Assignee",
+          "maxLength": 4000
+        },
+        "de_buildversion": {
+          "type": "string",
+          "title": "Build Version",
+          "x-ms-dataverse-attribute": "de_buildversion",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_BuildVersion",
+          "maxLength": 4000
+        },
+        "de_commitmenttype": {
+          "type": "string",
+          "title": "Commitment Type",
+          "x-ms-dataverse-attribute": "de_commitmenttype",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_CommitmentType",
+          "maxLength": 4000
+        },
+        "de_expectedsprint": {
+          "type": "string",
+          "title": "Expected Sprint",
+          "x-ms-dataverse-attribute": "de_expectedsprint",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_ExpectedSprint",
+          "maxLength": 4000
+        },
+        "de_externalprimarykey": {
+          "type": "string",
+          "title": "issuekeyguid",
+          "x-ms-dataverse-attribute": "de_externalprimarykey",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_externalprimarykey",
+          "maxLength": 4000
+        },
+        "de_fixversions": {
+          "type": "string",
+          "title": "Fix Versions",
+          "x-ms-dataverse-attribute": "de_fixversions",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_FixVersions",
+          "maxLength": 4000
+        },
+        "de_issuekey": {
+          "type": "string",
+          "title": "issuekey",
+          "x-ms-dataverse-attribute": "de_issuekey",
+          "x-ms-dataverse-type": "StringType",
+          "x-ms-schema-name": "de_issuekey",
+          "x-ms-dataverse-primary-name": true,
+          "required": true,
+          "maxLength": 850
+        },
+        "de_issuetype": {
+          "type": "string",
+          "title": "Issue Type",
+          "x-ms-dataverse-attribute": "de_issuetype",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_IssueType",
+          "maxLength": 4000
+        },
+        "de_powerbi_delta_open_releasesid": {
+          "type": "string",
+          "title": "powerbi_.delta_open_releases",
+          "x-ms-dataverse-attribute": "de_powerbi_delta_open_releasesid",
+          "x-ms-dataverse-type": "UniqueidentifierType",
+          "x-ms-schema-name": "de_powerbi_delta_open_releasesId",
+          "x-ms-dataverse-primary-id": true,
+          "required": true,
+          "x-ms-keyType": "primary"
+        },
+        "de_priority": {
+          "type": "string",
+          "title": "Priority",
+          "x-ms-dataverse-attribute": "de_priority",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_Priority",
+          "maxLength": 4000
+        },
+        "de_resolution": {
+          "type": "string",
+          "title": "Resolution",
+          "x-ms-dataverse-attribute": "de_resolution",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_Resolution",
+          "maxLength": 4000
+        },
+        "de_status": {
+          "type": "string",
+          "title": "Status",
+          "x-ms-dataverse-attribute": "de_status",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_Status",
+          "maxLength": 4000
+        },
+        "de_summary": {
+          "type": "string",
+          "title": "Summary",
+          "x-ms-dataverse-attribute": "de_summary",
+          "x-ms-dataverse-type": "MemoType",
+          "x-ms-schema-name": "de_Summary",
+          "maxLength": 4000
+        }
+      },
+      "required": [
+        "de_issuekey",
+        "de_powerbi_delta_open_releasesid"
+      ]
+    }
+  }
+}

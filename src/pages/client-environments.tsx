@@ -16,12 +16,12 @@ export default function ClientEnvironmentsPage() {
         <Link to="/clients">
           <Button variant="outline" size="sm">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour aux clients
+            Back to clients
           </Button>
         </Link>
         <Card className="border-destructive">
           <CardContent className="pt-6">
-            <p className="text-destructive">Client non trouvé</p>
+            <p className="text-destructive">Client not found</p>
           </CardContent>
         </Card>
       </div>
@@ -33,7 +33,7 @@ export default function ClientEnvironmentsPage() {
       <Link to="/clients">
         <Button variant="outline" size="sm">
           <ArrowLeft className="w-4 h-4 mr-2" />
-          Retour aux clients
+          Back to clients
         </Button>
       </Link>
 
@@ -43,13 +43,13 @@ export default function ClientEnvironmentsPage() {
             <div className="text-6xl">{client.logo}</div>
             <div>
               <h2 className="text-3xl font-bold">{client.name}</h2>
-              <p className="text-muted-foreground mt-2">Sélectionnez un environnement</p>
+              <p className="text-muted-foreground mt-2">Select an environment</p>
             </div>
           </div>
         </div>
 
         {!envLoading && environments.length === 0 && (
-          <p className="text-muted-foreground">Aucun environnement configuré pour ce client.</p>
+          <p className="text-muted-foreground">No environment configured for this client.</p>
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {environments.map((env) => (
@@ -60,7 +60,7 @@ export default function ClientEnvironmentsPage() {
                     <div className="text-6xl">{env.icon}</div>
                     <h3 className="font-semibold text-lg">{env.name}</h3>
                     <p className="text-xs text-muted-foreground group-hover:text-foreground transition-colors">
-                      Cliquez pour voir les tickets →
+                      Click to view tickets →
                     </p>
                   </div>
                 </CardContent>

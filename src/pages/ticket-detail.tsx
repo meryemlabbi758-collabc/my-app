@@ -8,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { ArrowLeft, Loader } from "lucide-react"
 import { AdditionalNotesCard, TicketDeliveryCard } from "@/components/ticket-delivery-card"
 import { useCanEditTickets, useTicketDetail } from "@/hooks/useDataverse"
-import { updateTicket } from "@/services/dataverse"
+import { TICKETS_EDITABLE, updateTicket } from "@/services/dataverse"
 import type { TicketDetail } from "@/services/types"
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
@@ -60,7 +60,7 @@ export default function TicketDetailPage() {
     return (
       <div className="flex items-center justify-center py-12">
         <Loader className="w-8 h-8 animate-spin text-primary" />
-        <p className="ml-3 text-muted-foreground">Chargement du ticket...</p>
+        <p className="ml-3 text-muted-foreground">Loading ticket...</p>
       </div>
     )
   }
@@ -73,7 +73,7 @@ export default function TicketDetailPage() {
         </button>
         <Card className="border-destructive">
           <CardContent className="pt-6">
-            <p className="text-destructive">Ticket non trouvé</p>
+            <p className="text-destructive">Ticket not found</p>
           </CardContent>
         </Card>
       </div>
@@ -97,7 +97,7 @@ export default function TicketDetailPage() {
           </div>
         </div>
 
-        {canEditTickets && !isEditing && (
+        {canEditTickets && TICKETS_EDITABLE && !isEditing && (
           <Button onClick={() => setIsEditing(true)}>Edit Ticket</Button>
         )}
       </div>

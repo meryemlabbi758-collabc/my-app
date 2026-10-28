@@ -9,9 +9,9 @@ export default function ClientsPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">Nos Clients</h1>
+        <h1 className="text-2xl font-bold tracking-tight">Our clients</h1>
         <p className="text-sm text-muted-foreground">
-          {loading ? "Chargement des clients..." : "Sélectionnez un client pour voir ses environnements"}
+          {loading ? "Loading clients..." : "Select a client to see its environments"}
         </p>
       </div>
 
@@ -27,7 +27,7 @@ export default function ClientsPage() {
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="truncate font-semibold">{client.name}</h3>
-                      <p className="text-xs text-muted-foreground">Voir les environnements</p>
+                      <p className="text-xs text-muted-foreground">View environments</p>
                     </div>
                     <ArrowRight className="size-4 text-muted-foreground transition-colors group-hover:text-primary" />
                   </div>

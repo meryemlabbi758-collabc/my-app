@@ -46,5 +46,12 @@ export const dataSourcesInfo = {
     "primaryKey": "cra69_versionentryid",
     "dataSourceType": "Dataverse",
     "apis": {}
+  },
+  "de_powerbi_delta_open_releaseses": {
+    "tableId": "",
+    "version": "",
+    "primaryKey": "de_powerbi_delta_open_releasesid",
+    "dataSourceType": "Dataverse",
+    "apis": {}
   }
 };

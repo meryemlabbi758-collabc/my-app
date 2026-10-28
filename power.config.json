@@ -43,6 +43,11 @@
           "entitySetName": "cra69_versionentries",
           "logicalName": "cra69_versionentry",
           "isHidden": false
+        },
+        "powerbi__delta_open_releases": {
+          "entitySetName": "de_powerbi_delta_open_releaseses",
+          "logicalName": "de_powerbi_delta_open_releases",
+          "isHidden": false
         }
       },
       "environmentVariableName": ""

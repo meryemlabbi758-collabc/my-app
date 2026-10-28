@@ -1,7 +1,8 @@
 import { Outlet, NavLink } from "react-router-dom"
 import { LayoutDashboard, TicketIcon, Building2, Users, Settings, CalendarDays } from "lucide-react"
 import { ModeToggle } from "@/components/mode-toggle"
-import deltaLogo from "@/assets/delta-logo-light.png"
+import { useCurrentUserName } from "@/hooks/useDataverse"
+import deltaLogo from "@/assets/delta-request-logo.png"
 
 const navItems = [
   { label: "Overview", icon: LayoutDashboard, path: "/", end: true },
@@ -13,11 +14,20 @@ const navItems = [
 ]
 
 export default function Layout() {
+  const userName = useCurrentUserName()
+  const initials =
+    userName
+      .split(/[\s._-]+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((p) => p[0].toUpperCase())
+      .join("") || "?"
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <header className="sticky top-0 z-40 bg-navy text-navy-foreground shadow-sm">
         <div className="mx-auto flex h-14 w-full max-w-7xl items-center gap-8 px-6">
-          <img src={deltaLogo} alt="Delta Tracker" className="h-11 w-auto" />
+          <img src={deltaLogo} alt="Delta Delivery Request" className="h-12 w-auto" />
 
           <nav className="flex items-center gap-1">
             {navItems.map(({ label, icon: Icon, path, end }) => (
@@ -43,9 +53,9 @@ export default function Layout() {
             <ModeToggle />
             <div
               className="grid size-8 place-items-center rounded-full bg-primary text-xs font-bold text-primary-foreground"
-              title="Meryem Lebbi"
+              title={userName}
             >
-              ML
+              {initials}
             </div>
           </div>
         </div>
