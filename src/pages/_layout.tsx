@@ -1,73 +1,59 @@
 import { Outlet, NavLink } from "react-router-dom"
-import { LayoutDashboard, TicketIcon, BarChart3, Users, Settings, Package } from "lucide-react"
+import { LayoutDashboard, TicketIcon, Building2, Users, Settings, CalendarDays } from "lucide-react"
 import { ModeToggle } from "@/components/mode-toggle"
+import deltaLogo from "@/assets/delta-logo-light.png"
 
-type LayoutProps = { showHeader?: boolean }
+const navItems = [
+  { label: "Overview", icon: LayoutDashboard, path: "/", end: true },
+  { label: "Clients", icon: Building2, path: "/clients", end: false },
+  { label: "Calendar", icon: CalendarDays, path: "/calendar", end: false },
+  { label: "Team", icon: Users, path: "/team", end: false },
+  { label: "Admin", icon: Settings, path: "/admin", end: false },
+  { label: "Tickets", icon: TicketIcon, path: "/tickets", end: false },
+]
 
-export default function Layout({ showHeader = true }: LayoutProps) {
-  const navItems = [
-    { id: "overview", label: "Overview", icon: LayoutDashboard, path: "/" },
-    { id: "tickets", label: "Tickets", icon: TicketIcon, path: "/tickets" },
-    { id: "quality", label: "Quality", icon: BarChart3, path: "/quality" },
-    { id: "raci", label: "RACI", icon: Users, path: "/raci" },
-    { id: "settings", label: "Settings", icon: Settings, path: "/settings" },
-    { id: "deliverables", label: "Deliverables", icon: Package, path: "/deliverables" },
-  ]
-
+export default function Layout() {
   return (
-    <div className="min-h-screen flex">
-      {/* Sidebar */}
-      <div className="w-32 border-r bg-muted/30 flex flex-col items-center py-8 space-y-6">
-        {/* DXC Logo */}
-        <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl flex items-center justify-center shadow-lg">
-          <span className="text-3xl font-bold text-white">DXC</span>
-        </div>
+    <div className="min-h-screen flex flex-col bg-background">
+      <header className="sticky top-0 z-40 bg-navy text-navy-foreground shadow-sm">
+        <div className="mx-auto flex h-14 w-full max-w-7xl items-center gap-8 px-6">
+          <img src={deltaLogo} alt="Delta Tracker" className="h-11 w-auto" />
 
-        {/* Navigation */}
-        <nav className="w-full px-3 space-y-3">
-          {navItems.map((item) => {
-            const Icon = item.icon
-            return (
+          <nav className="flex items-center gap-1">
+            {navItems.map(({ label, icon: Icon, path, end }) => (
               <NavLink
-                key={item.id}
-                to={item.path}
-                end={item.path === "/"}
+                key={path}
+                to={path}
+                end={end}
                 className={({ isActive }) =>
-                  `w-full p-3 rounded-lg flex flex-col items-center gap-2 transition-all ${
+                  `flex items-center gap-2 rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
                     isActive
-                      ? "bg-white dark:bg-slate-800 shadow-md"
-                      : "hover:bg-white/50 dark:hover:bg-slate-700/50"
+                      ? "bg-white/10 text-white"
+                      : "text-white/65 hover:bg-white/5 hover:text-white"
                   }`
                 }
               >
-                <Icon className="w-6 h-6" />
-                <span className="text-xs font-medium text-center">{item.label}</span>
+                <Icon className="size-4" />
+                <span>{label}</span>
               </NavLink>
-            )
-          })}
-        </nav>
-      </div>
+            ))}
+          </nav>
 
-      {/* Main Content */}
-      <div className="flex-1 flex flex-col">
-        {showHeader && (
-          <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
-            <div className="px-8 py-4 flex items-center justify-between">
-              <div>
-                <h1 className="text-2xl font-bold">Welcome back, Meryem Lebbi 👋</h1>
-                <p className="text-sm text-muted-foreground mt-1">Here's what's happening with your deliverables today.</p>
-              </div>
-              <ModeToggle />
+          <div className="ml-auto flex items-center gap-3">
+            <ModeToggle />
+            <div
+              className="grid size-8 place-items-center rounded-full bg-primary text-xs font-bold text-primary-foreground"
+              title="Meryem Lebbi"
+            >
+              ML
             </div>
-          </header>
-        )}
-
-        <main className="flex-1 overflow-auto">
-          <div className="p-8">
-            <Outlet />
           </div>
-        </main>
-      </div>
+        </div>
+      </header>
+
+      <main className="mx-auto w-full max-w-7xl flex-1 px-6 py-8">
+        <Outlet />
+      </main>
     </div>
   )
 }

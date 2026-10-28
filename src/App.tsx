@@ -1,12 +1,11 @@
 import { RouterProvider } from "react-router-dom"
 import { router } from "@/router"
-
-console.log('App rendering with router')
+import { ThemeProvider } from "@/providers/theme-provider"
 
 export default function App() {
   return (
-    <div style={{ backgroundColor: 'white', minHeight: '100vh' }}>
+    <ThemeProvider defaultTheme="light">
       <RouterProvider router={router} />
-    </div>
+    </ThemeProvider>
   )
 }

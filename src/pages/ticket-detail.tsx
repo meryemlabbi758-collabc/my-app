@@ -1,75 +1,74 @@
-import { useState, useEffect } from "react"
+import { useEffect, useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
+import { toast } from "sonner"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { ArrowLeft, Cloud, Loader } from "lucide-react"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
-import { useTicketDetail } from "@/hooks/useDataverse"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { ArrowLeft, Loader } from "lucide-react"
+import { AdditionalNotesCard, TicketDeliveryCard } from "@/components/ticket-delivery-card"
+import { useCanEditTickets, useTicketDetail } from "@/hooks/useDataverse"
+import { updateTicket } from "@/services/dataverse"
 import type { TicketDetail } from "@/services/types"
+
+function Field({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <p className="mb-1 text-sm font-semibold text-muted-foreground">{label}</p>
+      <div className="text-sm font-medium">{children || "—"}</div>
+    </div>
+  )
+}
 
 export default function TicketDetailPage() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const { ticket: fetchedTicket, loading } = useTicketDetail(id || null)
+  const { ticket, loading } = useTicketDetail(id || null)
+  const canEditTickets = useCanEditTickets()
 
-  const defaultTicket: TicketDetail = {
-    id: id || "TICKET-001",
-    title: "Loading...",
-    status: "open",
-    priority: "medium",
-    assignee: "Team",
-    fixVersion: "v1.0",
-    buildId: "BUILD-001",
-    dueDate: "2024-09-20",
-    clientId: "federal",
-    environment: "prod",
-  }
-
-  const [formData, setFormData] = useState<TicketDetail>(defaultTicket)
+  const [formData, setFormData] = useState<TicketDetail | null>(null)
+  const [isEditing, setIsEditing] = useState(false)
+  const [saving, setSaving] = useState(false)
 
   useEffect(() => {
-    if (fetchedTicket) {
-      setFormData(fetchedTicket)
-    }
-  }, [fetchedTicket])
-  const [isEditing, setIsEditing] = useState(false)
+    if (ticket) setFormData(ticket)
+  }, [ticket])
 
-  const handleChange = (field: keyof TicketDetail, value: string) => {
-    setFormData((prev) => ({
-      ...prev,
-      [field]: value,
-    }))
+  const handleChange = (field: keyof TicketDetail, value: string) =>
+    setFormData((prev) => (prev ? { ...prev, [field]: value } : prev))
+
+  const handleCancel = () => {
+    setFormData(ticket)
+    setIsEditing(false)
   }
 
-  const handleSave = () => {
-    // Here you would save to Dataverse
-    console.log("Saving ticket:", formData)
-    setIsEditing(false)
+  const handleSave = async () => {
+    if (!formData) return
+    setSaving(true)
+    try {
+      await updateTicket(formData.id, formData)
+      toast.success("Ticket updated")
+      setIsEditing(false)
+    } catch (e) {
+      toast.error(`Could not save: ${(e as Error).message}`)
+    } finally {
+      setSaving(false)
+    }
   }
 
   if (loading) {
     return (
       <div className="flex items-center justify-center py-12">
-        <Loader className="w-8 h-8 animate-spin text-blue-600" />
+        <Loader className="w-8 h-8 animate-spin text-primary" />
         <p className="ml-3 text-muted-foreground">Chargement du ticket...</p>
       </div>
     )
   }
 
-  if (!fetchedTicket) {
+  if (!ticket || !formData) {
     return (
       <div className="space-y-4">
-        <button
-          onClick={() => navigate(-1)}
-          className="p-2 hover:bg-muted rounded transition-colors"
-        >
+        <button onClick={() => navigate(-1)} className="p-2 hover:bg-muted rounded transition-colors">
           <ArrowLeft className="w-6 h-6" />
         </button>
         <Card className="border-destructive">
@@ -83,12 +82,12 @@ export default function TicketDetailPage() {
 
   return (
     <div className="space-y-6 pb-8">
-      {/* Header with Back Button */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-4">
         <div className="flex items-center gap-4">
           <button
             onClick={() => navigate("/tickets")}
-            className="p-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition-colors"
+            className="p-3 bg-primary hover:bg-primary/90 text-white rounded-full transition-colors"
+            aria-label="Back to tickets"
           >
             <ArrowLeft className="w-6 h-6" />
           </button>
@@ -97,242 +96,89 @@ export default function TicketDetailPage() {
             <p className="text-muted-foreground">{formData.id}</p>
           </div>
         </div>
-        <button className="p-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition-colors">
-          <Cloud className="w-6 h-6" />
-        </button>
+
+        {canEditTickets && !isEditing && (
+          <Button onClick={() => setIsEditing(true)}>Edit Ticket</Button>
+        )}
       </div>
 
-      {/* Main Content */}
-      <div className="grid md:grid-cols-2 gap-6">
-        {/* Assignee Card */}
-        <Card>
-          <CardContent className="pt-6">
-            <div className="space-y-4">
-              <label className="text-sm font-semibold text-muted-foreground">Assignee</label>
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold">
-                  {formData.assignee.charAt(0)}
-                </div>
-                <div>
-                  {isEditing ? (
-                    <Input
-                      value={formData.assignee}
-                      onChange={(e) => handleChange("assignee", e.target.value)}
-                      placeholder="Enter assignee"
-                    />
-                  ) : (
-                    <p className="font-medium">{formData.assignee}</p>
-                  )}
-                  <p className="text-xs text-muted-foreground mt-1">Delivery Team</p>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Sprint Card */}
-        <Card>
-          <CardContent className="pt-6">
-            <div className="space-y-4">
-              <label className="text-sm font-semibold text-muted-foreground">Sprint</label>
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-300 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl">
-                  ⚙️
-                </div>
-                <div className="flex-1">
-                  {isEditing ? (
-                    <Select value={formData.sprint} onValueChange={(value) => handleChange("sprint", value)}>
-                      <SelectTrigger>
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="sprint-2024-01">sprint-2024-01</SelectItem>
-                        <SelectItem value="sprint-2024-02">sprint-2024-02</SelectItem>
-                        <SelectItem value="sprint-2024-03">sprint-2024-03</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  ) : (
-                    <p className="font-medium">{formData.sprint}</p>
-                  )}
-                  <p className="text-xs text-muted-foreground mt-1">sprint</p>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Fix Version Card */}
-        <Card>
-          <CardContent className="pt-6">
-            <div className="space-y-4">
-              <label className="text-sm font-semibold text-muted-foreground">Fix version</label>
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-cyan-300 to-blue-600 rounded-full flex items-center justify-center text-white text-2xl">
-                  🔗
-                </div>
-                <div className="flex-1">
-                  {isEditing ? (
-                    <Select value={formData.fixVersion} onValueChange={(value) => handleChange("fixVersion", value)}>
-                      <SelectTrigger>
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="v1.0">v1.0</SelectItem>
-                        <SelectItem value="v0.9">v0.9</SelectItem>
-                        <SelectItem value="v0.8">v0.8</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  ) : (
-                    <p className="font-medium">{formData.fixVersion}</p>
-                  )}
-                  <p className="text-xs text-muted-foreground mt-1">Fix version</p>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Build ID Card */}
-        <Card>
-          <CardContent className="pt-6">
-            <div className="space-y-4">
-              <label className="text-sm font-semibold text-muted-foreground">Build ID</label>
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-700 rounded-full flex items-center justify-center text-white text-2xl">
-                  🏢
-                </div>
-                <div className="flex-1">
-                  {isEditing ? (
-                    <Select value={formData.buildId} onValueChange={(value) => handleChange("buildId", value)}>
-                      <SelectTrigger>
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="build-2024-001">build-2024-001</SelectItem>
-                        <SelectItem value="build-2024-002">build-2024-002</SelectItem>
-                        <SelectItem value="build-2024-003">build-2024-003</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  ) : (
-                    <p className="font-medium">{formData.buildId}</p>
-                  )}
-                  <p className="text-xs text-muted-foreground mt-1">Build ID</p>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-
-      {/* Summary Card */}
-      <Card>
-        <CardContent className="pt-6">
-          <div className="space-y-4">
-            <div className="flex items-start gap-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                📋
-              </div>
-              <div className="flex-1">
-                <label className="text-sm font-semibold text-muted-foreground block mb-2">Summary</label>
-                {isEditing ? (
-                  <textarea
-                    value={formData.summary}
-                    onChange={(e) => handleChange("summary", e.target.value)}
-                    className="w-full border rounded-lg p-3 min-h-24 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Enter summary"
-                  />
-                ) : (
-                  <p className="text-muted-foreground">{formData.summary}</p>
-                )}
-              </div>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Additional Details */}
       <Card>
         <CardHeader>
-          <h3 className="font-semibold">Additional Details</h3>
+          <h3 className="font-semibold">Ticket</h3>
         </CardHeader>
-        <CardContent className="space-y-4">
-          <div className="grid md:grid-cols-2 gap-4">
-            <div>
-              <label className="text-sm font-semibold text-muted-foreground block mb-2">Status</label>
-              {isEditing ? (
-                <Select value={formData.status} onValueChange={(value: any) => handleChange("status", value)}>
-                  <SelectTrigger>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="open">Open</SelectItem>
-                    <SelectItem value="in-progress">In Progress</SelectItem>
-                    <SelectItem value="review">Review</SelectItem>
-                    <SelectItem value="done">Done</SelectItem>
-                  </SelectContent>
-                </Select>
-              ) : (
-                <p className="text-sm">{formData.status}</p>
-              )}
-            </div>
-            <div>
-              <label className="text-sm font-semibold text-muted-foreground block mb-2">Priority</label>
-              {isEditing ? (
-                <Select value={formData.priority} onValueChange={(value: any) => handleChange("priority", value)}>
-                  <SelectTrigger>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="low">Low</SelectItem>
-                    <SelectItem value="medium">Medium</SelectItem>
-                    <SelectItem value="high">High</SelectItem>
-                    <SelectItem value="critical">Critical</SelectItem>
-                  </SelectContent>
-                </Select>
-              ) : (
-                <p className="text-sm">{formData.priority}</p>
-              )}
-            </div>
-            <div>
-              <label className="text-sm font-semibold text-muted-foreground block mb-2">Due Date</label>
-              {isEditing ? (
-                <Input
-                  type="date"
-                  value={formData.dueDate}
-                  onChange={(e) => handleChange("dueDate", e.target.value)}
-                />
-              ) : (
-                <p className="text-sm">{formData.dueDate}</p>
-              )}
-            </div>
-            <div>
-              <label className="text-sm font-semibold text-muted-foreground block mb-2">Created Date</label>
-              <p className="text-sm text-muted-foreground">{formData.createdDate}</p>
-            </div>
+        <CardContent className="grid gap-5 md:grid-cols-3">
+          <Field label="Assignee">
+            {isEditing ? (
+              <Input value={formData.assignee} onChange={(e) => handleChange("assignee", e.target.value)} />
+            ) : (
+              formData.assignee
+            )}
+          </Field>
+          <Field label="Sprint">{formData.sprint}</Field>
+          <Field label="Fix version">{formData.fixVersion}</Field>
+          <Field label="Build ID">{formData.buildId}</Field>
+          <Field label="Status">
+            {isEditing ? (
+              <Select value={formData.status} onValueChange={(v) => handleChange("status", v)}>
+                <SelectTrigger>
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="in-progress">In Progress</SelectItem>
+                  <SelectItem value="done">Done</SelectItem>
+                </SelectContent>
+              </Select>
+            ) : (
+              formData.status
+            )}
+          </Field>
+          <Field label="Priority">
+            {isEditing ? (
+              <Select value={formData.priority} onValueChange={(v) => handleChange("priority", v)}>
+                <SelectTrigger>
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="low">Low</SelectItem>
+                  <SelectItem value="medium">Medium</SelectItem>
+                  <SelectItem value="critical">Critical</SelectItem>
+                </SelectContent>
+              </Select>
+            ) : (
+              formData.priority
+            )}
+          </Field>
+          <Field label="Due Date">
+            {isEditing ? (
+              <Input type="date" value={formData.dueDate} onChange={(e) => handleChange("dueDate", e.target.value)} />
+            ) : (
+              formData.dueDate
+            )}
+          </Field>
+          <div className="md:col-span-3">
+            <Field label="Summary">{formData.summary}</Field>
           </div>
         </CardContent>
       </Card>
 
-      {/* Action Buttons */}
-      <div className="flex gap-3 justify-end">
-        {!isEditing ? (
+      <TicketDeliveryCard canEdit={canEditTickets} />
+
+      <AdditionalNotesCard canEdit={canEditTickets} />
+
+      <div className="flex justify-end gap-3">
+        {isEditing ? (
           <>
-            <Button variant="outline" onClick={() => navigate("/tickets")}>
-              Back to Tickets
+            <Button variant="outline" onClick={handleCancel} disabled={saving}>
+              Cancel
             </Button>
-            <Button className="bg-blue-600 hover:bg-blue-700" onClick={() => setIsEditing(true)}>
-              Edit Ticket
+            <Button onClick={handleSave} disabled={saving}>
+              {saving ? "Saving…" : "Save Changes"}
             </Button>
           </>
         ) : (
-          <>
-            <Button variant="outline" onClick={() => setIsEditing(false)}>
-              Cancel
-            </Button>
-            <Button className="bg-blue-600 hover:bg-blue-700" onClick={handleSave}>
-              Save Changes
-            </Button>
-          </>
+          <Button variant="outline" onClick={() => navigate("/tickets")}>
+            Back to Tickets
+          </Button>
         )}
       </div>
     </div>

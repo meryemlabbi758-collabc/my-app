@@ -11,5 +11,41 @@
   "localAppUrl": "http://localhost:3000",
   "logoPath": "Default",
   "connectionReferences": {},
-  "databaseReferences": {}
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "clients": {
+          "entitySetName": "cra69_clients",
+          "logicalName": "cra69_client",
+          "isHidden": false
+        },
+        "tickets": {
+          "entitySetName": "cra69_tickets",
+          "logicalName": "cra69_ticket",
+          "isHidden": false
+        },
+        "environments": {
+          "entitySetName": "cra69_environments",
+          "logicalName": "cra69_environment",
+          "isHidden": false
+        },
+        "dim_assignees": {
+          "entitySetName": "cra69_dimassignees",
+          "logicalName": "cra69_dimassignee",
+          "isHidden": false
+        },
+        "teammembers": {
+          "entitySetName": "cra69_teammembers",
+          "logicalName": "cra69_teammember",
+          "isHidden": false
+        },
+        "versionentries": {
+          "entitySetName": "cra69_versionentries",
+          "logicalName": "cra69_versionentry",
+          "isHidden": false
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
 }

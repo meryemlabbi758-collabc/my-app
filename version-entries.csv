@@ -1,0 +1,2115 @@
+﻿cra69_name,cra69_client,cra69_date,cra69_environment,cra69_kind
+TAB#3,IRP Auto,2023-10-10,UAT-1,note
+Recette TAB#3,IRP Auto,2023-10-10,PPRD,note
+V30,IRP Auto,2023-10-14,PPRD,note
+V30,IRP Auto,2023-10-17,UAT-1,note
+Recette TAB#3,IRP Auto,2023-10-17,PPRD,note
+Empreinte PROBTP,IRP Auto,2023-10-17,Production,note
+Maj BDF,IRP Auto,2023-10-17,Comments,note
+TAB#3,IRP Auto,2023-10-18,UAT-1,note
+V30,IRP Auto,2023-10-21,Production,note
+Recette TAB#3,IRP Auto,2023-10-24,PPRD,note
+Copie Rot#14,IRP Auto,2023-10-24,Production,note
+FP DSN,IRP Auto,2023-10-24,Comments,note
+infra 23.2.4,IRP Auto,2023-10-25,UAT-1,note
+OFA,IRP Auto,2023-10-25,Production,note
+Infra 23.2.4,IRP Auto,2023-10-27,PPRD,note
+V31,IRP Auto,2023-10-28,UAT-1,note
+Copie Rot#14 + V31,IRP Auto,2023-10-28,PPRD,note
+Recette AMO,IRP Auto,2023-10-31,UAT-1,note
+Recette ROT#14,IRP Auto,2023-10-31,PPRD,note
+OFA,IRP Auto,2023-10-31,Production,note
+Rentes,IRP Auto,2023-11-03,Comments,note
+Recette AMO,IRP Auto,2023-11-07,UAT-1,note
+Recette ROT#14,IRP Auto,2023-11-07,PPRD,note
+1ère Daily,IRP Auto,2023-11-07,Production,note
+V31.4 (Q),IRP Auto,2023-11-09,UAT-1,note
+Extranet/CRM,IRP Auto,2023-11-10,UAT-1,note
+infra 23.2.4,IRP Auto,2023-11-10,Production,note
+V31.4(Q),IRP Auto,2023-11-11,PPRD,note
+DRP annulé,IRP Auto,2023-11-11,Production,note
+Empreinte PROBTP,IRP Auto,2023-11-11,Comments,note
+Recette ROT#14,IRP Auto,2023-11-14,PPRD,note
+Maj BDF,IRP Auto,2023-11-14,Comments,note
+RUN TAB#4,IRP Auto,2023-11-15,Production,note
+V31.5,IRP Auto,2023-11-17,UAT-1,note
+V31.5,IRP Auto,2023-11-18,PPRD,note
+BENALM,IRP Auto,2023-11-18,Comments,note
+Vieillissement,IRP Auto,2023-11-21,UAT-1,note
+Recette ROT#14,IRP Auto,2023-11-21,PPRD,note
+OFA,IRP Auto,2023-11-21,Production,note
+=> Almerys & GESTIP,IRP Auto,2023-11-21,Comments,note
+PDMR,IRP Auto,2023-11-22,Comments,note
+Vieillissement,IRP Auto,2023-11-28,UAT-1,note
+1ère Daily,IRP Auto,2023-11-30,Production,note
+V31.6 + TAB#4,IRP Auto,2023-12-02,PPRD,note
+Purge S3,IRP Auto,2023-12-06,UAT-1,note
+23.2.6,IRP Auto,2023-12-06,PPRD,note
+DRP,IRP Auto,2023-12-07,UAT-1,note
+DRP,IRP Auto,2023-12-08,UAT-1,note
+31.6,IRP Auto,2023-12-08,PPRD,note
+TAB#4 - 22.1.1.1.RP,IRP Auto,2023-12-09,UAT-1,note
+23.2.6 + DRP,IRP Auto,2023-12-12,Production,note
+DRP,IRP Auto,2023-12-13,Production,note
+Prépa,IRP Auto,2023-12-14,Production,note
+Empreinte PROBTP,IRP Auto,2023-12-16,Comments,note
+31.6.4,IRP Auto,2023-12-22,PPRD,note
+22.1.1.2.RP,IRP Auto,2023-12-23,UAT-1,note
+Refresh GoLive,IRP Auto,2023-12-29,PPRD,note
+V.31.6.4,IRP Auto,2023-12-30,Production,note
+Ouverture PROD,IRP Auto,2024-01-03,Production,note
+31.6.4,IRP Auto,2024-01-03,Comments,note
+Patch 31.6.5,IRP Auto,2024-01-06,PPRD,note
+Maintenance AWS,IRP Auto,2024-01-06,Production,note
+2h-6h pas d'impact batch,IRP Auto,2024-01-06,Comments,note
+31.6.5.HF,IRP Auto,2024-01-07,Production,note
+avec amélioration infra,IRP Auto,2024-01-07,Comments,note
+RUN balai,IRP Auto,2024-01-14,Comments,note
+22.1.1.3.RP,IRP Auto,2024-01-17,UAT-1,note
+Secret Id 11h,IRP Auto,2024-01-18,UAT-1,note
+22.1.1.3.RP + Refrsh,IRP Auto,2024-01-18,PPRD,note
+31.6.6.HF,IRP Auto,2024-01-18,Production,note
+débouchonnage des mails,IRP Auto,2024-01-18,Comments,note
+Secret Id 11h,IRP Auto,2024-01-19,PPRD,note
+V.22.1.1.3,IRP Auto,2024-01-21,Production,note
+"Rentes de janvier ""poubélisées""",IRP Auto,2024-01-21,Comments,note
+Secret Id 10h,IRP Auto,2024-01-25,Production,note
+Rente de février (Batch),IRP Auto,2024-01-25,Comments,note
+Infra 23.3.5,IRP Auto,2024-01-26,UAT-1,note
+22.1.1.3.2.HF,IRP Auto,2024-01-28,Production,note
+Refresh,IRP Auto,2024-01-31,UAT-1,note
+Infra 23.2.8,IRP Auto,2024-01-31,PPRD,note
+22.1.1.3.3.HF,IRP Auto,2024-02-04,Production,note
+Infra 23.2.8,IRP Auto,2024-02-05,Production,note
+22.1.2.1.RP,IRP Auto,2024-02-06,UAT-1,note
+refresh + PDM Full,IRP Auto,2024-02-06,PPRD,note
+RUN balai,IRP Auto,2024-02-07,PPRD,note
+Script PASRAU + PRL,IRP Auto,2024-02-09,Production,note
+22.1.1.3.3.1.HF,IRP Auto,2024-02-11,Production,note
+RUN balai,IRP Auto,2024-02-11,Comments,note
+PASRAU manuel,IRP Auto,2024-02-13,Production,note
+22.1.1.3.4.HF,IRP Auto,2024-02-15,PPRD,note
+Reconstruc PRL,IRP Auto,2024-02-15,Production,note
+22.1.2.2.RP,IRP Auto,2024-02-16,UAT-1,note
+22.1.1.3.4.HF,IRP Auto,2024-02-18,Production,note
+"Rentes de janvier, fev ""poubélisées""",IRP Auto,2024-02-18,Comments,note
+22.1.2.1.RP,IRP Auto,2024-02-23,PPRD,note
+V.22.1.2.1.1,IRP Auto,2024-02-25,Production,note
+22.1.2.2.2RP.HF,IRP Auto,2024-02-29,PPRD,note
+22.1.2.2.2RP.HF,IRP Auto,2024-03-01,Production,note
+Infra 23.2.9,IRP Auto,2024-03-04,Production,note
+Infra 23.3.6,IRP Auto,2024-03-05,UAT-1,note
+22.1.3.1.RP,IRP Auto,2024-03-06,UAT-1,note
+Refresh,IRP Auto,2024-03-06,PPRD,note
+22.1.2.2.3RP.HF,IRP Auto,2024-03-07,PPRD,note
+22.1.2.2.3RP.HF,IRP Auto,2024-03-10,Production,note
+Infra 23.2.9,IRP Auto,2024-03-11,Production,note
+22.1.2.2.4RP.HF,IRP Auto,2024-03-15,PPRD,note
+22.1.2.2.5RP.HF,IRP Auto,2024-03-21,PPRD,note
+22.1.2.2.5RP.HF,IRP Auto,2024-03-24,Production,note
+22.1.2.2.6RP.HF,IRP Auto,2024-03-28,PPRD,note
+22.1.2.2.6RP.HF,IRP Auto,2024-03-31,Production,note
+Infra 23.3.7.a,IRP Auto,2024-04-02,UAT-1,note
+22.1.3.3.4.RP,IRP Auto,2024-04-03,UAT-1,note
+22.1.2.2.7.HF,IRP Auto,2024-04-04,PPRD,note
+Infra 23.3.6,IRP Auto,2024-04-05,PPRD,note
+22.1.2.2.7RP.HF,IRP Auto,2024-04-07,Production,note
+annulé,IRP Auto,2024-04-07,Comments,note
+Infra 23.3.7.a,IRP Auto,2024-04-10,PPRD,note
+22.1.2.2.7.b.HF,IRP Auto,2024-04-11,PPRD,note
+22.1.2.2.7.b.HF,IRP Auto,2024-04-14,Production,note
+Infra 23.3.7.a,IRP Auto,2024-04-15,Production,note
+22.1.3.3.5.RP,IRP Auto,2024-04-16,UAT-1,note
+22.1.2.2.7.t.HF,IRP Auto,2024-04-18,PPRD,note
+22.1.2.2.7.t.HF,IRP Auto,2024-04-21,Production,note
+Infra 23.3.8,IRP Auto,2024-04-24,PPRD,note
+version infra prérequis DRP,IRP Auto,2024-04-24,Comments,note
+maintenance GITUB,IRP Auto,2024-04-28,Comments,note
+22.1.2.2.8.HF,IRP Auto,2024-04-30,PPRD,note
+22.1.2.2.8.HF,IRP Auto,2024-05-05,Production,note
+22.1.2.2.8.b.HF,IRP Auto,2024-05-09,Production,note
+"Connecta, TESSI, ALM",IRP Auto,2024-05-11,Production,note
+DRP annulé,IRP Auto,2024-05-11,Comments,note
+DRP annulé,IRP Auto,2024-05-12,Comments,note
+22.1.2.2.9.HF,IRP Auto,2024-05-16,PPRD,note
+22.1.2.2.9.HF,IRP Auto,2024-05-19,Production,note
+"Connecta, TESSI, ALM",IRP Auto,2024-05-21,Production,note
+22.1.2.2.10.HF,IRP Auto,2024-05-23,PPRD,note
+22.1.2.2.10.HF,IRP Auto,2024-05-26,Production,note
+22.1.3.3.7.RP,IRP Auto,2024-05-30,UAT-1,note
+22.1.2.2.11.HF,IRP Auto,2024-05-30,PPRD,note
+22.1.3.3.8.RP,IRP Auto,2024-06-01,UAT-1,note
+22.1.2.2.11.HF,IRP Auto,2024-06-02,Production,note
+22.1.3.3.8.aRP,IRP Auto,2024-06-06,UAT-1,note
+22.1.2.2.11.a.HF,IRP Auto,2024-06-06,PPRD,note
+Infra 23.4.x,IRP Auto,2024-06-07,PPRD,note
+22.1.2.2.11.a.HF,IRP Auto,2024-06-09,Production,note
+Infra 23.4.x,IRP Auto,2024-06-12,PPRD,note
+PRA GED - Arondor - PPRD,IRP Auto,2024-06-12,Comments,note
+22.1.2.2.11.b.HF,IRP Auto,2024-06-16,Production,note
+Infra 23.4.x,IRP Auto,2024-06-17,Production,note
+22.1.3.9.RP,IRP Auto,2024-06-18,UAT-1,note
+22.1.2.2.12.HF,IRP Auto,2024-06-18,PPRD,note
+férié Maroc,IRP Auto,2024-06-18,Comments,note
+férié Maroc,IRP Auto,2024-06-19,Comments,note
+22.1.2.2.11.c.HF,IRP Auto,2024-06-20,PPRD,note
+RF-1857,IRP Auto,2024-06-20,Comments,note
+22.1.2.2.11.c.HF,IRP Auto,2024-06-23,Production,note
+22.1.3.9.a.RP,IRP Auto,2024-06-24,UAT-1,note
+Infra 24.1.3,IRP Auto,2024-06-28,UAT-1,note
+22.1.3.9.a. + Rfrsh,IRP Auto,2024-06-28,PPRD,note
+Copie BDD prod du 10 juin 18h,IRP Auto,2024-06-29,Comments,note
+22.1.3.9.b,IRP Auto,2024-06-30,UAT-1,note
+22.1.3.3.9.b,IRP Auto,2024-06-30,PPRD,note
+Infra 23.4.x,IRP Auto,2024-07-01,Production,note
++ patch windows,IRP Auto,2024-07-01,Comments,note
+TNR V3.9,IRP Auto,2024-07-02,PPRD,note
+22.1.3.9.c Rfrsh,IRP Auto,2024-07-05,UAT-1,note
+22.1.2.2.11.d.HF,IRP Auto,2024-07-06,Production,note
+22.1.3.9.c,IRP Auto,2024-07-07,PPRD,note
+Weekly sans timer,IRP Auto,2024-07-07,Production,note
+Extraction du lot4 compta ?,IRP Auto,2024-07-07,Comments,note
+Infra 23.4.5.b,IRP Auto,2024-07-08,Production,note
++ patch windows,IRP Auto,2024-07-08,Comments,note
+TNR V3.9,IRP Auto,2024-07-09,PPRD,note
+Fermeture IRPAUTO,IRP Auto,2024-07-13,Comments,note
+V.22.1.3.9.d,IRP Auto,2024-07-14,Production,note
+22.1.3.9.f (17h),IRP Auto,2024-07-16,UAT-1,note
+Infra 23.4.5.b,IRP Auto,2024-07-17,PPRD,note
+Préprod fermée le matin,IRP Auto,2024-07-17,Comments,note
+22.1.3.9.h(9h),IRP Auto,2024-07-18,PPRD,note
+22.1.3.9.g.bis (9h),IRP Auto,2024-07-20,PPRD,note
++ pacth sécurité GPD,IRP Auto,2024-07-20,Comments,note
+22.1.3.9.g.HF,IRP Auto,2024-07-21,Production,note
+22.1.4.1 + rfsh,IRP Auto,2024-07-24,UAT-1,note
+22.1.3.9.g.qua (9h),IRP Auto,2024-07-25,PPRD,note
+1er build de la 4.2,IRP Auto,2024-07-27,Comments,note
+22.1.3.9.g.qua.HF,IRP Auto,2024-07-28,Production,note
+22.1.4.2,IRP Auto,2024-08-04,UAT-1,note
+22.1.3.9.012,IRP Auto,2024-08-08,PPRD,note
+22.1.3.9.012.HF,IRP Auto,2024-08-11,Production,note
+Férié,IRP Auto,2024-08-16,Comments,note
+Fermeture IRPAUTO - Travail TESSI + almerys,IRP Auto,2024-08-17,Comments,note
+22.1.3.9.013,IRP Auto,2024-08-22,PPRD,note
+22.1.4.3,IRP Auto,2024-08-25,UAT-1,note
+22.1.3.9.013.HF,IRP Auto,2024-08-25,Production,note
+22.1.V4.3004,IRP Auto,2024-08-30,UAT-1,note
+Refresh,IRP Auto,2024-08-31,PPRD,note
+Infra 23.4.6.a,IRP Auto,2024-09-02,Production,note
+Upgrade mineur infra Sisense,IRP Auto,2024-09-02,Comments,note
+22.1.V4.3006,IRP Auto,2024-09-06,UAT-1,note
+22.1.V4.3006,IRP Auto,2024-09-07,PPRD,note
+DRP,IRP Auto,2024-09-08,Production,note
+22.1.V4.3007,IRP Auto,2024-09-10,UAT-1,note
+Infra 24.1.7,IRP Auto,2024-09-11,UAT-1,note
+22.1.V4.3007,IRP Auto,2024-09-11,PPRD,note
+22.1.V4.3008,IRP Auto,2024-09-12,UAT-1,note
+22.1.V4.3008,IRP Auto,2024-09-13,PPRD,note
+22.1.V4.3009,IRP Auto,2024-09-15,UAT-1,note
+4.3009 = correction notification - facturation lot1,IRP Auto,2024-09-15,Comments,note
+BAS-205 (14h) + Full PDM (pb sur PM),IRP Auto,2024-09-16,Comments,note
+Infra 24.1.7,IRP Auto,2024-09-18,PPRD,note
+BAS-205 - Lot#2 DSN 2023 (1100 fichiers),IRP Auto,2024-09-22,Comments,note
+22.1.V4.3010,IRP Auto,2024-09-24,UAT-1,note
+3010 - facturation lot2 + GESTIP + (Dédoublonnage PP outil + mini chaine),IRP Auto,2024-09-24,Comments,note
+Formation en PPRD,IRP Auto,2024-09-25,Comments,note
+22.1.V4.3011,IRP Auto,2024-09-28,PPRD,note
+Infra 24.1.7,IRP Auto,2024-09-30,Production,note
+Formation en PPRD,IRP Auto,2024-10-01,Comments,note
+Formation en PPRD,IRP Auto,2024-10-02,Comments,note
+Infra 24.2,IRP Auto,2024-10-04,UAT-1,note
+22.1.V4.3013 (HF),IRP Auto,2024-10-05,UAT-1,note
+V.22.1.4.3011,IRP Auto,2024-10-06,Production,note
+fonction des TNR,IRP Auto,2024-10-06,Comments,note
+22.1.V4.3014.HF,IRP Auto,2024-10-10,PPRD,note
+22.1.5.1002,IRP Auto,2024-10-13,UAT-1,note
+Rfrsh+22.1.V4.3015.HF,IRP Auto,2024-10-13,PPRD,note
+22.1.V4.3014.HF,IRP Auto,2024-10-13,Production,note
+Lot#6 compta (IRPAUTO-14715),IRP Auto,2024-10-14,Comments,note
+22.1.V4.3016.HF,IRP Auto,2024-10-17,PPRD,note
+Rfrsh+22.1.5.1002,IRP Auto,2024-10-19,UAT-1,note
+Dead line GTPASS - emprunte au 11/10 - soir 07h30,IRP Auto,2024-10-19,Comments,note
+22.1.V4.3016.HF,IRP Auto,2024-10-20,Production,note
++ Patch 24.1.7.a infra pb de statistique mail,IRP Auto,2024-10-20,Comments,note
+22.1.5.1003,IRP Auto,2024-10-27,UAT-1,note
+BAS205 - 5h,IRP Auto,2024-10-28,Comments,note
+22.1.V4.3017.HF,IRP Auto,2024-10-29,PPRD,note
+22.1.5.1005,IRP Auto,2024-11-02,UAT-1,note
+22.1.V4.3017.HF,IRP Auto,2024-11-03,Production,note
+22.1.5.1006,IRP Auto,2024-11-05,UAT-1,note
+22.1.V4.3019.HF,IRP Auto,2024-11-06,PPRD,note
+22.1.V4.3019.HF#2,IRP Auto,2024-11-08,PPRD,note
+22.1.5.2002,IRP Auto,2024-11-09,UAT-1,note
+tests sécurité IRP,IRP Auto,2024-11-09,PPRD,note
+tests sécurité IRP,IRP Auto,2024-11-10,PPRD,note
+22.1.V4.3019.HF,IRP Auto,2024-11-10,Production,note
+tests sécurité IRP,IRP Auto,2024-11-11,PPRD,note
+22.1.5.2003,IRP Auto,2024-11-12,UAT-1,note
+tests sécurité IRP,IRP Auto,2024-11-12,PPRD,note
+22.1.V4.3020.HF,IRP Auto,2024-11-13,PPRD,note
+tests sécurité IRP,IRP Auto,2024-11-14,PPRD,note
+22.1.V4.3020.HF,IRP Auto,2024-11-15,PPRD,note
+tests sécurité IRP,IRP Auto,2024-11-16,PPRD,note
+22.1.V4.3019.HF,IRP Auto,2024-11-17,Production,note
+patch infra archivage Sisense,IRP Auto,2024-11-17,Comments,note
+[OFA] Renouvellement des cartes almerys (BENALM),IRP Auto,2024-11-18,Comments,note
+tests sécurité IRP,IRP Auto,2024-11-19,PPRD,note
+Rfrsh +22.1.5.2004,IRP Auto,2024-11-20,PPRD,note
+emprunte au 19/11 - matin 7h30,IRP Auto,2024-11-20,Comments,note
+22.1.5.2005,IRP Auto,2024-11-23,UAT-1,note
+22.1.5.2005,IRP Auto,2024-11-23,PPRD,note
+22.1.5.2006,IRP Auto,2024-11-28,PPRD,note
+22.1.5.2007,IRP Auto,2024-11-29,PPRD,note
+22.1.5.2008,IRP Auto,2024-11-30,UAT-1,note
+22.1.5.2009,IRP Auto,2024-11-30,PPRD,note
+V.22.1.5.2008,IRP Auto,2024-12-01,Production,note
+22.1.5.2010.HF,IRP Auto,2024-12-03,PPRD,note
+22.1.5.2011.HF,IRP Auto,2024-12-05,PPRD,note
+22.1.5.2011.HF,IRP Auto,2024-12-06,UAT-1,note
+22.1.5.2012.HF,IRP Auto,2024-12-06,PPRD,note
+22.1.5.2012.HF,IRP Auto,2024-12-08,Production,note
+22.1.5.2013.HF,IRP Auto,2024-12-11,PPRD,note
+22.1.5.2013.HF,IRP Auto,2024-12-12,UAT-1,note
+22.1.5.2014.HF,IRP Auto,2024-12-13,PPRD,note
+22.1.5.2014.HF,IRP Auto,2024-12-15,Production,note
+Infra 24.3 + 5.2015,IRP Auto,2024-12-18,UAT-1,note
+22.1.5.2015.HF,IRP Auto,2024-12-18,PPRD,note
+22.1.5.2015.HF,IRP Auto,2024-12-21,Production,note
+22.1.5.2016.HF,IRP Auto,2024-12-26,UAT-1,version
+22.1.5.2017.HF,IRP Auto,2024-12-26,PPRD,version
+Rfrsh + 22.1.6.2001,IRP Auto,2024-12-28,UAT-1,version
+22.1.5.2016.HF,IRP Auto,2024-12-28,Production,version
+22.1.5.2019.HF,IRP Auto,2025-01-01,PPRD,version
+22.1.6.2003,IRP Auto,2025-01-03,UAT-1,version
+22.1.5.2019.HF,IRP Auto,2025-01-04,Production,version
+22.1.6.2004,IRP Auto,2025-01-06,UAT-1,version
+22.1.6.2004,IRP Auto,2025-01-07,UAT-1,version
+Infra 24.3.1,IRP Auto,2025-01-09,PPRD,note
+22.1.5.2020.HF,IRP Auto,2025-01-10,PPRD,version
+22.1.6.2006,IRP Auto,2025-01-11,UAT-1,version
+PHOENIX 14h-18h,IRP Auto,2025-01-11,Production,note
+22.1.6.2007,IRP Auto,2025-01-15,UAT-1,version
+HF.22.1.5.2022,IRP Auto,2025-01-15,PPRD,version
+22.1.5.2022.HF,IRP Auto,2025-01-17,Production,version
+22.1.6.2007 + refresh,IRP Auto,2025-01-18,PPRD,version
+Infra 24.2.4,IRP Auto,2025-01-19,Production,infra
+22.1.6.2008,IRP Auto,2025-01-21,UAT-1,version
+22.1.6.2008,IRP Auto,2025-01-21,PPRD,version
+Infra 24.3.1,IRP Auto,2025-01-23,UAT-1,note
+22.1.6.2009,IRP Auto,2025-01-25,UAT-1,version
+22.1.6.2009,IRP Auto,2025-01-25,PPRD,version
+22.1.6.2008,IRP Auto,2025-01-25,Production,version
+Restau de base 24/01,IRP Auto,2025-01-27,UAT-1,note
+22.1.6.2010,IRP Auto,2025-01-29,UAT-1,version
+22.1.6.2010 + infra 24.2.5.a,IRP Auto,2025-01-29,PPRD,version
+22.1.6.2010 + infra 24.2.5.a,IRP Auto,2025-01-31,Production,version
+PHOENIX 14h-18h,IRP Auto,2025-02-01,Production,note
+22.1.6.2011.HF,IRP Auto,2025-02-04,PPRD,version
+22.1.7.1003,IRP Auto,2025-02-07,UAT-1,version
+22.1.6.2012.HF,IRP Auto,2025-02-07,PPRD,version
+22.1.6.2011.HF,IRP Auto,2025-02-08,Production,version
+22.1.6.2013.HF,IRP Auto,2025-02-12,PPRD,version
+22.1.6.2015.HF,IRP Auto,2025-02-13,PPRD,version
+22.1.7.1004,IRP Auto,2025-02-14,UAT-1,version
+22.1.6.2015.HF,IRP Auto,2025-02-15,Production,version
+22.1.7.1006,IRP Auto,2025-02-19,UAT-1,version
+22.1.7.1006 + Rfrsh,IRP Auto,2025-02-21,PPRD,version
+PHOENIX 8h-18h,IRP Auto,2025-02-22,Production,note
+22.1.7.1007,IRP Auto,2025-02-26,PPRD,version
+22.1.8.1004 + refresh 28/02,IRP Auto,2025-02-28,UAT-1,version
+22.1.7.1007,IRP Auto,2025-03-01,Production,version
+HF.22.1.7.1008,IRP Auto,2025-03-03,PPRD,version
+22.1.8.1005,IRP Auto,2025-03-07,UAT-1,version
+HF22.1.7.1008 + indus 24.2.5.b,IRP Auto,2025-03-08,Production,version
+22.1.8.1005 - réinstallation,IRP Auto,2025-03-10,UAT-1,version
+22.1.8.1006,IRP Auto,2025-03-15,UAT-1,version
+22.1.8.1006,IRP Auto,2025-03-15,PPRD,version
+Infra 24.3.2 (PM),IRP Auto,2025-03-19,UAT-1,infra
+22.1.8.1007,IRP Auto,2025-03-19,PPRD,version
+22.1.8.1008,IRP Auto,2025-03-20,PPRD,version
+correction sur mails de l'environnement de preprod sont envoyés sur la BT de production,IRP Auto,2025-03-20,Comments,note
+22.1.9.1003,IRP Auto,2025-03-22,UAT-1,version
+22.1.8.1008,IRP Auto,2025-03-22,Production,version
+22.1.9.1003 - Réinstallation,IRP Auto,2025-03-26,UAT-1,version
+HF22.1.8.1009 + Infra 24.2.5.c,IRP Auto,2025-03-27,PPRD,version
+Infra 24.2.5.c,IRP Auto,2025-03-30,Production,infra
+HF22.1.8.1009 - Réinstallation,IRP Auto,2025-04-02,PPRD,note
+22.1.9.1003,IRP Auto,2025-04-04,PPRD,version
+22.1.8.1009,IRP Auto,2025-04-05,Production,version
+22.1.9.1004,IRP Auto,2025-04-08,UAT-1,version
+22.1.9.1004,IRP Auto,2025-04-08,PPRD,version
+22.1.10.2002,IRP Auto,2025-04-11,UAT-1,version
+22.1.9.1004,IRP Auto,2025-04-12,Production,version
+HF.22.1.9.1005,IRP Auto,2025-04-15,PPRD,version
+Infra 24.3.4,IRP Auto,2025-04-17,PPRD,infra
+Refresh,IRP Auto,2025-04-18,PPRD,note
+22.1.10.2003,IRP Auto,2025-04-19,UAT-1,version
+HF.22.1.9.1005,IRP Auto,2025-04-19,Production,version
+22.1.10.2004,IRP Auto,2025-04-23,UAT-1,version
+4,IRP Auto,2025-04-24,Comments,note
+22.1.10.2006,IRP Auto,2025-04-25,UAT-1,version
+22.1.10.2005,IRP Auto,2025-04-25,PPRD,version
+5,IRP Auto,2025-04-25,Comments,note
+6,IRP Auto,2025-04-26,Comments,note
+Infra 24.3.4,IRP Auto,2025-04-27,Production,infra
+7,IRP Auto,2025-04-27,Comments,note
+22.1.10.2007,IRP Auto,2025-04-29,UAT-1,version
+22.1.10.2009,IRP Auto,2025-04-30,UAT-1,version
+22.1.10.2010,IRP Auto,2025-05-02,PPRD,version
+Infra 24.4.2,IRP Auto,2025-05-06,UAT-1,infra
+Konecta,IRP Auto,2025-05-09,Comments,note
+22.1.11.3001,IRP Auto,2025-05-10,UAT-1,version
+22.1.10.2010,IRP Auto,2025-05-10,Production,version
+!!! MEP BDOC Extranet - Synchrorniser la fermeture de l'extranet + Konecta,IRP Auto,2025-05-10,Comments,note
+22.1.10.2012,IRP Auto,2025-05-13,PPRD,version
+22.1.11.3002,IRP Auto,2025-05-17,UAT-1,version
+22.1.10.2012,IRP Auto,2025-05-17,Production,version
+Déplacement Maroc,IRP Auto,2025-05-19,Comments,note
+Déplacement Maroc,IRP Auto,2025-05-20,Comments,note
+22.1.10.2013,IRP Auto,2025-05-21,PPRD,version
+Déplacement Maroc,IRP Auto,2025-05-21,Comments,note
+22.1.10.2014,IRP Auto,2025-05-22,PPRD,version
+Déplacement Maroc,IRP Auto,2025-05-22,Comments,note
+Déplacement Maroc,IRP Auto,2025-05-23,Comments,note
+22.1.10.2014,IRP Auto,2025-05-24,Production,version
+22.1.11.3003,IRP Auto,2025-05-26,UAT-1,version
+PRA Arondor AM,IRP Auto,2025-05-26,PPRD,deadline
+22.1.11.3004,IRP Auto,2025-05-30,PPRD,version
+Konecta,IRP Auto,2025-05-30,Comments,note
+Konecta,IRP Auto,2025-05-31,Comments,note
+22.1.12.2001,IRP Auto,2025-06-02,DEV V.,version
+22.1.12.2001,IRP Auto,2025-06-02,LCT-1,version
+Refresh,IRP Auto,2025-06-02,HFPRD,refresh
+Sprint 22.1.12.3,IRP Auto,2025-06-03,DEV V.,phase
+Infra 24.4.2,IRP Auto,2025-06-03,HFPRD,infra
+Infra 24.4.3,IRP Auto,2025-06-03,UAT-1,infra
+Sprint 22.1.12.3,IRP Auto,2025-06-04,DEV V.,phase
+Sprint 22.1.12.3,IRP Auto,2025-06-05,DEV V.,phase
+22.1.12.3001,IRP Auto,2025-06-06,DEV V.,version
+22.1.12.3001,IRP Auto,2025-06-06,LCT-1,version
+22.1.12.3001,IRP Auto,2025-06-06,UAT-1,version
+22.1.11.3004,IRP Auto,2025-06-07,Production,version
+Analyse 22.1.13,IRP Auto,2025-06-09,DEV V.,phase
+Refresh,IRP Auto,2025-06-09,HFPRD,refresh
+UAT 22.1.12.3,IRP Auto,2025-06-09,UAT-1,phase
+CTIP- Incident,IRP Auto,2025-06-09,Comments,note
+Analyse 22.1.13,IRP Auto,2025-06-10,DEV V.,phase
+Infra 25.1.1,IRP Auto,2025-06-10,LCT-1,infra
+UAT 22.1.12.3,IRP Auto,2025-06-10,UAT-1,phase
+CTIP- Incident,IRP Auto,2025-06-10,Comments,note
+22.1.12.3003,IRP Auto,2025-06-11,DEV V.,version
+UAT 22.1.12.3,IRP Auto,2025-06-11,UAT-1,phase
+CTIP- Incident,IRP Auto,2025-06-11,Comments,note
+Analyse 22.1.13,IRP Auto,2025-06-12,DEV V.,phase
+22.1.12.3003,IRP Auto,2025-06-12,LCT-1,version
+UAT 22.1.12.3,IRP Auto,2025-06-12,UAT-1,phase
+CTIP- Incident,IRP Auto,2025-06-12,Comments,note
+Analyse 22.1.13,IRP Auto,2025-06-13,DEV V.,phase
+22.1.12.3003,IRP Auto,2025-06-13,UAT-1,version
+CTIP- Incident + Rattrapage Fichiers du 10 au 14 juin,IRP Auto,2025-06-13,Comments,note
+Sprint 22.1.13.1,IRP Auto,2025-06-16,DEV V.,phase
+Refresh,IRP Auto,2025-06-16,HFPRD,refresh
+UAT 22.1.12.3,IRP Auto,2025-06-16,UAT-1,phase
+CTIP- Incident + Rattrapage Fichiers du 14 au 16 juin,IRP Auto,2025-06-16,Comments,note
+Sprint 22.1.13.1,IRP Auto,2025-06-17,DEV V.,phase
+22.1.11.3006,IRP Auto,2025-06-17,DEV HF,infra
+22.1.11.3006,IRP Auto,2025-06-17,HFPRD,infra
+UAT 22.1.12.3,IRP Auto,2025-06-17,UAT-1,phase
+22.1.11.3006,IRP Auto,2025-06-17,PPRD,infra
+CTIP- Incident,IRP Auto,2025-06-17,Comments,note
+22.1.12.3004,IRP Auto,2025-06-18,DEV V.,version
+22.1.11.3006,IRP Auto,2025-06-18,DEV HF,infra
+22.1.12.3004,IRP Auto,2025-06-18,LCT-1,version
+22.1.11.3006,IRP Auto,2025-06-18,HFPRD,infra
+UAT 22.1.12.3,IRP Auto,2025-06-18,UAT-1,phase
+22.1.11.3006,IRP Auto,2025-06-18,PPRD,infra
+CTIP-Fin Incident - 22.1.11.3006 = version jetable ne sera pas mise en production,IRP Auto,2025-06-18,Comments,note
+22.1.12.3005,IRP Auto,2025-06-19,DEV V.,version
+22.1.12.3005,IRP Auto,2025-06-19,LCT-1,version
+22.1.12.3005,IRP Auto,2025-06-19,UAT-1,version
+Infra 24.4.3,IRP Auto,2025-06-19,PPRD,infra
+22.1.13.1001,IRP Auto,2025-06-20,DEV V.,version
+UAT 22.1.12.3,IRP Auto,2025-06-20,UAT-1,phase
+22.1.12.3005,IRP Auto,2025-06-20,PPRD,version
+Sprint 22.1.13.2,IRP Auto,2025-06-23,DEV V.,phase
+22.1.13.1001,IRP Auto,2025-06-23,LCT-1,version
+TNR 22.1.12.3,IRP Auto,2025-06-23,PPRD,phase
+Sprint 22.1.13.2,IRP Auto,2025-06-24,DEV V.,phase
+QA 22.1.13.1,IRP Auto,2025-06-24,LCT-1,phase
+TNR 22.1.12.3,IRP Auto,2025-06-24,PPRD,phase
+Sprint 22.1.13.2,IRP Auto,2025-06-25,DEV V.,phase
+QA 22.1.13.1,IRP Auto,2025-06-25,LCT-1,phase
+Refresh,IRP Auto,2025-06-25,HFPRD,refresh
+TNR 22.1.12.3,IRP Auto,2025-06-25,PPRD,phase
+Sprint 22.1.13.2,IRP Auto,2025-06-26,DEV V.,phase
+QA 22.1.13.1,IRP Auto,2025-06-26,LCT-1,phase
+TNR 22.1.12.3,IRP Auto,2025-06-26,PPRD,phase
+22.1.13.2001,IRP Auto,2025-06-27,DEV V.,version
+22.1.13.2001,IRP Auto,2025-06-27,LCT-1,version
+TNR 22.1.12.3,IRP Auto,2025-06-27,PPRD,phase
+Infra 24.4.3,IRP Auto,2025-06-29,Production,infra
+Analyse 22.1.14,IRP Auto,2025-06-30,DEV V.,phase
+QA 22.1.13.2,IRP Auto,2025-06-30,LCT-1,phase
+Refresh,IRP Auto,2025-06-30,HFPRD,refresh
+TNR 22.1.12.3,IRP Auto,2025-06-30,PPRD,phase
+Analyse 22.1.14,IRP Auto,2025-07-01,DEV V.,phase
+22.1.12.3006,IRP Auto,2025-07-01,DEV HF,version
+QA 22.1.13.2,IRP Auto,2025-07-01,LCT-1,phase
+22.1.12.3006,IRP Auto,2025-07-01,PPRD,version
+Analyse 22.1.14,IRP Auto,2025-07-02,DEV V.,phase
+22.1.12.3007,IRP Auto,2025-07-02,DEV HF,version
+QA 22.1.13.2,IRP Auto,2025-07-02,LCT-1,phase
+Refresh,IRP Auto,2025-07-02,HFPRD,refresh
+22.1.12.3007,IRP Auto,2025-07-02,PPRD,version
+Analyse 22.1.14,IRP Auto,2025-07-03,DEV V.,phase
+QA 22.1.13.2,IRP Auto,2025-07-03,LCT-1,phase
+22.1.12.3007,IRP Auto,2025-07-03,HFPRD,version
+Infra 25.1,IRP Auto,2025-07-03,UAT-1,infra
+TNR 22.1.12.3,IRP Auto,2025-07-03,PPRD,phase
+22.1.13.3001,IRP Auto,2025-07-04,DEV V.,version
+22.1.12.3008,IRP Auto,2025-07-04,DEV HF,version
+22.1.13.3001,IRP Auto,2025-07-04,LCT-1,version
+22.1.13.2001 + Refresh,IRP Auto,2025-07-04,UAT-1,version
+22.1.12.3008,IRP Auto,2025-07-04,PPRD,version
+22.1.12.3007,IRP Auto,2025-07-05,Production,version
+Sprint 22.1.14.1,IRP Auto,2025-07-07,DEV V.,phase
+QA 22.1.13.3,IRP Auto,2025-07-07,LCT-1,phase
+Refresh,IRP Auto,2025-07-07,HFPRD,refresh
+UAT 22.1.13.2,IRP Auto,2025-07-07,UAT-1,phase
+Sprint 22.1.14.1,IRP Auto,2025-07-08,DEV V.,phase
+QA 22.1.13.3,IRP Auto,2025-07-08,LCT-1,phase
+Infra 24.4.3,IRP Auto,2025-07-08,HFPRD,infra
+UAT 22.1.13.2,IRP Auto,2025-07-08,UAT-1,phase
+Upgrade Alfresco 25.1,IRP Auto,2025-07-08,PPRD,deadline
+Ged indispo PPRD 9h30-18h,IRP Auto,2025-07-08,Comments,note
+Sprint 22.1.14.1,IRP Auto,2025-07-09,DEV V.,phase
+QA 22.1.13.3,IRP Auto,2025-07-09,LCT-1,phase
+UAT 22.1.13.2,IRP Auto,2025-07-09,UAT-1,phase
+Sprint 22.1.14.1,IRP Auto,2025-07-10,DEV V.,phase
+Infra 25.2.0,IRP Auto,2025-07-10,LCT-1,infra
+UAT 22.1.13.2,IRP Auto,2025-07-10,UAT-1,phase
+V14 -Deadline Sisense,IRP Auto,2025-07-11,Param/Sisense,deadline
+22.1.13.3002,IRP Auto,2025-07-11,DEV V.,version
+22.1.13.3002,IRP Auto,2025-07-11,LCT-1,version
+22.1.13.3001,IRP Auto,2025-07-11,UAT-1,version
+Param 22.1.14.2,IRP Auto,2025-07-14,Param/Sisense,phase
+22.1.13.3003,IRP Auto,2025-07-14,DEV V.,version
+22.1.13.3003,IRP Auto,2025-07-14,LCT-1,version
+Refresh,IRP Auto,2025-07-14,HFPRD,refresh
+22.1.13.3002,IRP Auto,2025-07-14,UAT-1,version
+Férié FR,IRP Auto,2025-07-14,Comments,note
+Param 22.1.14.2,IRP Auto,2025-07-15,Param/Sisense,phase
+22.1.14.1001,IRP Auto,2025-07-15,DEV V.,version
+QA 22.1.13.3,IRP Auto,2025-07-15,LCT-1,phase
+UAT 22.1.13.3,IRP Auto,2025-07-15,UAT-1,phase
+Param 22.1.14.2,IRP Auto,2025-07-16,Param/Sisense,phase
+Sprint 22.1.14.2,IRP Auto,2025-07-16,DEV V.,phase
+22.1.14.1001,IRP Auto,2025-07-16,LCT-1,version
+UAT 22.1.13.3,IRP Auto,2025-07-16,UAT-1,phase
+Param 22.1.14.2,IRP Auto,2025-07-17,Param/Sisense,phase
+Sprint 22.1.14.2,IRP Auto,2025-07-17,DEV V.,phase
+22.1.13.3004,IRP Auto,2025-07-17,DEV HF,version
+QA 22.1.14.1,IRP Auto,2025-07-17,LCT-1,phase
+UAT 22.1.13.3,IRP Auto,2025-07-17,UAT-1,phase
+Param 22.1.14.2 /12h,IRP Auto,2025-07-18,Param/Sisense,phase
+22.1.14.2001,IRP Auto,2025-07-18,DEV V.,version
+22.1.13.3005,IRP Auto,2025-07-18,DEV HF,version
+22.1.14.2001,IRP Auto,2025-07-18,LCT-1,version
+22.1.13.3004,IRP Auto,2025-07-18,UAT-1,version
+22.1.13.3005,IRP Auto,2025-07-18,PPRD,version
+22.1.13.3005 : version de Sisense L2023.4.0.356 (Prod),IRP Auto,2025-07-18,Comments,note
+Maintenance Github,IRP Auto,2025-07-19,Comments,note
+Param 22.1.14.3,IRP Auto,2025-07-21,Param/Sisense,phase
+Analyse 22.1.15,IRP Auto,2025-07-21,DEV V.,phase
+22.1.14.2001,IRP Auto,2025-07-21,LCT-1,version
+Refresh,IRP Auto,2025-07-21,HFPRD,refresh
+TNR 22.1.13.3,IRP Auto,2025-07-21,PPRD,phase
+Param 22.1.14.3,IRP Auto,2025-07-22,Param/Sisense,phase
+Analyse 22.1.15,IRP Auto,2025-07-22,DEV V.,phase
+22.1.13.3006,IRP Auto,2025-07-22,DEV HF,version
+QA 22.1.14.2,IRP Auto,2025-07-22,LCT-1,phase
+TNR 22.1.13.3,IRP Auto,2025-07-22,PPRD,phase
+Param 22.1.14.3,IRP Auto,2025-07-23,Param/Sisense,phase
+Analyse 22.1.15,IRP Auto,2025-07-23,DEV V.,phase
+QA 22.1.14.2,IRP Auto,2025-07-23,LCT-1,phase
+Refresh,IRP Auto,2025-07-23,HFPRD,refresh
+22.1.13.3006,IRP Auto,2025-07-23,PPRD,version
+Analyse 22.1.15,IRP Auto,2025-07-24,DEV V.,phase
+QA 22.1.14.2,IRP Auto,2025-07-24,LCT-1,phase
+TNR 22.1.13.3,IRP Auto,2025-07-24,PPRD,phase
+22.1.14.3001,IRP Auto,2025-07-25,DEV V.,version
+22.1.14.3001,IRP Auto,2025-07-25,LCT-1,version
+22.1.14.2001,IRP Auto,2025-07-25,UAT-1,version
+Refresh,IRP Auto,2025-07-25,PPRD,refresh
+UAT1 : 22.1.14.2001 à 17h ; Refresh PPRD à partir de 17h,IRP Auto,2025-07-25,Comments,note
+22.1.13.3006,IRP Auto,2025-07-26,Production,version
+Sprint 22.1.15.1,IRP Auto,2025-07-28,DEV V.,phase
+QA 22.1.14.3,IRP Auto,2025-07-28,LCT-1,phase
+Refresh,IRP Auto,2025-07-28,HFPRD,refresh
+UAT 22.1.14.2,IRP Auto,2025-07-28,UAT-1,phase
+Sprint 22.1.15.1,IRP Auto,2025-07-29,DEV V.,phase
+22.1.14.3003,IRP Auto,2025-07-29,LCT-1,version
+UAT 22.1.14.2,IRP Auto,2025-07-29,UAT-1,phase
+Sprint 22.1.15.1,IRP Auto,2025-07-30,DEV V.,phase
+UAT 22.1.14.2,IRP Auto,2025-07-30,UAT-1,phase
+Sprint 22.1.15.1,IRP Auto,2025-07-31,DEV V.,phase
+UAT 22.1.14.2,IRP Auto,2025-07-31,UAT-1,phase
+V15 -Deadline Sisense,IRP Auto,2025-08-01,Param/Sisense,deadline
+22.1.15.1001,IRP Auto,2025-08-01,DEV V.,version
+22.1.15.1001,IRP Auto,2025-08-01,LCT-1,version
+22.1.14.3003,IRP Auto,2025-08-01,UAT-1,version
+Param 22.1.15.2,IRP Auto,2025-08-04,Param/Sisense,phase
+Sprint 22.1.15.2,IRP Auto,2025-08-04,DEV V.,phase
+QA 22.1.15.1,IRP Auto,2025-08-04,LCT-1,phase
+Refresh,IRP Auto,2025-08-04,HFPRD,refresh
+UAT 22.1.14.3,IRP Auto,2025-08-04,UAT-1,phase
+Param 22.1.15.2,IRP Auto,2025-08-05,Param/Sisense,phase
+Sprint 22.1.15.2,IRP Auto,2025-08-05,DEV V.,phase
+QA 22.1.15.1,IRP Auto,2025-08-05,LCT-1,phase
+UAT 22.1.14.3,IRP Auto,2025-08-05,UAT-1,phase
+Param 22.1.15.2,IRP Auto,2025-08-06,Param/Sisense,phase
+Sprint 22.1.15.2,IRP Auto,2025-08-06,DEV V.,phase
+QA 22.1.15.1,IRP Auto,2025-08-06,LCT-1,phase
+UAT 22.1.14.3,IRP Auto,2025-08-06,UAT-1,phase
+Param 22.1.15.2,IRP Auto,2025-08-07,Param/Sisense,phase
+Sprint 22.1.15.2,IRP Auto,2025-08-07,DEV V.,phase
+QA 22.1.15.1,IRP Auto,2025-08-07,LCT-1,phase
+UAT 22.1.14.3,IRP Auto,2025-08-07,UAT-1,phase
+Param 22.1.15.2 /12h,IRP Auto,2025-08-08,Param/Sisense,phase
+22.1.15.2001,IRP Auto,2025-08-08,DEV V.,version
+22.1.15.2001,IRP Auto,2025-08-08,LCT-1,version
+UAT 22.1.14.3,IRP Auto,2025-08-08,UAT-1,phase
+22.1.14.3004,IRP Auto,2025-08-08,PPRD,version
+Param 22.1.15.3,IRP Auto,2025-08-11,Param/Sisense,phase
+Sprint 22.1.15.3,IRP Auto,2025-08-11,DEV V.,phase
+QA 22.1.15.2,IRP Auto,2025-08-11,LCT-1,phase
+Refresh,IRP Auto,2025-08-11,HFPRD,refresh
+TNR 22.1.14.3,IRP Auto,2025-08-11,PPRD,phase
+Param 22.1.15.3,IRP Auto,2025-08-12,Param/Sisense,phase
+Sprint 22.1.15.3,IRP Auto,2025-08-12,DEV V.,phase
+QA 22.1.15.2,IRP Auto,2025-08-12,LCT-1,phase
+TNR 22.1.14.3,IRP Auto,2025-08-12,PPRD,phase
+Param 22.1.15.3,IRP Auto,2025-08-13,Param/Sisense,phase
+Sprint 22.1.15.3,IRP Auto,2025-08-13,DEV V.,phase
+QA 22.1.15.2,IRP Auto,2025-08-13,LCT-1,phase
+TNR 22.1.14.3,IRP Auto,2025-08-13,PPRD,phase
+Param 22.1.15.3 /12h,IRP Auto,2025-08-14,Param/Sisense,phase
+22.1.15.3001,IRP Auto,2025-08-14,DEV V.,version
+QA 22.1.15.2,IRP Auto,2025-08-14,LCT-1,phase
+22.1.14.3005,IRP Auto,2025-08-14,PPRD,version
+22.1.15.3001,IRP Auto,2025-08-15,LCT-1,version
+TNR 22.1.14.3,IRP Auto,2025-08-15,PPRD,note
+Férié FR,IRP Auto,2025-08-15,Comments,note
+Param 22.1.15.4,IRP Auto,2025-08-18,Param/Sisense,phase
+Analyse 22.1.16,IRP Auto,2025-08-18,DEV V.,phase
+QA 22.1.15.3,IRP Auto,2025-08-18,LCT-1,phase
+Refresh,IRP Auto,2025-08-18,HFPRD,refresh
+TNR 22.1.14.3,IRP Auto,2025-08-18,PPRD,phase
+Param 22.1.15.4,IRP Auto,2025-08-19,Param/Sisense,phase
+Analyse 22.1.16,IRP Auto,2025-08-19,DEV V.,phase
+QA 22.1.15.3,IRP Auto,2025-08-19,LCT-1,phase
+TNR 22.1.14.3,IRP Auto,2025-08-19,PPRD,phase
+Param 22.1.15.4,IRP Auto,2025-08-20,Param/Sisense,phase
+Analyse 22.1.16,IRP Auto,2025-08-20,DEV V.,phase
+QA 22.1.15.3,IRP Auto,2025-08-20,LCT-1,phase
+TNR 22.1.14.3,IRP Auto,2025-08-20,PPRD,phase
+Analyse 22.1.16,IRP Auto,2025-08-21,DEV V.,phase
+QA 22.1.15.3,IRP Auto,2025-08-21,LCT-1,phase
+TNR 22.1.14.3,IRP Auto,2025-08-21,PPRD,phase
+22.1.15.4001,IRP Auto,2025-08-22,DEV V.,version
+22.1.15.4001,IRP Auto,2025-08-22,LCT-1,version
+22.1.15.3001,IRP Auto,2025-08-22,UAT-1,version
+TNR 22.1.14.3,IRP Auto,2025-08-22,PPRD,phase
+22.1.14.3005,IRP Auto,2025-08-23,Production,version
+Sprint 22.1.16.1,IRP Auto,2025-08-25,DEV V.,phase
+QA 22.1.15.4,IRP Auto,2025-08-25,LCT-1,phase
+Refresh,IRP Auto,2025-08-25,HFPRD,refresh
+UAT 22.1.15.3,IRP Auto,2025-08-25,UAT-1,phase
+Sprint 22.1.16.1,IRP Auto,2025-08-26,DEV V.,phase
+UAT 22.1.15.3,IRP Auto,2025-08-26,UAT-1,phase
+22.1.15.4002,IRP Auto,2025-08-27,DEV V.,version
+22.1.15.5001,IRP Auto,2025-08-27,DEV HF,infra
+22.1.15.5001,IRP Auto,2025-08-27,LCT-1,infra
+UAT 22.1.15.3,IRP Auto,2025-08-27,UAT-1,phase
+Sprint 22.1.16.1,IRP Auto,2025-08-28,DEV V.,phase
+UAT 22.1.15.3,IRP Auto,2025-08-28,UAT-1,phase
+V16 -Deadline Sisense,IRP Auto,2025-08-29,Param/Sisense,deadline
+22.1.16.1001,IRP Auto,2025-08-29,DEV V.,version
+22.1.16.1001,IRP Auto,2025-08-29,LCT-1,version
+22.1.15.4002,IRP Auto,2025-08-29,UAT-1,version
+Param 22.1.16.2,IRP Auto,2025-09-01,Param/Sisense,phase
+Sprint 22.1.16.2,IRP Auto,2025-09-01,DEV V.,phase
+QA 22.1.16.1,IRP Auto,2025-09-01,LCT-1,phase
+Refresh,IRP Auto,2025-09-01,HFPRD,refresh
+UAT 22.1.15.4,IRP Auto,2025-09-01,UAT-1,phase
+Param 22.1.16.2,IRP Auto,2025-09-02,Param/Sisense,phase
+Sprint 22.1.16.2,IRP Auto,2025-09-02,DEV V.,phase
+QA 22.1.16.1,IRP Auto,2025-09-02,LCT-1,phase
+UAT 22.1.15.4,IRP Auto,2025-09-02,UAT-1,phase
+Param 22.1.16.2,IRP Auto,2025-09-03,Param/Sisense,phase
+Sprint 22.1.16.2,IRP Auto,2025-09-03,DEV V.,phase
+QA 22.1.16.1,IRP Auto,2025-09-03,LCT-1,phase
+UAT 22.1.15.4,IRP Auto,2025-09-03,UAT-1,phase
+Param 22.1.16.2,IRP Auto,2025-09-04,Param/Sisense,phase
+22.1.15.4003,IRP Auto,2025-09-04,DEV V.,version
+QA 22.1.16.1,IRP Auto,2025-09-04,LCT-1,phase
+UAT 22.1.15.4,IRP Auto,2025-09-04,UAT-1,phase
+Param 22.1.16.2 /12h,IRP Auto,2025-09-05,Param/Sisense,phase
+22.1.16.2001,IRP Auto,2025-09-05,DEV V.,version
+22.1.16.2001,IRP Auto,2025-09-05,LCT-1,version
+22.1.15.5001,IRP Auto,2025-09-05,UAT-1,infra
+22.1.15.4003,IRP Auto,2025-09-05,PPRD,version
+PPRD à partir de 16h et UAT1 à partir de 17h,IRP Auto,2025-09-05,Comments,note
+DRP,IRP Auto,2025-09-06,Production,drp
+DRP,IRP Auto,2025-09-07,Production,drp
+Param 22.1.16.3,IRP Auto,2025-09-08,Param/Sisense,phase
+Sprint 22.1.16.3,IRP Auto,2025-09-08,DEV V.,phase
+QA 22.1.16.2,IRP Auto,2025-09-08,LCT-1,phase
+Refresh,IRP Auto,2025-09-08,HFPRD,refresh
+TNR 22.1.15.4,IRP Auto,2025-09-08,PPRD,phase
+Upgrade serveurs VTOM,IRP Auto,2025-09-08,Comments,note
+Param 22.1.16.3,IRP Auto,2025-09-09,Param/Sisense,phase
+Sprint 22.1.16.3,IRP Auto,2025-09-09,DEV V.,phase
+QA 22.1.16.2,IRP Auto,2025-09-09,LCT-1,phase
+Infra 25.1.2,IRP Auto,2025-09-09,UAT-1,infra
+TNR 22.1.15.4,IRP Auto,2025-09-09,PPRD,phase
+Upgrade infra & indus 25.1.2 de 09-14h,IRP Auto,2025-09-09,Comments,note
+Param 22.1.16.3,IRP Auto,2025-09-10,Param/Sisense,phase
+Sprint 22.1.16.3,IRP Auto,2025-09-10,DEV V.,phase
+QA 22.1.16.2,IRP Auto,2025-09-10,LCT-1,phase
+TNR 22.1.15.4,IRP Auto,2025-09-10,PPRD,phase
+Sprint 22.1.16.3,IRP Auto,2025-09-11,DEV V.,phase
+QA 22.1.16.2,IRP Auto,2025-09-11,LCT-1,phase
+TNR 22.1.15.4,IRP Auto,2025-09-11,PPRD,phase
+22.1.16.3001,IRP Auto,2025-09-12,DEV V.,version
+22.1.15.4004,IRP Auto,2025-09-12,DEV HF,version
+22.1.16.3001,IRP Auto,2025-09-12,LCT-1,version
+22.1.15.4004,IRP Auto,2025-09-12,PPRD,version
+22.1.15.4004 : Echéanciers à 2026,IRP Auto,2025-09-12,Comments,note
+PHOENIX - Exercice de bascule S05/E10,IRP Auto,2025-09-13,Comments,note
+Analyse 22.1.17,IRP Auto,2025-09-15,DEV V.,phase
+QA 22.1.16.3,IRP Auto,2025-09-15,LCT-1,phase
+Refresh,IRP Auto,2025-09-15,HFPRD,refresh
+TNR 22.1.15.4,IRP Auto,2025-09-15,PPRD,phase
+Analyse 22.1.17,IRP Auto,2025-09-16,DEV V.,phase
+22.1.15.4005,IRP Auto,2025-09-16,DEV HF,version
+QA 22.1.16.3,IRP Auto,2025-09-16,LCT-1,phase
+TNR 22.1.15.4,IRP Auto,2025-09-16,PPRD,phase
+Build version 25.1.15.4005 (spécifique Sisense 25.1),IRP Auto,2025-09-16,Comments,note
+Analyse 22.1.17,IRP Auto,2025-09-17,DEV V.,phase
+QA 22.1.16.3,IRP Auto,2025-09-17,LCT-1,phase
+TNR 22.1.15.4,IRP Auto,2025-09-17,PPRD,phase
+Analyse 22.1.17,IRP Auto,2025-09-18,DEV V.,phase
+QA 22.1.16.3,IRP Auto,2025-09-18,LCT-1,phase
+Infra 25.1.2,IRP Auto,2025-09-18,PPRD,infra
+PPRD fermé toute la journée + Install 25.1.15.4005 (Sisense 25.1),IRP Auto,2025-09-18,Comments,note
+22.1.16.3002,IRP Auto,2025-09-19,DEV V.,version
+22.1.15.4007,IRP Auto,2025-09-19,DEV HF,version
+22.1.16.3002,IRP Auto,2025-09-19,LCT-1,version
+22.1.16.3002,IRP Auto,2025-09-19,UAT-1,version
+22.1.15.4007,IRP Auto,2025-09-19,PPRD,version
+22.1.15.4006 : correctif install Sisense. 22.1.15.4007 GPD à 70,IRP Auto,2025-09-19,Comments,note
+22.1.15.4004,IRP Auto,2025-09-20,Production,version
+PROD Upgrade Alfresco 25.1 | Release 22.1.15 (IRPAUTO-41891),IRP Auto,2025-09-20,Comments,note
+Sprint 22.1.17.1,IRP Auto,2025-09-22,DEV V.,phase
+QA 22.1.16.3,IRP Auto,2025-09-22,LCT-1,phase
+Refresh,IRP Auto,2025-09-22,HFPRD,refresh
+UAT 22.1.16.3,IRP Auto,2025-09-22,UAT-1,phase
+22.1.16.3003,IRP Auto,2025-09-23,DEV V.,version
+22.1.16.3004,IRP Auto,2025-09-23,LCT-1,version
+UAT 22.1.16.3,IRP Auto,2025-09-23,UAT-1,phase
+22.1.15.5001,IRP Auto,2025-09-23,PPRD,infra
+PPRD : refresh avec empreinte de prod du 19/09-> 22/09 + install bloc 58,IRP Auto,2025-09-23,Comments,note
+Sprint 22.1.17.1,IRP Auto,2025-09-24,DEV V.,phase
+UAT 22.1.16.3,IRP Auto,2025-09-24,UAT-1,phase
+Sprint 22.1.17.1,IRP Auto,2025-09-25,DEV V.,phase
+UAT 22.1.16.3,IRP Auto,2025-09-25,UAT-1,phase
+V17 -Deadline Sisense,IRP Auto,2025-09-26,Param/Sisense,deadline
+22.1.17.1001,IRP Auto,2025-09-26,DEV V.,version
+22.1.17.1001,IRP Auto,2025-09-26,LCT-1,version
+22.1.16.3004,IRP Auto,2025-09-26,UAT-1,version
+Infra 25.1.2,IRP Auto,2025-09-28,Production,infra
++ Install 25.1.15.4005 (Sisense 25.1),IRP Auto,2025-09-28,Comments,note
+Param 22.1.17.2,IRP Auto,2025-09-29,Param/Sisense,phase
+Sprint 22.1.17.2,IRP Auto,2025-09-29,DEV V.,phase
+QA 22.1.17.1,IRP Auto,2025-09-29,LCT-1,phase
+Refresh,IRP Auto,2025-09-29,HFPRD,refresh
+UAT 22.1.16.3,IRP Auto,2025-09-29,UAT-1,phase
+Param 22.1.17.2,IRP Auto,2025-09-30,Param/Sisense,phase
+Sprint 22.1.17.2,IRP Auto,2025-09-30,DEV V.,phase
+QA 22.1.17.1,IRP Auto,2025-09-30,LCT-1,phase
+Infra 25.1.2,IRP Auto,2025-09-30,HFPRD,infra
+UAT 22.1.16.3,IRP Auto,2025-09-30,UAT-1,phase
+Param 22.1.17.2,IRP Auto,2025-10-01,Param/Sisense,phase
+Sprint 22.1.17.2,IRP Auto,2025-10-01,DEV V.,phase
+QA 22.1.17.1,IRP Auto,2025-10-01,LCT-1,phase
+UAT 22.1.16.3,IRP Auto,2025-10-01,UAT-1,phase
+Param 22.1.17.2,IRP Auto,2025-10-02,Param/Sisense,phase
+Sprint 22.1.17.2,IRP Auto,2025-10-02,DEV V.,phase
+QA 22.1.17.1,IRP Auto,2025-10-02,LCT-1,phase
+UAT 22.1.16.3,IRP Auto,2025-10-02,UAT-1,phase
+Param 22.1.17.2 /12h,IRP Auto,2025-10-03,Param/Sisense,phase
+22.1.17.2001,IRP Auto,2025-10-03,DEV V.,version
+22.1.16.3005,IRP Auto,2025-10-03,DEV HF,version
+22.1.17.2001,IRP Auto,2025-10-03,LCT-1,version
+UAT 22.1.16.3,IRP Auto,2025-10-03,UAT-1,phase
+22.1.16.3005,IRP Auto,2025-10-03,PPRD,version
+PHOENIX - Exercice de bascule S05/E10 #2,IRP Auto,2025-10-04,Comments,note
+Param 22.1.17.2,IRP Auto,2025-10-06,Param/Sisense,phase
+Analyse 22.1.18,IRP Auto,2025-10-06,DEV V.,phase
+QA 22.1.17.2,IRP Auto,2025-10-06,LCT-1,phase
+Refresh,IRP Auto,2025-10-06,HFPRD,refresh
+TNR 22.1.16.3,IRP Auto,2025-10-06,PPRD,phase
+Param 22.1.17.2,IRP Auto,2025-10-07,Param/Sisense,phase
+Analyse 22.1.18,IRP Auto,2025-10-07,DEV V.,phase
+22.1.16.3006,IRP Auto,2025-10-07,DEV HF,version
+QA 22.1.17.2,IRP Auto,2025-10-07,LCT-1,phase
+Infra 25.2.1,IRP Auto,2025-10-07,UAT-1,infra
+TNR 22.1.16.3,IRP Auto,2025-10-07,PPRD,phase
+Param 22.1.17.2,IRP Auto,2025-10-08,Param/Sisense,phase
+Analyse 22.1.18,IRP Auto,2025-10-08,DEV V.,phase
+QA 22.1.17.2,IRP Auto,2025-10-08,LCT-1,phase
+TNR 22.1.16.3,IRP Auto,2025-10-08,PPRD,phase
+Analyse 22.1.18,IRP Auto,2025-10-09,DEV V.,phase
+22.1.16.3007,IRP Auto,2025-10-09,DEV HF,version
+QA 22.1.17.2,IRP Auto,2025-10-09,LCT-1,phase
+TNR 22.1.16.3,IRP Auto,2025-10-09,PPRD,phase
+22.1.17.2002,IRP Auto,2025-10-10,DEV V.,version
+22.1.16.4001,IRP Auto,2025-10-10,DEV HF,infra
+QA 22.1.17.2,IRP Auto,2025-10-10,LCT-1,phase
+22.1.17.2001,IRP Auto,2025-10-10,UAT-1,version
+22.1.16.4001,IRP Auto,2025-10-10,PPRD,infra
+22.1.16.4001 : bloc 58 (lot 1 + retrofit pour le lot 2),IRP Auto,2025-10-10,Comments,note
+22.1.17.2002,IRP Auto,2025-10-11,LCT-1,version
+22.1.16.3004,IRP Auto,2025-10-11,Production,version
+Sprint 22.1.17.2,IRP Auto,2025-10-13,DEV V.,phase
+Refresh,IRP Auto,2025-10-13,HFPRD,refresh
+UAT 22.1.17.2,IRP Auto,2025-10-13,UAT-1,phase
+Sprint 22.1.17.2,IRP Auto,2025-10-14,DEV V.,phase
+UAT 22.1.17.2,IRP Auto,2025-10-14,UAT-1,phase
+Sprint 22.1.17.2,IRP Auto,2025-10-15,DEV V.,phase
+UAT 22.1.17.2,IRP Auto,2025-10-15,UAT-1,phase
+22.1.17.2003,IRP Auto,2025-10-16,DEV V.,version
+Infra 25.3,IRP Auto,2025-10-16,LCT-1,infra
+UAT 22.1.17.2,IRP Auto,2025-10-16,UAT-1,phase
+Deadline Sisense,IRP Auto,2025-10-17,Param/Sisense,deadline
+22.1.18.1001,IRP Auto,2025-10-17,DEV V.,version
+22.1.16.4002,IRP Auto,2025-10-17,DEV HF,infra
+22.1.17.2003,IRP Auto,2025-10-17,LCT-1,version
+22.1.17.2003,IRP Auto,2025-10-17,UAT-1,version
+22.1.16.4002,IRP Auto,2025-10-17,PPRD,infra
+PHOENIX - Bascule brdx - Equinix,IRP Auto,2025-10-18,Comments,note
+Param 22.1.18.2,IRP Auto,2025-10-20,Param/Sisense,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-20,DEV V.,phase
+22.1.18.1001,IRP Auto,2025-10-20,LCT-1,version
+Refresh,IRP Auto,2025-10-20,HFPRD,refresh
+UAT 22.1.17.2,IRP Auto,2025-10-20,UAT-1,phase
+Param 22.1.18.2,IRP Auto,2025-10-21,Param/Sisense,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-21,DEV V.,phase
+QA 22.1.17.2,IRP Auto,2025-10-21,LCT-1,phase
+UAT 22.1.17.2,IRP Auto,2025-10-21,UAT-1,phase
+Param 22.1.18.2,IRP Auto,2025-10-22,Param/Sisense,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-22,DEV V.,phase
+QA 22.1.17.2,IRP Auto,2025-10-22,LCT-1,phase
+Refresh,IRP Auto,2025-10-22,HFPRD,refresh
+UAT 22.1.17.2,IRP Auto,2025-10-22,UAT-1,phase
+HFPRD : IRPAUTO-47570,IRP Auto,2025-10-22,Comments,note
+Param 22.1.18.2,IRP Auto,2025-10-23,Param/Sisense,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-23,DEV V.,phase
+QA 22.1.17.2,IRP Auto,2025-10-23,LCT-1,phase
+UAT 22.1.17.2,IRP Auto,2025-10-23,UAT-1,phase
+Param 22.1.18.2 /12h,IRP Auto,2025-10-24,Param/Sisense,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-24,DEV V.,phase
+22.1.17.2004,IRP Auto,2025-10-24,DEV HF,version
+22.1.18.2001,IRP Auto,2025-10-24,LCT-1,version
+Refresh,IRP Auto,2025-10-24,UAT-1,refresh
+22.1.17.2004,IRP Auto,2025-10-24,PPRD,version
+PPRD: Echéanciers GPD = 70,IRP Auto,2025-10-26,Comments,note
+Param 22.1.18.2,IRP Auto,2025-10-27,Param/Sisense,phase
+22.1.18.2001,IRP Auto,2025-10-27,DEV V.,version
+QA 22.1.18.2,IRP Auto,2025-10-27,LCT-1,phase
+22.1.17.2005,IRP Auto,2025-10-27,UAT-1,version
+TNR 22.1.17.2,IRP Auto,2025-10-27,PPRD,phase
+22.1.17.2005 : OJS7,IRP Auto,2025-10-27,Comments,note
+Param 22.1.18.2,IRP Auto,2025-10-28,Param/Sisense,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-28,DEV V.,phase
+22.1.18.2001,IRP Auto,2025-10-28,LCT-1,version
+TNR 22.1.17.2,IRP Auto,2025-10-28,PPRD,phase
+Infra 25.1.2.b,IRP Auto,2025-10-28,Production,infra
+13:30 Infra 25.1.2.b : application de la licence JS1,IRP Auto,2025-10-28,Comments,note
+Param 22.1.18.2,IRP Auto,2025-10-29,Param/Sisense,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-29,DEV V.,phase
+QA 22.1.18.2,IRP Auto,2025-10-29,LCT-1,phase
+TNR 22.1.17.2,IRP Auto,2025-10-29,PPRD,phase
+Sprint 22.1.18.2,IRP Auto,2025-10-30,DEV V.,phase
+QA 22.1.18.2,IRP Auto,2025-10-30,LCT-1,phase
+TNR 22.1.17.2,IRP Auto,2025-10-30,PPRD,phase
+22.1.18.2002,IRP Auto,2025-10-31,DEV V.,version
+22.1.18.2002,IRP Auto,2025-10-31,LCT-1,version
+22.1.18.2002,IRP Auto,2025-10-31,UAT-1,version
+TNR 22.1.17.2,IRP Auto,2025-10-31,PPRD,phase
+22.1.17.2004,IRP Auto,2025-11-01,Production,version
+Limite renégotiation des tarifs,IRP Auto,2025-11-01,Comments,note
+Sprint 22.1.19.1,IRP Auto,2025-11-03,DEV V.,phase
+22.1.17.2006,IRP Auto,2025-11-03,DEV HF,version
+Refresh,IRP Auto,2025-11-03,HFPRD,refresh
+UAT 22.1.18.2,IRP Auto,2025-11-03,UAT-1,phase
+22.1.17.2006,IRP Auto,2025-11-03,PPRD,version
+Sprint 22.1.19.1,IRP Auto,2025-11-04,DEV V.,phase
+UAT 22.1.18.2,IRP Auto,2025-11-04,UAT-1,phase
+Sprint 22.1.19.1,IRP Auto,2025-11-05,DEV V.,phase
+UAT 22.1.18.2,IRP Auto,2025-11-05,UAT-1,phase
+22.1.18.2004,IRP Auto,2025-11-06,DEV V.,version
+UAT 22.1.18.2,IRP Auto,2025-11-06,UAT-1,phase
+22.1.18.2003 - levée limite sur edms_success_report,IRP Auto,2025-11-06,Comments,note
+Deadline Sisense,IRP Auto,2025-11-07,Param/Sisense,deadline
+22.1.19.1001,IRP Auto,2025-11-07,DEV V.,version
+22.1.19.1001,IRP Auto,2025-11-07,LCT-1,version
+22.1.18.2004,IRP Auto,2025-11-07,UAT-1,version
+Param 22.1.19.2,IRP Auto,2025-11-10,Param/Sisense,phase
+Sprint 22.1.19.2,IRP Auto,2025-11-10,DEV V.,phase
+QA 22.1.19.1,IRP Auto,2025-11-10,LCT-1,phase
+Refresh,IRP Auto,2025-11-10,HFPRD,refresh
+UAT 22.1.18.2,IRP Auto,2025-11-10,UAT-1,note
+Pont IRP AUTO,IRP Auto,2025-11-10,Comments,note
+Param 22.1.19.2,IRP Auto,2025-11-11,Param/Sisense,phase
+Sprint 22.1.19.2,IRP Auto,2025-11-11,DEV V.,phase
+QA 22.1.19.1,IRP Auto,2025-11-11,LCT-1,phase
+UAT 22.1.18.2,IRP Auto,2025-11-11,UAT-1,note
+Férié FR,IRP Auto,2025-11-11,Comments,note
+Param 22.1.19.2,IRP Auto,2025-11-12,Param/Sisense,phase
+Sprint 22.1.19.2,IRP Auto,2025-11-12,DEV V.,phase
+QA 22.1.19.1,IRP Auto,2025-11-12,LCT-1,phase
+UAT 22.1.18.2,IRP Auto,2025-11-12,UAT-1,phase
+Param 22.1.19.2,IRP Auto,2025-11-13,Param/Sisense,phase
+Sprint 22.1.19.2,IRP Auto,2025-11-13,DEV V.,phase
+QA 22.1.19.1,IRP Auto,2025-11-13,LCT-1,phase
+UAT 22.1.18.2,IRP Auto,2025-11-13,UAT-1,phase
+Param 22.1.19.2 /12h,IRP Auto,2025-11-14,Param/Sisense,phase
+22.1.19.2001,IRP Auto,2025-11-14,DEV V.,version
+22.1.18.2005,IRP Auto,2025-11-14,DEV HF,version
+22.1.19.2001,IRP Auto,2025-11-14,LCT-1,version
+UAT 22.1.18.2,IRP Auto,2025-11-14,UAT-1,phase
+22.1.18.2005,IRP Auto,2025-11-14,PPRD,version
+PHOENIX - Maintenance électrique,IRP Auto,2025-11-15,Comments,note
+Param 22.1.19.2,IRP Auto,2025-11-17,Param/Sisense,phase
+Analyse 22.1.20,IRP Auto,2025-11-17,DEV V.,phase
+HF 22.1.18.3001,IRP Auto,2025-11-17,DEV HF,phase
+QA 22.1.19.2,IRP Auto,2025-11-17,LCT-1,phase
+Refresh,IRP Auto,2025-11-17,HFPRD,refresh
+TNR 22.1.18.2,IRP Auto,2025-11-17,PPRD,phase
+Param 22.1.19.2,IRP Auto,2025-11-18,Param/Sisense,phase
+Analyse 22.1.20,IRP Auto,2025-11-18,DEV V.,phase
+HF 22.1.18.3001,IRP Auto,2025-11-18,DEV HF,phase
+QA 22.1.19.2,IRP Auto,2025-11-18,LCT-1,phase
+TNR 22.1.18.2,IRP Auto,2025-11-18,PPRD,phase
+Param 22.1.19.2,IRP Auto,2025-11-19,Param/Sisense,phase
+22.1.19.2002,IRP Auto,2025-11-19,DEV V.,version
+22.1.18.2006,IRP Auto,2025-11-19,DEV HF,infra
+QA 22.1.19.2,IRP Auto,2025-11-19,LCT-1,phase
+22.1.18.2006,IRP Auto,2025-11-19,PPRD,infra
+Param 22.1.19.2,IRP Auto,2025-11-20,Param/Sisense,phase
+Analyse 22.1.20,IRP Auto,2025-11-20,DEV V.,phase
+HF 22.1.18.3001,IRP Auto,2025-11-20,DEV HF,phase
+QA 22.1.19.2,IRP Auto,2025-11-20,LCT-1,phase
+TNR 22.1.18.2,IRP Auto,2025-11-20,PPRD,phase
+/!\ Report Param > HF18.3001,IRP Auto,2025-11-21,Param/Sisense,infra
+22.1.19.2003,IRP Auto,2025-11-21,DEV V.,version
+22.1.18.3001,IRP Auto,2025-11-21,DEV HF,infra
+22.1.19.2003,IRP Auto,2025-11-21,LCT-1,version
+22.1.18.3001,IRP Auto,2025-11-21,PPRD,infra
+22.1.19.2003,IRP Auto,2025-11-22,UAT-1,version
+22.1.18.2006,IRP Auto,2025-11-22,Production,infra
+Sprint 22.1.20.1,IRP Auto,2025-11-24,DEV V.,phase
+22.1.18.3001 + R,IRP Auto,2025-11-24,HFPRD,refresh
+UAT 22.1.19.2,IRP Auto,2025-11-24,UAT-1,phase
+Test 22.1.18.30,IRP Auto,2025-11-24,PPRD,phase
+Sprint 22.1.20.1,IRP Auto,2025-11-25,DEV V.,phase
+22.1.19.2004,IRP Auto,2025-11-25,DEV HF,version
+22.1.19.2004,IRP Auto,2025-11-25,UAT-1,version
+Test 22.1.18.30,IRP Auto,2025-11-25,PPRD,phase
+22.1.19.2004 : EXCEPTIONAL_PDM_DELTA_DUMP,IRP Auto,2025-11-25,Comments,note
+Sprint 22.1.20.1,IRP Auto,2025-11-26,DEV V.,phase
+UAT 22.1.19.2,IRP Auto,2025-11-26,UAT-1,phase
+Test 22.1.18.30,IRP Auto,2025-11-26,PPRD,phase
+Sprint 22.1.20.1,IRP Auto,2025-11-27,DEV V.,phase
+22.1.18.3002 (HF),IRP Auto,2025-11-27,DEV HF,infra
+UAT 22.1.19.2,IRP Auto,2025-11-27,UAT-1,phase
+Test 22.1.18.30,IRP Auto,2025-11-27,PPRD,phase
+22.1.18.2007,IRP Auto,2025-11-27,Production,infra
+22.1.18.2007 : blocage PRE0006 et PRE00146,IRP Auto,2025-11-27,Comments,note
+Deadline Sisense,IRP Auto,2025-11-28,Param/Sisense,deadline
+Sprint 22.1.20.1,IRP Auto,2025-11-28,DEV V.,phase
+22.19.2005,IRP Auto,2025-11-28,DEV HF,version
+22.1.19.2005,IRP Auto,2025-11-28,UAT-1,version
+22.1.18.3002,IRP Auto,2025-11-28,PPRD,infra
+22.1.18.3001,IRP Auto,2025-11-29,Production,infra
+HF,IRP Auto,2025-11-29,Comments,note
+AMORCAGE DSN,IRP Auto,2025-11-30,PPRD,note
+COM58 + BALAI BENALM,IRP Auto,2025-11-30,Production,note
+Param 22.1.20.2,IRP Auto,2025-12-01,Param/Sisense,phase
+22.1.20.1001,IRP Auto,2025-12-01,DEV V.,version
+22.1.20.1001,IRP Auto,2025-12-01,LCT-1,version
+Refresh,IRP Auto,2025-12-01,HFPRD,refresh
+UAT 22.1.19.2,IRP Auto,2025-12-01,UAT-1,phase
+22.1.18.3002,IRP Auto,2025-12-01,Production,infra
+22.19.3002 : correctif PRE00006 et PRE0146 et déblocage de ces 2 éditions,IRP Auto,2025-12-01,Comments,note
+Param 22.1.20.2,IRP Auto,2025-12-02,Param/Sisense,phase
+Sprint 22.1.20.2,IRP Auto,2025-12-02,DEV V.,phase
+22.1.18.3003,IRP Auto,2025-12-02,DEV HF,infra
+QA 22.1.20.1,IRP Auto,2025-12-02,LCT-1,phase
+22.1.18.3003,IRP Auto,2025-12-02,PPRD,infra
+Param 22.1.20.2,IRP Auto,2025-12-03,Param/Sisense,phase
+Sprint 22.1.20.2,IRP Auto,2025-12-03,DEV V.,phase
+22.1.19.2006,IRP Auto,2025-12-03,DEV HF,version
+QA 22.1.20.1,IRP Auto,2025-12-03,LCT-1,phase
+22.1.18.3004,IRP Auto,2025-12-03,HFPRD,infra
+22.1.19.2006,IRP Auto,2025-12-03,UAT-1,version
+22.1.18.3004,IRP Auto,2025-12-03,Production,infra
+blocage PRE6 PRE146,IRP Auto,2025-12-03,Comments,note
+Param 22.1.20.2,IRP Auto,2025-12-04,Param/Sisense,phase
+Sprint 22.1.20.2,IRP Auto,2025-12-04,DEV V.,phase
+22.1.18.3004,IRP Auto,2025-12-04,DEV HF,infra
+QA 22.1.20.1,IRP Auto,2025-12-04,LCT-1,phase
+UAT 22.1.19.2,IRP Auto,2025-12-04,UAT-1,phase
+22.1.18.3004,IRP Auto,2025-12-04,Production,infra
+correctif année en dure,IRP Auto,2025-12-04,Comments,note
+Param 22.1.20.2 /12h,IRP Auto,2025-12-05,Param/Sisense,phase
+22.1.20.2001,IRP Auto,2025-12-05,DEV V.,version
+22.1.19.2007,IRP Auto,2025-12-05,DEV HF,version
+22.1.20.2001,IRP Auto,2025-12-05,LCT-1,version
+UAT 22.1.19.2,IRP Auto,2025-12-05,UAT-1,phase
+22.1.19.2007,IRP Auto,2025-12-05,PPRD,version
+Répétition Notices + Certif. métal,IRP Auto,2025-12-06,PPRD,note
+Deadline OFA,IRP Auto,2025-12-06,Production,note
+Param Sprint Sp,IRP Auto,2025-12-08,Param/Sisense,phase
+Analyse 22.1.21,IRP Auto,2025-12-08,DEV V.,phase
+QA 22.1.20.2,IRP Auto,2025-12-08,LCT-1,phase
+Refresh,IRP Auto,2025-12-08,HFPRD,refresh
+TNR 22.1.19.2,IRP Auto,2025-12-08,PPRD,phase
+Param Sprint Sp,IRP Auto,2025-12-09,Param/Sisense,phase
+Analyse 22.1.21,IRP Auto,2025-12-09,DEV V.,phase
+22.1.19.2008,IRP Auto,2025-12-09,DEV HF,version
+QA 22.1.20.2,IRP Auto,2025-12-09,LCT-1,phase
+22.1.19.2008,IRP Auto,2025-12-09,PPRD,version
+25.1.2.d,IRP Auto,2025-12-09,Comments,note
+Param Sprint Sp,IRP Auto,2025-12-10,Param/Sisense,phase
+22.1.20.2002,IRP Auto,2025-12-10,DEV V.,version
+22.1.20.2002,IRP Auto,2025-12-10,LCT-1,version
+TNR 22.1.19.2,IRP Auto,2025-12-10,PPRD,phase
+Param Sprint Sp,IRP Auto,2025-12-11,Param/Sisense,phase
+22.1.20.2003,IRP Auto,2025-12-11,DEV V.,version
+22.1.20.2003,IRP Auto,2025-12-11,LCT-1,version
+TNR 22.1.19.2,IRP Auto,2025-12-11,PPRD,phase
+Sprint Sprint 22,IRP Auto,2025-12-12,DEV V.,phase
+QA QA 22.1.2,IRP Auto,2025-12-12,LCT-1,phase
+22.1.20.2003,IRP Auto,2025-12-12,UAT-1,version
+TNR 22.1.19.2,IRP Auto,2025-12-12,PPRD,phase
+22.1.19.2008,IRP Auto,2025-12-13,Production,version
+25.1.2.d,IRP Auto,2025-12-13,Comments,note
+Infra 25.1.2.d,IRP Auto,2025-12-14,Production,infra
+Sprint 22.1.21.1,IRP Auto,2025-12-15,DEV V.,phase
+Refresh,IRP Auto,2025-12-15,HFPRD,refresh
+UAT 22.1.20.2,IRP Auto,2025-12-15,UAT-1,phase
+Sprint 22.1.21.1,IRP Auto,2025-12-16,DEV V.,phase
+UAT 22.1.20.2,IRP Auto,2025-12-16,UAT-1,phase
+22.1.20.3001,IRP Auto,2025-12-17,DEV V.,version
+22.1.20.3001,IRP Auto,2025-12-17,LCT-1,version
+UAT 22.1.20.2,IRP Auto,2025-12-17,UAT-1,phase
+Frozen Zone,IRP Auto,2025-12-17,Comments,note
+22.1.20.3002,IRP Auto,2025-12-18,DEV V.,version
+22.1.19.2009,IRP Auto,2025-12-18,DEV HF,version
+22.1.20.3002,IRP Auto,2025-12-18,LCT-1,version
+UAT 22.1.20.2,IRP Auto,2025-12-18,UAT-1,phase
+22.1.19.2009,IRP Auto,2025-12-18,PPRD,version
+Frozen Zone,IRP Auto,2025-12-18,Comments,note
+22.1.21.1001,IRP Auto,2025-12-19,DEV V.,version
+22.1.21.1001,IRP Auto,2025-12-19,LCT-1,version
+22.1.20.3002,IRP Auto,2025-12-19,UAT-1,version
+Frozen Zone,IRP Auto,2025-12-19,Comments,note
+Frozen Zone,IRP Auto,2025-12-20,Comments,note
+Frozen Zone,IRP Auto,2025-12-21,Comments,note
+Param 22.1.21,IRP Auto,2025-12-22,Param/Sisense,phase
+Sprint 22.1.21.2,IRP Auto,2025-12-22,DEV V.,phase
+QA 22.1.21.1,IRP Auto,2025-12-22,LCT-1,phase
+Refresh,IRP Auto,2025-12-22,HFPRD,refresh
+UAT 22.1.20.3,IRP Auto,2025-12-22,UAT-1,phase
+Frozen Zone,IRP Auto,2025-12-22,Comments,note
+Param 22.1.21,IRP Auto,2025-12-23,Param/Sisense,phase
+Sprint 22.1.21.2,IRP Auto,2025-12-23,DEV V.,phase
+QA 22.1.21.1,IRP Auto,2025-12-23,LCT-1,phase
+Infra 25.2.2,IRP Auto,2025-12-23,UAT-1,infra
+22.1.19.2009,IRP Auto,2025-12-23,Production,version
+Frozen Zone (Bdoc SAN82),IRP Auto,2025-12-23,Comments,note
+Param 22.1.21,IRP Auto,2025-12-24,Param/Sisense,phase
+Sprint 22.1.21.2,IRP Auto,2025-12-24,DEV V.,phase
+QA 22.1.21.1,IRP Auto,2025-12-24,LCT-1,phase
+UAT 22.1.20.3,IRP Auto,2025-12-24,UAT-1,phase
+Frozen Zone,IRP Auto,2025-12-24,Comments,note
+Param 22.1.21,IRP Auto,2025-12-25,Param/Sisense,phase
+Sprint 22.1.21.2,IRP Auto,2025-12-25,DEV V.,phase
+QA 22.1.21.1,IRP Auto,2025-12-25,LCT-1,phase
+Frozen Zone,IRP Auto,2025-12-25,Comments,note
+Param 22.1.21/12h,IRP Auto,2025-12-26,Param/Sisense,phase
+22.1.21.2001,IRP Auto,2025-12-26,DEV V.,version
+22.1.20.3003,IRP Auto,2025-12-26,DEV HF,version
+22.1.21.2001,IRP Auto,2025-12-26,LCT-1,version
+22.1.20.3003,IRP Auto,2025-12-26,UAT-1,version
+Frozen Zone,IRP Auto,2025-12-26,Comments,note
+Frozen Zone,IRP Auto,2025-12-27,Comments,note
+Frozen Zone,IRP Auto,2025-12-28,Comments,note
+Param 22.1.21,IRP Auto,2025-12-29,Param/Sisense,phase
+Analyse 22.1.22,IRP Auto,2025-12-29,DEV V.,phase
+QA 22.1.21.2,IRP Auto,2025-12-29,LCT-1,phase
+Refresh,IRP Auto,2025-12-29,HFPRD,refresh
+UAT 22.1.20.3,IRP Auto,2025-12-29,UAT-1,phase
+Frozen Zone,IRP Auto,2025-12-29,Comments,note
+Param 22.1.21,IRP Auto,2025-12-30,Param/Sisense,phase
+Analyse 22.1.22,IRP Auto,2025-12-30,DEV V.,phase
+22.1.20.3004,IRP Auto,2025-12-30,DEV HF,version
+Infra 25.3.1,IRP Auto,2025-12-30,LCT-1,infra
+Infra 25.3.1,IRP Auto,2025-12-30,PERF,infra
+22.1.20.3004,IRP Auto,2025-12-30,UAT-1,version
+Frozen Zone,IRP Auto,2025-12-30,Comments,note
+Param 22.1.21,IRP Auto,2025-12-31,Param/Sisense,phase
+Analyse 22.1.22,IRP Auto,2025-12-31,DEV V.,phase
+QA 22.1.21.2,IRP Auto,2025-12-31,LCT-1,phase
+UAT 22.1.20.3,IRP Auto,2025-12-31,UAT-1,phase
+Frozen Zone,IRP Auto,2025-12-31,Comments,note
+Param 22.1.21/12h,IRP Auto,2026-01-01,Param/Sisense,phase
+Analyse 22.1.22,IRP Auto,2026-01-01,DEV V.,phase
+QA 22.1.21.2,IRP Auto,2026-01-01,LCT-1,phase
+Frozen Zone,IRP Auto,2026-01-01,Comments,note
+22.1.21.2002,IRP Auto,2026-01-02,DEV V.,version
+22.1.21.2002,IRP Auto,2026-01-02,LCT-1,version
+22.1.20.3004,IRP Auto,2026-01-02,PPRD,version
+Frozen Zone,IRP Auto,2026-01-02,Comments,note
+Frozen Zone,IRP Auto,2026-01-03,Comments,note
+Frozen Zone,IRP Auto,2026-01-04,Comments,note
+Sprint 22.1.22.1,IRP Auto,2026-01-05,DEV V.,phase
+QA 22.1.21.2,IRP Auto,2026-01-05,LCT-1,phase
+Refresh,IRP Auto,2026-01-05,HFPRD,refresh
+TNR 22.1.20.3,IRP Auto,2026-01-05,PPRD,phase
+Sprint 22.1.22.1,IRP Auto,2026-01-06,DEV V.,phase
+22.1.20.3005,IRP Auto,2026-01-06,DEV HF,version
+QA 22.1.21.2,IRP Auto,2026-01-06,LCT-1,phase
+22.1.20.3005,IRP Auto,2026-01-06,UAT-1,version
+22.1.20.3005,IRP Auto,2026-01-06,PPRD,version
+Sprint 22.1.22.1,IRP Auto,2026-01-07,DEV V.,phase
+QA 22.1.21.2,IRP Auto,2026-01-07,LCT-1,phase
+TNR 22.1.20.3,IRP Auto,2026-01-07,PPRD,phase
+22.1.21.2004,IRP Auto,2026-01-08,DEV V.,version
+QA 22.1.21.2,IRP Auto,2026-01-08,LCT-1,phase
+Infra 25.2.2,IRP Auto,2026-01-08,PPRD,infra
+Deadline Sisense,IRP Auto,2026-01-09,Param/Sisense,deadline
+22.1.22.1001,IRP Auto,2026-01-09,DEV V.,version
+22.1.22.1001,IRP Auto,2026-01-09,LCT-1,version
+22.1.21.2004,IRP Auto,2026-01-09,UAT-1,version
+TNR 22.1.20.3,IRP Auto,2026-01-09,PPRD,phase
+22.1.20.3005,IRP Auto,2026-01-10,Production,version
+Param 22.1.22,IRP Auto,2026-01-12,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-12,DEV V.,phase
+QA 22.1.22.1,IRP Auto,2026-01-12,LCT-1,phase
+Refresh,IRP Auto,2026-01-12,HFPRD,refresh
+UAT 22.1.21.2,IRP Auto,2026-01-12,UAT-1,phase
+Param 22.1.22,IRP Auto,2026-01-13,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-13,DEV V.,phase
+QA 22.1.22.1,IRP Auto,2026-01-13,LCT-1,phase
+UAT 22.1.21.2,IRP Auto,2026-01-13,UAT-1,phase
+Param 22.1.22,IRP Auto,2026-01-14,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-14,DEV V.,phase
+QA 22.1.22.1,IRP Auto,2026-01-14,LCT-1,phase
+UAT 22.1.21.2,IRP Auto,2026-01-14,UAT-1,phase
+Param 22.1.22,IRP Auto,2026-01-15,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-15,DEV V.,phase
+QA 22.1.22.1,IRP Auto,2026-01-15,LCT-1,phase
+UAT 22.1.21.2,IRP Auto,2026-01-15,UAT-1,phase
+22.1.20.3007,IRP Auto,2026-01-15,PPRD,version
+3006 = Retour arrière IRPAUTO-17331,IRP Auto,2026-01-15,Comments,note
+Param 22.1.22/12h,IRP Auto,2026-01-16,Param/Sisense,phase
+22.1.22.2001,IRP Auto,2026-01-16,DEV V.,version
+22.1.22.2001,IRP Auto,2026-01-16,LCT-1,version
+22.1.21.3001,IRP Auto,2026-01-16,UAT-1,version
+Test du ticket IRPAUTO-23966,IRP Auto,2026-01-16,PPRD,refresh
+3007 = IRPAUTO-23966,IRP Auto,2026-01-16,Comments,note
+Infra 25.2.2,IRP Auto,2026-01-18,Production,infra
+Param 22.1.22,IRP Auto,2026-01-19,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-19,DEV V.,phase
+QA 22.1.22.2,IRP Auto,2026-01-19,LCT-1,phase
+Refresh,IRP Auto,2026-01-19,HFPRD,refresh
+UAT 22.1.21.2,IRP Auto,2026-01-19,UAT-1,phase
+Test du ticket IRPAUTO-23966,IRP Auto,2026-01-19,PPRD,note
+Param 22.1.22,IRP Auto,2026-01-20,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-20,DEV V.,phase
+QA 22.1.22.2,IRP Auto,2026-01-20,LCT-1,phase
+Infra 25.2.2,IRP Auto,2026-01-20,HFPRD,infra
+UAT 22.1.21.2,IRP Auto,2026-01-20,UAT-1,phase
+Test du ticket IRPAUTO-23966,IRP Auto,2026-01-20,PPRD,note
+HFPRD : Infra à 12:00,IRP Auto,2026-01-20,Comments,note
+Param 22.1.22,IRP Auto,2026-01-21,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-21,DEV V.,phase
+QA 22.1.22.2,IRP Auto,2026-01-21,LCT-1,phase
+22.1.21.3002,IRP Auto,2026-01-21,UAT-1,version
+Test du ticket IRPAUTO-23966,IRP Auto,2026-01-21,PPRD,note
+Param 22.1.22,IRP Auto,2026-01-22,Param/Sisense,phase
+Sprint 22.1.22.2,IRP Auto,2026-01-22,DEV V.,phase
+22.1.21.2002,IRP Auto,2026-01-22,DEV HF,infra
+QA 22.1.22.2,IRP Auto,2026-01-22,LCT-1,phase
+22.1.21.2002,IRP Auto,2026-01-22,HFPRD,infra
+UAT 22.1.21.2,IRP Auto,2026-01-22,UAT-1,phase
+Test du ticket IRPAUTO-23966,IRP Auto,2026-01-22,PPRD,note
+22.1.21.2002 : report Radiation dans 22.1.21,IRP Auto,2026-01-22,Comments,note
+Param 22.1.22/12h,IRP Auto,2026-01-23,Param/Sisense,phase
+22.1.22.2002,IRP Auto,2026-01-23,DEV V.,version
+22.1.22.2002,IRP Auto,2026-01-23,LCT-1,version
+UAT 22.1.21.2,IRP Auto,2026-01-23,UAT-1,phase
+22.1.21.3003,IRP Auto,2026-01-23,PPRD,version
+refresh PPRD avec les données de prod + stop delta jusqu'à go,IRP Auto,2026-01-23,Comments,note
+Param 22.1.22,IRP Auto,2026-01-26,Param/Sisense,phase
+Analyse 22.1.23,IRP Auto,2026-01-26,DEV V.,phase
+QA 22.1.22.2,IRP Auto,2026-01-26,LCT-1,phase
+Refresh,IRP Auto,2026-01-26,HFPRD,refresh
+TNR 22.1.21.3,IRP Auto,2026-01-26,PPRD,phase
+Param 22.1.22,IRP Auto,2026-01-27,Param/Sisense,phase
+Analyse 22.1.23,IRP Auto,2026-01-27,DEV V.,phase
+QA 22.1.22.2,IRP Auto,2026-01-27,LCT-1,phase
+Infra 25.3.1,IRP Auto,2026-01-27,UAT-1,infra
+TNR 22.1.21.3,IRP Auto,2026-01-27,PPRD,phase
+Param 22.1.22,IRP Auto,2026-01-28,Param/Sisense,phase
+Analyse 22.1.23,IRP Auto,2026-01-28,DEV V.,phase
+QA 22.1.22.2,IRP Auto,2026-01-28,LCT-1,phase
+TNR 22.1.21.3,IRP Auto,2026-01-28,PPRD,phase
+Param 22.1.22,IRP Auto,2026-01-29,Param/Sisense,phase
+Analyse 22.1.23,IRP Auto,2026-01-29,DEV V.,phase
+22.1.21.3004,IRP Auto,2026-01-29,DEV HF,infra
+QA 22.1.22.2,IRP Auto,2026-01-29,LCT-1,phase
+22.1.21.3004,IRP Auto,2026-01-29,PPRD,version
+22.1.22.2003,IRP Auto,2026-01-30,Param/Sisense,version
+Analyse 22.1.23,IRP Auto,2026-01-30,DEV V.,phase
+22.1.21.3005,IRP Auto,2026-01-30,DEV HF,infra
+22.1.22.2003,IRP Auto,2026-01-30,LCT-1,version
+22.1.22.2003,IRP Auto,2026-01-30,UAT-1,version
+22.1.21.3005,IRP Auto,2026-01-30,PPRD,version
+22.1.21.3005,IRP Auto,2026-01-31,Production,version
+T2 Décembre,IRP Auto,2026-02-01,Production,note
+Sprint 22.1.23.1,IRP Auto,2026-02-02,DEV V.,phase
+Infra 25.4.0,IRP Auto,2026-02-02,PERF,infra
+Refresh,IRP Auto,2026-02-02,HFPRD,refresh
+UAT 22.1.22.2,IRP Auto,2026-02-02,UAT-1,phase
+Sprint 22.1.23.1,IRP Auto,2026-02-03,DEV V.,phase
+UAT 22.1.22.2,IRP Auto,2026-02-03,UAT-1,phase
+Sprint 22.1.23.1,IRP Auto,2026-02-04,DEV V.,phase
+UAT 22.1.22.2,IRP Auto,2026-02-04,UAT-1,phase
+22.1.22.2004,IRP Auto,2026-02-05,DEV V.,version
+Infra 25.4.0,IRP Auto,2026-02-05,LCT-1,infra
+UAT 22.1.22.2,IRP Auto,2026-02-05,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-02-06,Param/Sisense,deadline
+22.1.23.1001,IRP Auto,2026-02-06,DEV V.,version
+22.1.21.3006,IRP Auto,2026-02-06,DEV HF,infra
+22.1.23.1001,IRP Auto,2026-02-06,LCT-1,version
+22.1.22.2004,IRP Auto,2026-02-06,UAT-1,version
+22.1.21.3006,IRP Auto,2026-02-06,PPRD,infra
+Correction S10_G00_02_001 KO installation prod,IRP Auto,2026-02-06,Comments,note
+Param 22.1.23,IRP Auto,2026-02-09,Param/Sisense,phase
+22.1.22.2005,IRP Auto,2026-02-09,DEV V.,version
+QA 22.1.23.1,IRP Auto,2026-02-09,LCT-1,phase
+Refresh,IRP Auto,2026-02-09,HFPRD,refresh
+22.1.22.2005,IRP Auto,2026-02-09,UAT-1,version
+22.1.21.3007,IRP Auto,2026-02-09,PPRD,infra
+Blocage PRE00001,IRP Auto,2026-02-09,Comments,note
+Param 22.1.23,IRP Auto,2026-02-10,Param/Sisense,phase
+Sprint 22.1.23.2,IRP Auto,2026-02-10,DEV V.,phase
+QA 22.1.23.1,IRP Auto,2026-02-10,LCT-1,phase
+UAT 22.1.22.2,IRP Auto,2026-02-10,UAT-1,phase
+Bascule JS7,IRP Auto,2026-02-10,PPRD,note
+22.1.21.3007,IRP Auto,2026-02-10,Production,infra
+Param 22.1.23,IRP Auto,2026-02-11,Param/Sisense,phase
+Sprint 22.1.23.2,IRP Auto,2026-02-11,DEV V.,phase
+QA 22.1.23.1,IRP Auto,2026-02-11,LCT-1,phase
+UAT 22.1.22.2,IRP Auto,2026-02-11,UAT-1,phase
+Param 22.1.23,IRP Auto,2026-02-12,Param/Sisense,phase
+Sprint 22.1.23.2,IRP Auto,2026-02-12,DEV V.,phase
+QA 22.1.23.1,IRP Auto,2026-02-12,LCT-1,phase
+UAT 22.1.22.2,IRP Auto,2026-02-12,UAT-1,phase
+22.1.21.3007,IRP Auto,2026-02-12,PPRD,infra
+21.3007 : Blocage PRE00001 exclusivement,IRP Auto,2026-02-12,Comments,note
+Param 22.1.23/12h,IRP Auto,2026-02-13,Param/Sisense,phase
+22.1.23.2001,IRP Auto,2026-02-13,DEV V.,version
+22.1.23.2001,IRP Auto,2026-02-13,LCT-1,version
+UAT 22.1.22.2,IRP Auto,2026-02-13,UAT-1,phase
+22.1.22.2006,IRP Auto,2026-02-13,PPRD,version
+22.1.21.3007,IRP Auto,2026-02-13,Production,infra
+Param 22.1.23,IRP Auto,2026-02-16,Param/Sisense,phase
+Analyse 22.1.24,IRP Auto,2026-02-16,DEV V.,phase
+QA 22.1.23.2,IRP Auto,2026-02-16,LCT-1,phase
+Refresh,IRP Auto,2026-02-16,HFPRD,refresh
+TNR 22.1.22.2,IRP Auto,2026-02-16,PPRD,phase
+Param 22.1.23,IRP Auto,2026-02-17,Param/Sisense,phase
+22.1.23.2002,IRP Auto,2026-02-17,DEV V.,version
+22.1.23.2002,IRP Auto,2026-02-17,LCT-1,version
+TNR 22.1.22.2,IRP Auto,2026-02-17,PPRD,phase
+Param 22.1.23,IRP Auto,2026-02-18,Param/Sisense,phase
+22.1.22.2007,IRP Auto,2026-02-18,DEV V.,version
+QA 22.1.23.2,IRP Auto,2026-02-18,LCT-1,phase
+22.1.22.2007,IRP Auto,2026-02-18,PPRD,version
+Param 22.1.23,IRP Auto,2026-02-19,Param/Sisense,phase
+22.1.22.2008,IRP Auto,2026-02-19,DEV V.,version
+QA 22.1.23.2,IRP Auto,2026-02-19,LCT-1,phase
+22.1.22.2008,IRP Auto,2026-02-19,PPRD,version
+Param 22.1.23/12h,IRP Auto,2026-02-20,Param/Sisense,phase
+22.1.23.2003,IRP Auto,2026-02-20,DEV V.,version
+22.1.23.2003,IRP Auto,2026-02-20,LCT-1,version
+22.1.23.2003,IRP Auto,2026-02-20,UAT-1,version
+TNR 22.1.22.2,IRP Auto,2026-02-20,PPRD,phase
+Refresh UAT1 avec dump PDM la première fois,IRP Auto,2026-02-20,Comments,note
+22.1.22.2008,IRP Auto,2026-02-21,Production,version
+Sprint 22.1.24.1,IRP Auto,2026-02-23,DEV V.,phase
+Refresh,IRP Auto,2026-02-23,HFPRD,refresh
+UAT 22.1.23.2,IRP Auto,2026-02-23,UAT-1,phase
+Sprint 22.1.24.1,IRP Auto,2026-02-24,DEV V.,phase
+UAT 22.1.23.2,IRP Auto,2026-02-24,UAT-1,phase
+HF IRPAUTO-45093,IRP Auto,2026-02-24,Comments,note
+22.1.23.2004,IRP Auto,2026-02-25,DEV V.,version
+22.1.23.2004,IRP Auto,2026-02-25,LCT-1,version
+UAT 22.1.23.2,IRP Auto,2026-02-25,UAT-1,phase
+22.1.22.2009,IRP Auto,2026-02-26,DEV V.,version
+Upgrade sisense,IRP Auto,2026-02-26,LCT-1,infra
+UAT 22.1.23.2,IRP Auto,2026-02-26,UAT-1,phase
+Radiation IRPAUTO-23966,IRP Auto,2026-02-26,Comments,note
+Deadline Sisense,IRP Auto,2026-02-27,Param/Sisense,deadline
+22.1.24.1001,IRP Auto,2026-02-27,DEV V.,version
+22.1.23.2005,IRP Auto,2026-02-27,DEV HF,version
+22.1.24.1001,IRP Auto,2026-02-27,LCT-1,version
+22.1.23.2005,IRP Auto,2026-02-27,UAT-1,version
+22.1.22.2009,IRP Auto,2026-02-27,PPRD,version
+Bascule JS7,IRP Auto,2026-03-01,Production,note
+Param 22.1.24,IRP Auto,2026-03-02,Param/Sisense,phase
+Sprint 22.1.24.2,IRP Auto,2026-03-02,DEV V.,phase
+22.1.23.2006,IRP Auto,2026-03-02,DEV HF,version
+QA 22.1.24.1,IRP Auto,2026-03-02,LCT-1,phase
+Refresh,IRP Auto,2026-03-02,HFPRD,refresh
+22.1.23.2006,IRP Auto,2026-03-02,UAT-1,version
+22.1.22.2010,IRP Auto,2026-03-02,PPRD,version
+Param 22.1.24,IRP Auto,2026-03-03,Param/Sisense,phase
+Sprint 22.1.24.2,IRP Auto,2026-03-03,DEV V.,phase
+QA 22.1.24.1,IRP Auto,2026-03-03,LCT-1,phase
+UAT 22.1.23.2,IRP Auto,2026-03-03,UAT-1,phase
+Param 22.1.24,IRP Auto,2026-03-04,Param/Sisense,phase
+Sprint 22.1.24.2,IRP Auto,2026-03-04,DEV V.,phase
+22.1.23.2007,IRP Auto,2026-03-04,DEV HF,version
+QA 22.1.24.1,IRP Auto,2026-03-04,LCT-1,phase
+22.1.23.2007,IRP Auto,2026-03-04,UAT-1,version
+Param 22.1.24,IRP Auto,2026-03-05,Param/Sisense,phase
+Sprint 22.1.24.2,IRP Auto,2026-03-05,DEV V.,phase
+QA 22.1.24.1,IRP Auto,2026-03-05,LCT-1,phase
+UAT 22.1.23.2,IRP Auto,2026-03-05,UAT-1,phase
+Param 22.1.24/12h,IRP Auto,2026-03-06,Param/Sisense,phase
+22.1.24.2001,IRP Auto,2026-03-06,DEV V.,version
+UAT 22.1.23.2,IRP Auto,2026-03-06,UAT-1,phase
+22.1.23.2007,IRP Auto,2026-03-06,PPRD,version
+Param 22.1.24,IRP Auto,2026-03-09,Param/Sisense,phase
+Analyse 22.1.25,IRP Auto,2026-03-09,DEV V.,phase
+QA 22.1.24.2,IRP Auto,2026-03-09,LCT-1,phase
+TNR 22.1.23.2,IRP Auto,2026-03-09,PPRD,phase
+Param 22.1.24,IRP Auto,2026-03-10,Param/Sisense,phase
+Analyse 22.1.25,IRP Auto,2026-03-10,DEV V.,phase
+22.1.23.2008,IRP Auto,2026-03-10,DEV HF,version
+QA 22.1.24.2,IRP Auto,2026-03-10,LCT-1,phase
+Refresh,IRP Auto,2026-03-10,HFPRD,refresh
+22.1.23.2008,IRP Auto,2026-03-10,PPRD,version
+Param 22.1.24,IRP Auto,2026-03-11,Param/Sisense,phase
+22.1.24.2002,IRP Auto,2026-03-11,DEV V.,version
+22.1.24.2002,IRP Auto,2026-03-11,LCT-1,version
+TNR 22.1.23.2,IRP Auto,2026-03-11,PPRD,phase
+Param 22.1.24,IRP Auto,2026-03-12,Param/Sisense,phase
+Analyse 22.1.25,IRP Auto,2026-03-12,DEV V.,phase
+QA 22.1.24.2,IRP Auto,2026-03-12,LCT-1,phase
+QA,IRP Auto,2026-03-12,PERF,phase
+TNR 22.1.23.2,IRP Auto,2026-03-12,PPRD,phase
+Param 22.1.24/12h,IRP Auto,2026-03-13,Param/Sisense,phase
+22.1.24.2003,IRP Auto,2026-03-13,DEV V.,version
+22.1.24.2003,IRP Auto,2026-03-13,LCT-1,version
+22.1.24.2003,IRP Auto,2026-03-13,UAT-1,version
+TNR 22.1.23.2,IRP Auto,2026-03-13,PPRD,phase
+Migration GED PROD - SOLR -> OpenSearch,IRP Auto,2026-03-13,Comments,note
+22.1.23.2008,IRP Auto,2026-03-14,Production,version
+22.1.23.2008,IRP Auto,2026-03-15,HFPRD,version
+Sprint 22.1.25.1,IRP Auto,2026-03-16,DEV V.,phase
+Refresh,IRP Auto,2026-03-16,HFPRD,refresh
+UAT 22.1.24.1,IRP Auto,2026-03-16,UAT-1,phase
+Sprint 22.1.25.1,IRP Auto,2026-03-17,DEV V.,phase
+Infra 25.3.3,IRP Auto,2026-03-17,UAT-1,infra
+Infra le matin,IRP Auto,2026-03-17,Comments,note
+22.1.24.2004,IRP Auto,2026-03-18,DEV V.,version
+22.1.24.2004,IRP Auto,2026-03-18,LCT-1,version
+UAT 22.1.24.1,IRP Auto,2026-03-18,UAT-1,phase
+22.1.23.2009,IRP Auto,2026-03-18,PPRD,infra
+build jetable radiation + HF infra 25.2.2.b,IRP Auto,2026-03-18,Comments,note
+Sprint 22.1.25.1,IRP Auto,2026-03-19,DEV V.,phase
+UAT 22.1.24.1,IRP Auto,2026-03-19,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-03-20,Param/Sisense,deadline
+22.1.25.1001,IRP Auto,2026-03-20,DEV V.,version
+22.1.25.1001,IRP Auto,2026-03-20,LCT-1,version
+22.1.24.2004,IRP Auto,2026-03-20,UAT-1,version
+Param 22.1.25,IRP Auto,2026-03-23,Param/Sisense,phase
+Sprint 22.1.25.2,IRP Auto,2026-03-23,DEV V.,phase
+QA 22.1.25.1,IRP Auto,2026-03-23,LCT-1,phase
+Refresh,IRP Auto,2026-03-23,HFPRD,refresh
+UAT 22.1.24.2,IRP Auto,2026-03-23,UAT-1,phase
+Param 22.1.25,IRP Auto,2026-03-24,Param/Sisense,phase
+Sprint 22.1.25.2,IRP Auto,2026-03-24,DEV V.,phase
+QA 22.1.25.1,IRP Auto,2026-03-24,LCT-1,phase
+UAT 22.1.24.2,IRP Auto,2026-03-24,UAT-1,phase
+Param 22.1.25,IRP Auto,2026-03-25,Param/Sisense,phase
+22.1.24.2005,IRP Auto,2026-03-25,DEV V.,version
+22.1.24.2005,IRP Auto,2026-03-25,LCT-1,version
+22.1.24.2005,IRP Auto,2026-03-25,UAT-1,version
+Param 22.1.25,IRP Auto,2026-03-26,Param/Sisense,phase
+Sprint 22.1.25.2,IRP Auto,2026-03-26,DEV V.,phase
+QA 22.1.25.1,IRP Auto,2026-03-26,LCT-1,phase
+UAT 22.1.24.2,IRP Auto,2026-03-26,UAT-1,phase
+Param 22.1.25/12h,IRP Auto,2026-03-27,Param/Sisense,phase
+22.1.25.2001,IRP Auto,2026-03-27,DEV V.,version
+22.1.25.2001,IRP Auto,2026-03-27,LCT-1,version
+UAT 22.1.24.2,IRP Auto,2026-03-27,UAT-1,phase
+22.1.24.2005,IRP Auto,2026-03-27,PPRD,version
+PCI IRPAUTO / Bascule à BRDX sans reprise de données,IRP Auto,2026-03-28,Comments,note
+Param 22.1.25,IRP Auto,2026-03-30,Param/Sisense,phase
+Analyse 22.1.26,IRP Auto,2026-03-30,DEV V.,phase
+QA 22.1.25.2,IRP Auto,2026-03-30,LCT-1,phase
+Refresh,IRP Auto,2026-03-30,HFPRD,refresh
+TNR 22.1.24.2,IRP Auto,2026-03-30,PPRD,phase
+Param 22.1.25,IRP Auto,2026-03-31,Param/Sisense,phase
+Analyse 22.1.26,IRP Auto,2026-03-31,DEV V.,phase
+QA 22.1.25.2,IRP Auto,2026-03-31,LCT-1,phase
+TNR 22.1.24.2,IRP Auto,2026-03-31,PPRD,phase
+Param 22.1.25,IRP Auto,2026-04-01,Param/Sisense,phase
+22.1.25.2002,IRP Auto,2026-04-01,DEV V.,version
+22.1.25.2002,IRP Auto,2026-04-01,LCT-1,version
+TNR 22.1.24.2,IRP Auto,2026-04-01,PPRD,phase
+Param 22.1.25,IRP Auto,2026-04-02,Param/Sisense,phase
+Analyse 22.1.26,IRP Auto,2026-04-02,DEV V.,phase
+QA 22.1.25.2,IRP Auto,2026-04-02,LCT-1,phase
+TNR 22.1.24.2,IRP Auto,2026-04-02,PPRD,phase
+Param 22.1.25/12h,IRP Auto,2026-04-03,Param/Sisense,phase
+Analyse 22.1.26,IRP Auto,2026-04-03,DEV V.,phase
+QA 22.1.25.2,IRP Auto,2026-04-03,LCT-1,phase
+22.1.25.2002,IRP Auto,2026-04-03,UAT-1,version
+TNR 22.1.24.2,IRP Auto,2026-04-03,PPRD,phase
+22.1.24.2005,IRP Auto,2026-04-04,Production,version
+22.1.24.2005,IRP Auto,2026-04-05,HFPRD,version
+Sprint 22.1.26.1,IRP Auto,2026-04-06,DEV V.,phase
+Refresh,IRP Auto,2026-04-06,HFPRD,refresh
+Sprint 22.1.26.1,IRP Auto,2026-04-07,DEV V.,phase
+UAT1 22.1.25.2,IRP Auto,2026-04-07,UAT-1,phase
+22.1.25.2003,IRP Auto,2026-04-08,DEV V.,version
+22.1.25.2003,IRP Auto,2026-04-08,LCT-1,version
+UAT1 22.1.25.2,IRP Auto,2026-04-08,UAT-1,phase
+Sprint 22.1.26.1,IRP Auto,2026-04-09,DEV V.,phase
+22.1.24.2006,IRP Auto,2026-04-09,DEV HF,version
+UAT1 22.1.25.2,IRP Auto,2026-04-09,UAT-1,phase
+22.1.24.2006,IRP Auto,2026-04-09,PPRD,version
+Deadline Sisense,IRP Auto,2026-04-10,Param/Sisense,deadline
+22.1.26.1001,IRP Auto,2026-04-10,DEV V.,version
+22.1.26.1001,IRP Auto,2026-04-10,LCT-1,version
+22.1.25.2004,IRP Auto,2026-04-10,UAT-1,version
+Param 22.1.26,IRP Auto,2026-04-13,Param/Sisense,phase
+Sprint 22.1.26.2,IRP Auto,2026-04-13,DEV V.,phase
+QA 22.1.26.1,IRP Auto,2026-04-13,LCT-1,phase
+Refresh,IRP Auto,2026-04-13,HFPRD,refresh
+UAT1 22.1.25.2,IRP Auto,2026-04-13,UAT-1,phase
+Param 22.1.26,IRP Auto,2026-04-14,Param/Sisense,phase
+Sprint 22.1.26.2,IRP Auto,2026-04-14,DEV V.,phase
+QA 22.1.26.1,IRP Auto,2026-04-14,LCT-1,phase
+UAT1 22.1.25.2,IRP Auto,2026-04-14,UAT-1,phase
+Param 22.1.26,IRP Auto,2026-04-15,Param/Sisense,phase
+Sprint 22.1.26.2,IRP Auto,2026-04-15,DEV V.,phase
+22.1.25.2005,IRP Auto,2026-04-15,DEV HF,version
+QA 22.1.26.1,IRP Auto,2026-04-15,LCT-1,phase
+22.1.25.2005,IRP Auto,2026-04-15,UAT-1,version
+Daily à lancer ? Pour ne pas impacter l'upgrade,IRP Auto,2026-04-15,Comments,note
+Param 22.1.26,IRP Auto,2026-04-16,Param/Sisense,phase
+Sprint 22.1.26.2,IRP Auto,2026-04-16,DEV V.,phase
+QA 22.1.26.1,IRP Auto,2026-04-16,LCT-1,phase
+UAT1 22.1.25.2,IRP Auto,2026-04-16,UAT-1,phase
+Infra 25.3.3,IRP Auto,2026-04-16,PPRD,infra
+Param 22.1.26/12h,IRP Auto,2026-04-17,Param/Sisense,phase
+22.1.26.2001,IRP Auto,2026-04-17,DEV V.,version
+22.1.25.2006,IRP Auto,2026-04-17,DEV HF,version
+22.1.26.2001,IRP Auto,2026-04-17,LCT-1,version
+UAT1 22.1.25.2,IRP Auto,2026-04-17,UAT-1,phase
+22.1.25.2006,IRP Auto,2026-04-17,PPRD,version
+Param 22.1.26,IRP Auto,2026-04-20,Param/Sisense,phase
+Sprint 22.1.26.3,IRP Auto,2026-04-20,DEV V.,phase
+QA 22.1.26.2,IRP Auto,2026-04-20,LCT-1,phase
+22.1.26.2001,IRP Auto,2026-04-20,PERF,version
+Refresh,IRP Auto,2026-04-20,HFPRD,refresh
+22.1.25.3002,IRP Auto,2026-04-20,UAT-1,version
+TNR 22.1.25.2,IRP Auto,2026-04-20,PPRD,phase
+Param 22.1.26,IRP Auto,2026-04-21,Param/Sisense,phase
+Sprint 22.1.26.3,IRP Auto,2026-04-21,DEV V.,phase
+QA 22.1.26.2,IRP Auto,2026-04-21,LCT-1,phase
+TNR 22.1.25.2,IRP Auto,2026-04-21,PPRD,phase
+Param 22.1.26,IRP Auto,2026-04-22,Param/Sisense,phase
+Sprint 22.1.26.3,IRP Auto,2026-04-22,DEV V.,phase
+QA 22.1.26.2,IRP Auto,2026-04-22,LCT-1,phase
+TNR 22.1.25.2,IRP Auto,2026-04-22,PPRD,phase
+Param 22.1.26,IRP Auto,2026-04-23,Param/Sisense,phase
+Sprint 22.1.26.3,IRP Auto,2026-04-23,DEV V.,phase
+QA 22.1.26.2,IRP Auto,2026-04-23,LCT-1,phase
+TNR 22.1.25.2,IRP Auto,2026-04-23,PPRD,phase
+Param 22.1.26/12h,IRP Auto,2026-04-24,Param/Sisense,phase
+22.1.26.3001,IRP Auto,2026-04-24,DEV V.,version
+22.1.26.3001,IRP Auto,2026-04-24,LCT-1,version
+22.1.26.3001,IRP Auto,2026-04-24,UAT-1,version
+TNR 22.1.25.2,IRP Auto,2026-04-24,PPRD,phase
+Si no go pour la v25 pas d'install de la v26 UAT-1,IRP Auto,2026-04-24,Comments,note
+Infra 25.3.3,IRP Auto,2026-04-26,Production,infra
+Param 22.1.26,IRP Auto,2026-04-27,Param/Sisense,phase
+22.1.26.3002,IRP Auto,2026-04-27,DEV V.,version
+22.1.26.3002,IRP Auto,2026-04-27,LCT-1,version
+22.1.26.3002,IRP Auto,2026-04-27,UAT-1,version
+Sprint 4 pour les sujets secure à 100%,IRP Auto,2026-04-27,Comments,note
+Param 22.1.26,IRP Auto,2026-04-28,Param/Sisense,phase
+Sprint 22.1.26.4,IRP Auto,2026-04-28,DEV V.,phase
+QA 22.1.26.3,IRP Auto,2026-04-28,LCT-1,phase
+Infra 25.3.3,IRP Auto,2026-04-28,HFPRD,infra
+UAT1 22.1.26.1,IRP Auto,2026-04-28,UAT-1,phase
+Param 22.1.26,IRP Auto,2026-04-29,Param/Sisense,phase
+Sprint 22.1.26.4,IRP Auto,2026-04-29,DEV V.,phase
+QA 22.1.26.3,IRP Auto,2026-04-29,LCT-1,phase
+UAT1 22.1.26.1,IRP Auto,2026-04-29,UAT-1,phase
+Param 22.1.26/12h,IRP Auto,2026-04-30,Param/Sisense,phase
+22.1.26.4001,IRP Auto,2026-04-30,DEV V.,version
+22.1.26.4001,IRP Auto,2026-04-30,LCT-1,version
+22.1.26.4001,IRP Auto,2026-04-30,UAT-1,version
+22.1.25.2006,IRP Auto,2026-05-02,Production,version
+Refresh,IRP Auto,2026-05-03,HFPRD,refresh
+Param 22.1.26,IRP Auto,2026-05-04,Param/Sisense,phase
+Analyse 22.1.27,IRP Auto,2026-05-04,DEV V.,phase
+22.1.25.2007,IRP Auto,2026-05-04,DEV HF,version
+QA 22.1.26.4,IRP Auto,2026-05-04,LCT-1,phase
+22.1.26.4001,IRP Auto,2026-05-04,PERF,version
+22.1.25.2006,IRP Auto,2026-05-04,HFPRD,version
+UAT1 22.1.26.2,IRP Auto,2026-05-04,UAT-1,phase
+Build radiation,IRP Auto,2026-05-04,Comments,note
+Param 22.1.26,IRP Auto,2026-05-05,Param/Sisense,phase
+Analyse 22.1.27,IRP Auto,2026-05-05,DEV V.,phase
+QA 22.1.26.4,IRP Auto,2026-05-05,LCT-1,phase
+UAT1 22.1.26.2,IRP Auto,2026-05-05,UAT-1,phase
+test DRP,IRP Auto,2026-05-05,PPRD,drp
+PPRD off de 9-18h,IRP Auto,2026-05-05,Comments,note
+Param 22.1.26,IRP Auto,2026-05-06,Param/Sisense,phase
+22.1.26.4002,IRP Auto,2026-05-06,DEV V.,version
+22.1.25.2008,IRP Auto,2026-05-06,DEV HF,version
+22.1.26.4002,IRP Auto,2026-05-06,LCT-1,version
+22.1.26.4002,IRP Auto,2026-05-06,PERF,version
+UAT1 22.1.26.2,IRP Auto,2026-05-06,UAT-1,phase
+22.1.25.2008,IRP Auto,2026-05-06,PPRD,version
+Batch,IRP Auto,2026-05-06,Comments,note
+Param 22.1.26,IRP Auto,2026-05-07,Param/Sisense,phase
+Analyse 22.1.27,IRP Auto,2026-05-07,DEV V.,phase
+QA 22.1.26.4,IRP Auto,2026-05-07,LCT-1,phase
+Infra 25.4,IRP Auto,2026-05-07,UAT-1,infra
+Param 22.1.26/12h,IRP Auto,2026-05-08,Param/Sisense,phase
+22.1.26.5001,IRP Auto,2026-05-08,DEV V.,version
+QA 22.1.26.4,IRP Auto,2026-05-08,LCT-1,phase
+Refresh+ 22.1.25.3002,IRP Auto,2026-05-08,PPRD,refresh
+RFRSH PPRD Date empreinte = 08/05/2026 (17h30),IRP Auto,2026-05-08,Comments,note
+22.1.26.5001,IRP Auto,2026-05-09,UAT-1,version
+22.1.27.1001,IRP Auto,2026-05-11,DEV V.,version
+22.1.27.1001,IRP Auto,2026-05-11,LCT-1,version
+22.1.27.1001,IRP Auto,2026-05-11,PERF,version
+Refresh + 22.1.25.2009,IRP Auto,2026-05-11,HFPRD,refresh
+UAT1 22.1.26.3,IRP Auto,2026-05-11,UAT-1,phase
+Sprint 22.1.27.1,IRP Auto,2026-05-12,DEV V.,phase
+UAT1 22.1.26.3,IRP Auto,2026-05-12,UAT-1,phase
+Sprint 22.1.27.1,IRP Auto,2026-05-13,DEV V.,phase
+UAT1 22.1.26.3,IRP Auto,2026-05-13,UAT-1,phase
+Sprint 22.1.27.1,IRP Auto,2026-05-14,DEV V.,phase
+HF.22.1.25.2009,IRP Auto,2026-05-14,Production,version
+Deadline Sisense,IRP Auto,2026-05-15,Param/Sisense,deadline
+22.1.27.1002,IRP Auto,2026-05-15,DEV V.,version
+22.1.26.5002,IRP Auto,2026-05-15,DEV HF,version
+22.1.27.1002,IRP Auto,2026-05-15,LCT-1,version
+22.1.26.5002,IRP Auto,2026-05-15,UAT-1,version
+22.1.26.5002,IRP Auto,2026-05-15,PPRD,version
+Param 22.1.27,IRP Auto,2026-05-18,Param/Sisense,phase
+Sprint 22.1.27.2,IRP Auto,2026-05-18,DEV V.,phase
+22.1.26.6001,IRP Auto,2026-05-18,DEV HF,version
+QA 22.1.27.1,IRP Auto,2026-05-18,LCT-1,phase
+Refresh,IRP Auto,2026-05-18,HFPRD,refresh
+22.1.26.6001,IRP Auto,2026-05-18,UAT-1,version
+TNR 22.1.26.4,IRP Auto,2026-05-18,PPRD,phase
+IRPAUTO-24202,IRP Auto,2026-05-18,Comments,note
+Param 22.1.27,IRP Auto,2026-05-19,Param/Sisense,phase
+Sprint 22.1.27.2,IRP Auto,2026-05-19,DEV V.,phase
+Upgrade Sisense 26.1.0,IRP Auto,2026-05-19,LCT-1,infra
+Upgrade Sisense 25.4.2,IRP Auto,2026-05-19,UAT-1,infra
+TNR 22.1.26.4,IRP Auto,2026-05-19,PPRD,phase
+Upgrade Sisense sans interruption ISIA,IRP Auto,2026-05-19,Comments,note
+Param 22.1.27,IRP Auto,2026-05-20,Param/Sisense,phase
+22.1.27.2001,IRP Auto,2026-05-20,DEV V.,version
+QA 22.1.27.1,IRP Auto,2026-05-20,LCT-1,phase
+22.1.27.2001,IRP Auto,2026-05-20,PERF,version
+TNR 22.1.26.4,IRP Auto,2026-05-20,PPRD,phase
+Param 22.1.27,IRP Auto,2026-05-21,Param/Sisense,phase
+Sprint 22.1.27.2,IRP Auto,2026-05-21,DEV V.,phase
+QA 22.1.27.1,IRP Auto,2026-05-21,LCT-1,phase
+TNR 22.1.26.4,IRP Auto,2026-05-21,PPRD,phase
+Param 22.1.27/12h,IRP Auto,2026-05-22,Param/Sisense,phase
+22.1.27.2003,IRP Auto,2026-05-22,DEV V.,version
+22.1.27.2003,IRP Auto,2026-05-22,LCT-1,version
+TNR 22.1.26.4,IRP Auto,2026-05-22,PPRD,phase
+PCI IRPAUTO / Bascule à BRDX avec reprise de données,IRP Auto,2026-05-23,Comments,note
+Param 22.1.27,IRP Auto,2026-05-25,Param/Sisense,phase
+Analyse 22.1.28,IRP Auto,2026-05-25,DEV V.,phase
+22.1.26.5004,IRP Auto,2026-05-25,DEV HF,version
+QA 22.1.27.2,IRP Auto,2026-05-25,LCT-1,phase
+Refresh,IRP Auto,2026-05-25,HFPRD,refresh
+22.1.26.5004,IRP Auto,2026-05-25,PPRD,version
+éléments batch du HF.22.1.25.2009,IRP Auto,2026-05-25,Comments,note
+Param 22.1.27,IRP Auto,2026-05-26,Param/Sisense,phase
+22.1.27.2004,IRP Auto,2026-05-26,DEV V.,version
+22.1.27.2004,IRP Auto,2026-05-26,LCT-1,version
+22.1.27.2004,IRP Auto,2026-05-26,PERF,version
+TNR 22.1.26.4,IRP Auto,2026-05-26,PPRD,phase
+Param 22.1.27,IRP Auto,2026-05-27,Param/Sisense,phase
+Analyse 22.1.28,IRP Auto,2026-05-27,DEV V.,phase
+QA 22.1.27.2,IRP Auto,2026-05-27,LCT-1,phase
+TNR 22.1.26.4,IRP Auto,2026-05-27,PPRD,phase
+Param 22.1.27,IRP Auto,2026-05-28,Param/Sisense,phase
+Analyse 22.1.28,IRP Auto,2026-05-28,DEV V.,phase
+QA 22.1.27.2,IRP Auto,2026-05-28,LCT-1,phase
+Refresh,IRP Auto,2026-05-28,HFPRD,refresh
+TNR 22.1.26.4,IRP Auto,2026-05-28,PPRD,phase
+Param 22.1.27/12h,IRP Auto,2026-05-29,Param/Sisense,phase
+Analyse 22.1.28,IRP Auto,2026-05-29,DEV V.,phase
+22.1.27.2005,IRP Auto,2026-05-29,LCT-1,version
+22.1.27.2005,IRP Auto,2026-05-29,PERF,version
+22.1.27.2005,IRP Auto,2026-05-29,UAT-1,version
+TNR 22.1.26.4,IRP Auto,2026-05-29,PPRD,phase
+22.1.26.5004,IRP Auto,2026-05-30,Production,version
+22.1.27.2006,IRP Auto,2026-06-01,DEV V.,version
+22.1.27.2006,IRP Auto,2026-06-01,LCT-1,version
+22.1.27.2006,IRP Auto,2026-06-01,PERF,version
+Refresh,IRP Auto,2026-06-01,HFPRD,refresh
+UAT1 22.1.27.1,IRP Auto,2026-06-01,UAT-1,phase
+Sprint 22.1.28.1,IRP Auto,2026-06-02,DEV V.,phase
+22.1.27.2006,IRP Auto,2026-06-02,UAT-1,version
+22.1.26.6003,IRP Auto,2026-06-02,PPRD,version
+Sprint 22.1.28.1,IRP Auto,2026-06-03,DEV V.,phase
+UAT1 22.1.27.1,IRP Auto,2026-06-03,UAT-1,phase
+22.1.26.6004,IRP Auto,2026-06-03,PPRD,version
+Sprint 22.1.28.1,IRP Auto,2026-06-04,DEV V.,phase
+Refresh,IRP Auto,2026-06-04,HFPRD,refresh
+UAT1 22.1.27.1,IRP Auto,2026-06-04,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-06-05,Param/Sisense,deadline
+Sprint 22.1.28.1,IRP Auto,2026-06-05,DEV V.,phase
+22.1.27.3001,IRP Auto,2026-06-05,PERF,version
+22.1.27.2008,IRP Auto,2026-06-05,UAT-1,version
+Param 22.1.28,IRP Auto,2026-06-08,Param/Sisense,phase
+Sprint 22.1.28.2,IRP Auto,2026-06-08,DEV V.,phase
+QA 22.1.28.1,IRP Auto,2026-06-08,LCT-1,phase
+Refresh,IRP Auto,2026-06-08,HFPRD,refresh
+UAT1 22.1.27.2,IRP Auto,2026-06-08,UAT-1,phase
+HF batches,IRP Auto,2026-06-08,Comments,note
+Param 22.1.28,IRP Auto,2026-06-09,Param/Sisense,phase
+Sprint 22.1.28.2,IRP Auto,2026-06-09,DEV V.,phase
+QA 22.1.28.1,IRP Auto,2026-06-09,LCT-1,phase
+22.1.26.5006,IRP Auto,2026-06-09,HFPRD,version
+22.1.27.2010,IRP Auto,2026-06-09,UAT-1,version
+Param 22.1.28,IRP Auto,2026-06-10,Param/Sisense,phase
+Sprint 22.1.28.2,IRP Auto,2026-06-10,DEV V.,phase
+22.1.27.2011,IRP Auto,2026-06-10,DEV HF,version
+22.1.27.2011,IRP Auto,2026-06-10,LCT-1,version
+22.1.27.2011,IRP Auto,2026-06-10,PERF,version
+22.1.27.2011,IRP Auto,2026-06-10,UAT-1,version
+Param 22.1.28,IRP Auto,2026-06-11,Param/Sisense,phase
+Sprint 22.1.28.2,IRP Auto,2026-06-11,DEV V.,phase
+QA 22.1.28.1,IRP Auto,2026-06-11,LCT-1,phase
+UAT1 22.1.27.2,IRP Auto,2026-06-11,UAT-1,phase
+Infra 25.4,IRP Auto,2026-06-11,PPRD,infra
+Param 22.1.28/12h,IRP Auto,2026-06-12,Param/Sisense,phase
+22.1.28.2001,IRP Auto,2026-06-12,DEV V.,version
+22.1.28.2001,IRP Auto,2026-06-12,LCT-1,version
+UAT1 22.1.27.2,IRP Auto,2026-06-12,UAT-1,phase
+22.1.27.2011,IRP Auto,2026-06-12,PPRD,version
+Param 22.1.28,IRP Auto,2026-06-15,Param/Sisense,phase
+Analyse 22.1.29,IRP Auto,2026-06-15,DEV V.,phase
+QA 22.1.28.2,IRP Auto,2026-06-15,LCT-1,phase
+Refresh,IRP Auto,2026-06-15,HFPRD,refresh
+TNR 22.1.27.2,IRP Auto,2026-06-15,PPRD,phase
+Param 22.1.28,IRP Auto,2026-06-16,Param/Sisense,phase
+Analyse 22.1.29,IRP Auto,2026-06-16,DEV V.,phase
+QA 22.1.28.2,IRP Auto,2026-06-16,LCT-1,phase
+TNR 22.1.27.2,IRP Auto,2026-06-16,PPRD,phase
+Param 22.1.28,IRP Auto,2026-06-17,Param/Sisense,phase
+Analyse 22.1.29,IRP Auto,2026-06-17,DEV V.,phase
+QA 22.1.28.2,IRP Auto,2026-06-17,LCT-1,phase
+TNR 22.1.27.2,IRP Auto,2026-06-17,PPRD,phase
+Param 22.1.28,IRP Auto,2026-06-18,Param/Sisense,phase
+Analyse 22.1.29,IRP Auto,2026-06-18,DEV V.,phase
+QA 22.1.28.2,IRP Auto,2026-06-18,LCT-1,phase
+TNR 22.1.27.2,IRP Auto,2026-06-18,PPRD,phase
+Param 22.1.28/12h,IRP Auto,2026-06-19,Param/Sisense,phase
+Analyse 22.1.29,IRP Auto,2026-06-19,DEV V.,phase
+QA 22.1.28.2,IRP Auto,2026-06-19,LCT-1,phase
+22.1.28.1001,IRP Auto,2026-06-19,UAT-1,version
+TNR 22.1.27.2,IRP Auto,2026-06-19,PPRD,phase
+22.1.27.2011,IRP Auto,2026-06-20,Production,version
+Sprint 22.1.29.1,IRP Auto,2026-06-22,DEV V.,phase
+Refresh,IRP Auto,2026-06-22,HFPRD,refresh
+UAT1 22.1.28.1,IRP Auto,2026-06-22,UAT-1,phase
+Sprint 22.1.29.1,IRP Auto,2026-06-23,DEV V.,phase
+UAT1 22.1.28.1,IRP Auto,2026-06-23,UAT-1,phase
+Sprint 22.1.29.1,IRP Auto,2026-06-24,DEV V.,phase
+UAT1 22.1.28.1,IRP Auto,2026-06-24,UAT-1,phase
+Sprint 22.1.29.1,IRP Auto,2026-06-25,DEV V.,phase
+UAT1 22.1.28.1,IRP Auto,2026-06-25,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-06-26,Param/Sisense,deadline
+22.1.29.1001,IRP Auto,2026-06-26,DEV V.,version
+22.1.29.1001,IRP Auto,2026-06-26,LCT-1,version
+22.1.28.2001,IRP Auto,2026-06-26,UAT-1,version
+Refresh uat-1 ???,IRP Auto,2026-06-26,Comments,note
+Infra 25.4,IRP Auto,2026-06-28,Production,infra
+Param 22.1.29,IRP Auto,2026-06-29,Param/Sisense,phase
+Sprint 22.1.29.2,IRP Auto,2026-06-29,DEV V.,phase
+QA 22.1.29.1,IRP Auto,2026-06-29,LCT-1,phase
+Refresh,IRP Auto,2026-06-29,HFPRD,refresh
+UAT1 22.1.28.2,IRP Auto,2026-06-29,UAT-1,phase
+Param 22.1.29,IRP Auto,2026-06-30,Param/Sisense,phase
+Sprint 22.1.29.2,IRP Auto,2026-06-30,DEV V.,phase
+QA 22.1.29.1,IRP Auto,2026-06-30,LCT-1,phase
+UAT1 22.1.28.2,IRP Auto,2026-06-30,UAT-1,phase
+Param 22.1.29,IRP Auto,2026-07-01,Param/Sisense,phase
+Sprint 22.1.29.2,IRP Auto,2026-07-01,DEV V.,phase
+QA 22.1.29.1,IRP Auto,2026-07-01,LCT-1,phase
+UAT1 22.1.28.2,IRP Auto,2026-07-01,UAT-1,phase
+Param 22.1.29,IRP Auto,2026-07-02,Param/Sisense,phase
+Sprint 22.1.29.2,IRP Auto,2026-07-02,DEV V.,phase
+QA 22.1.29.1,IRP Auto,2026-07-02,LCT-1,phase
+Infra 26.1,IRP Auto,2026-07-02,UAT-1,infra
+Param 22.1.29/12h,IRP Auto,2026-07-03,Param/Sisense,phase
+22.1.29.2001,IRP Auto,2026-07-03,DEV V.,version
+22.1.29.2001,IRP Auto,2026-07-03,LCT-1,version
+UAT1 22.1.28.2,IRP Auto,2026-07-03,UAT-1,phase
+22.1.28.2001,IRP Auto,2026-07-03,PPRD,version
+Param 22.1.29,IRP Auto,2026-07-06,Param/Sisense,phase
+Sprint 22.1.29.3,IRP Auto,2026-07-06,DEV V.,phase
+QA 22.1.29.2,IRP Auto,2026-07-06,LCT-1,phase
+Refresh,IRP Auto,2026-07-06,HFPRD,refresh
+TNR 22.1.28.2,IRP Auto,2026-07-06,PPRD,phase
+Param 22.1.29,IRP Auto,2026-07-07,Param/Sisense,phase
+Sprint 22.1.29.3,IRP Auto,2026-07-07,DEV V.,phase
+QA 22.1.29.2,IRP Auto,2026-07-07,LCT-1,phase
+TNR 22.1.28.2,IRP Auto,2026-07-07,PPRD,phase
+Param 22.1.29,IRP Auto,2026-07-08,Param/Sisense,phase
+Sprint 22.1.29.3,IRP Auto,2026-07-08,DEV V.,phase
+QA 22.1.29.2,IRP Auto,2026-07-08,LCT-1,phase
+TNR 22.1.28.2,IRP Auto,2026-07-08,PPRD,phase
+Param 22.1.29,IRP Auto,2026-07-09,Param/Sisense,phase
+Sprint 22.1.29.3,IRP Auto,2026-07-09,DEV V.,phase
+QA 22.1.29.2,IRP Auto,2026-07-09,LCT-1,phase
+TNR 22.1.28.2,IRP Auto,2026-07-09,PPRD,phase
+Param 22.1.29/12h,IRP Auto,2026-07-10,Param/Sisense,phase
+22.1.29.3001,IRP Auto,2026-07-10,DEV V.,version
+22.1.29.3001,IRP Auto,2026-07-10,LCT-1,version
+22.1.29.1001,IRP Auto,2026-07-10,UAT-1,version
+TNR 22.1.28.2,IRP Auto,2026-07-10,PPRD,phase
+22.1.28.2001,IRP Auto,2026-07-11,Production,version
+Param 22.1.29,IRP Auto,2026-07-13,Param/Sisense,phase
+Sprint 22.1.29.4,IRP Auto,2026-07-13,DEV V.,phase
+QA 22.1.29.3,IRP Auto,2026-07-13,LCT-1,phase
+Refresh,IRP Auto,2026-07-13,HFPRD,refresh
+Param 22.1.29,IRP Auto,2026-07-14,Param/Sisense,phase
+Sprint 22.1.29.4,IRP Auto,2026-07-14,DEV V.,phase
+QA 22.1.29.3,IRP Auto,2026-07-14,LCT-1,phase
+Param 22.1.29,IRP Auto,2026-07-15,Param/Sisense,phase
+Sprint 22.1.29.4,IRP Auto,2026-07-15,DEV V.,phase
+QA 22.1.29.3,IRP Auto,2026-07-15,LCT-1,phase
+UAT1 22.1.29.1,IRP Auto,2026-07-15,UAT-1,phase
+Param 22.1.29,IRP Auto,2026-07-16,Param/Sisense,phase
+Sprint 22.1.29.4,IRP Auto,2026-07-16,DEV V.,phase
+QA 22.1.29.3,IRP Auto,2026-07-16,LCT-1,phase
+UAT1 22.1.29.1,IRP Auto,2026-07-16,UAT-1,phase
+Param 22.1.29/12h,IRP Auto,2026-07-17,Param/Sisense,phase
+22.1.29.4001,IRP Auto,2026-07-17,DEV V.,version
+22.1.29.4001,IRP Auto,2026-07-17,LCT-1,version
+22.1.29.2001,IRP Auto,2026-07-17,UAT-1,version
+Param 22.1.29,IRP Auto,2026-07-20,Param/Sisense,phase
+Analyse 22.1.30,IRP Auto,2026-07-20,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-20,LCT-1,phase
+UAT1 22.1.29.2,IRP Auto,2026-07-20,UAT-1,phase
+Param 22.1.29,IRP Auto,2026-07-21,Param/Sisense,phase
+Analyse 22.1.30,IRP Auto,2026-07-21,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-21,LCT-1,phase
+UAT1 22.1.29.2,IRP Auto,2026-07-21,UAT-1,phase
+Param 22.1.29,IRP Auto,2026-07-22,Param/Sisense,phase
+Analyse 22.1.30,IRP Auto,2026-07-22,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-22,LCT-1,phase
+UAT1 22.1.29.2,IRP Auto,2026-07-22,UAT-1,phase
+Param 22.1.29,IRP Auto,2026-07-23,Param/Sisense,phase
+Analyse 22.1.30,IRP Auto,2026-07-23,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-23,LCT-1,phase
+UAT1 22.1.29.2,IRP Auto,2026-07-23,UAT-1,phase
+Param 22.1.29/12h,IRP Auto,2026-07-24,Param/Sisense,phase
+Analyse 22.1.30,IRP Auto,2026-07-24,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-24,LCT-1,phase
+22.1.29.3001,IRP Auto,2026-07-24,UAT-1,version
+Sprint 22.1.30.1,IRP Auto,2026-07-27,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-27,LCT-1,phase
+UAT1 22.1.29.3,IRP Auto,2026-07-27,UAT-1,phase
+Sprint 22.1.30.1,IRP Auto,2026-07-28,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-28,LCT-1,phase
+UAT1 22.1.29.3,IRP Auto,2026-07-28,UAT-1,phase
+Sprint 22.1.30.1,IRP Auto,2026-07-29,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-29,LCT-1,phase
+UAT1 22.1.29.3,IRP Auto,2026-07-29,UAT-1,phase
+Sprint 22.1.30.1,IRP Auto,2026-07-30,DEV V.,phase
+QA 22.1.29.4,IRP Auto,2026-07-30,LCT-1,phase
+UAT1 22.1.29.3,IRP Auto,2026-07-30,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-07-31,Param/Sisense,deadline
+22.1.30.1001,IRP Auto,2026-07-31,DEV V.,version
+22.1.30.1001,IRP Auto,2026-07-31,LCT-1,version
+22.1.29.4001,IRP Auto,2026-07-31,UAT-1,version
+Frozen Zone IRP,IRP Auto,2026-08-01,Comments,note
+Frozen Zone IRP,IRP Auto,2026-08-02,Comments,note
+Param 22.1.30,IRP Auto,2026-08-03,Param/Sisense,phase
+Sprint 22.1.30.2,IRP Auto,2026-08-03,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-03,LCT-1,phase
+UAT1 22.1.29.4,IRP Auto,2026-08-03,UAT-1,phase
+Frozen Zone IRP,IRP Auto,2026-08-03,Comments,note
+Param 22.1.30,IRP Auto,2026-08-04,Param/Sisense,phase
+Sprint 22.1.30.2,IRP Auto,2026-08-04,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-04,LCT-1,phase
+UAT1 22.1.29.4,IRP Auto,2026-08-04,UAT-1,phase
+Frozen Zone IRP,IRP Auto,2026-08-04,Comments,note
+Param 22.1.30,IRP Auto,2026-08-05,Param/Sisense,phase
+Sprint 22.1.30.2,IRP Auto,2026-08-05,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-05,LCT-1,phase
+UAT1 22.1.29.4,IRP Auto,2026-08-05,UAT-1,phase
+Frozen Zone IRP,IRP Auto,2026-08-05,Comments,note
+Param 22.1.30,IRP Auto,2026-08-06,Param/Sisense,phase
+Sprint 22.1.30.2,IRP Auto,2026-08-06,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-06,LCT-1,phase
+UAT1 22.1.29.4,IRP Auto,2026-08-06,UAT-1,phase
+Frozen Zone IRP,IRP Auto,2026-08-06,Comments,note
+Param 22.1.30/12h,IRP Auto,2026-08-07,Param/Sisense,phase
+22.1.30.2001,IRP Auto,2026-08-07,DEV V.,version
+22.1.30.2001,IRP Auto,2026-08-07,LCT-1,version
+UAT1 22.1.29.4,IRP Auto,2026-08-07,UAT-1,phase
+22.1.29.4001,IRP Auto,2026-08-07,PPRD,version
+Frozen Zone IRP,IRP Auto,2026-08-07,Comments,note
+Frozen Zone IRP,IRP Auto,2026-08-08,Comments,note
+Frozen Zone IRP,IRP Auto,2026-08-09,Comments,note
+Param 22.1.30,IRP Auto,2026-08-10,Param/Sisense,phase
+Analyse 22.1.31,IRP Auto,2026-08-10,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-10,LCT-1,phase
+TNR 22.1.29.4,IRP Auto,2026-08-10,PPRD,phase
+Frozen Zone IRP,IRP Auto,2026-08-10,Comments,note
+Param 22.1.30,IRP Auto,2026-08-11,Param/Sisense,phase
+Analyse 22.1.31,IRP Auto,2026-08-11,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-11,LCT-1,phase
+TNR 22.1.29.4,IRP Auto,2026-08-11,PPRD,phase
+Frozen Zone IRP,IRP Auto,2026-08-11,Comments,note
+Param 22.1.30,IRP Auto,2026-08-12,Param/Sisense,phase
+Analyse 22.1.31,IRP Auto,2026-08-12,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-12,LCT-1,phase
+TNR 22.1.29.4,IRP Auto,2026-08-12,PPRD,phase
+Frozen Zone IRP,IRP Auto,2026-08-12,Comments,note
+Param 22.1.30,IRP Auto,2026-08-13,Param/Sisense,phase
+Analyse 22.1.31,IRP Auto,2026-08-13,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-13,LCT-1,phase
+TNR 22.1.29.4,IRP Auto,2026-08-13,PPRD,phase
+Frozen Zone IRP,IRP Auto,2026-08-13,Comments,note
+Param 22.1.30/12h,IRP Auto,2026-08-14,Param/Sisense,phase
+Analyse 22.1.31,IRP Auto,2026-08-14,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-14,LCT-1,phase
+Frozen Zone IRP,IRP Auto,2026-08-14,Comments,note
+Frozen Zone IRP,IRP Auto,2026-08-15,Comments,note
+Param 22.1.30,IRP Auto,2026-08-17,Param/Sisense,phase
+Sprint 22.1.31.1,IRP Auto,2026-08-17,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-17,LCT-1,phase
+TNR 22.1.29.4,IRP Auto,2026-08-17,PPRD,phase
+Param 22.1.30,IRP Auto,2026-08-18,Param/Sisense,phase
+Sprint 22.1.31.1,IRP Auto,2026-08-18,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-18,LCT-1,phase
+TNR 22.1.29.4,IRP Auto,2026-08-18,PPRD,phase
+Param 22.1.30,IRP Auto,2026-08-19,Param/Sisense,phase
+Sprint 22.1.31.1,IRP Auto,2026-08-19,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-19,LCT-1,phase
+TNR 22.1.29.4,IRP Auto,2026-08-19,PPRD,phase
+Sprint 22.1.31.1,IRP Auto,2026-08-20,DEV V.,phase
+QA 22.1.30.2,IRP Auto,2026-08-20,LCT-1,phase
+22.1.31.1001,IRP Auto,2026-08-21,DEV V.,version
+22.1.31.1001,IRP Auto,2026-08-21,LCT-1,version
+22.1.30.2001,IRP Auto,2026-08-21,UAT-1,version
+22.1.29,IRP Auto,2026-08-22,Production,version
+Sprint 22.1.31.2,IRP Auto,2026-08-24,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-24,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-08-24,UAT-1,phase
+Sprint 22.1.31.2,IRP Auto,2026-08-25,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-25,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-08-25,UAT-1,phase
+Sprint 22.1.31.2,IRP Auto,2026-08-26,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-26,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-08-26,UAT-1,phase
+Sprint 22.1.31.2,IRP Auto,2026-08-27,DEV V.,phase
+QA 22.1.30.1,IRP Auto,2026-08-27,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-08-27,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-08-28,Param/Sisense,deadline
+22.1.31.2001,IRP Auto,2026-08-28,DEV V.,version
+22.1.31.2001,IRP Auto,2026-08-28,LCT-1,version
+22.1.30.3001,IRP Auto,2026-08-28,UAT-1,version
+Param 22.1.31,IRP Auto,2026-08-31,Param/Sisense,phase
+Sprint 22.1.31.3,IRP Auto,2026-08-31,DEV V.,phase
+QA 22.1.31.2,IRP Auto,2026-08-31,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-08-31,UAT-1,phase
+Param 22.1.31,IRP Auto,2026-09-01,Param/Sisense,phase
+Sprint 22.1.31.3,IRP Auto,2026-09-01,DEV V.,phase
+QA 22.1.31.2,IRP Auto,2026-09-01,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-09-01,UAT-1,phase
+Param 22.1.31,IRP Auto,2026-09-02,Param/Sisense,phase
+Sprint 22.1.31.3,IRP Auto,2026-09-02,DEV V.,phase
+QA 22.1.31.2,IRP Auto,2026-09-02,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-09-02,UAT-1,phase
+Param 22.1.31,IRP Auto,2026-09-03,Param/Sisense,phase
+Sprint 22.1.31.3,IRP Auto,2026-09-03,DEV V.,phase
+QA 22.1.31.2,IRP Auto,2026-09-03,LCT-1,phase
+UAT1 22.1.30,IRP Auto,2026-09-03,UAT-1,phase
+Param 22.1.31/12h,IRP Auto,2026-09-04,Param/Sisense,phase
+22.1.31.3001,IRP Auto,2026-09-04,DEV V.,version
+22.1.31.3001,IRP Auto,2026-09-04,LCT-1,version
+UAT1 22.1.30,IRP Auto,2026-09-04,UAT-1,phase
+22.1.30.3001,IRP Auto,2026-09-04,PPRD,version
+DRP,IRP Auto,2026-09-05,Production,infra
+DRP DXC ????,IRP Auto,2026-09-05,Comments,note
+Param 22.1.31,IRP Auto,2026-09-07,Param/Sisense,phase
+Analyse 22.1.32,IRP Auto,2026-09-07,DEV V.,phase
+QA 22.1.31.3,IRP Auto,2026-09-07,LCT-1,phase
+TNR 22.1.30,IRP Auto,2026-09-07,PPRD,phase
+Param 22.1.31,IRP Auto,2026-09-08,Param/Sisense,phase
+Analyse 22.1.32,IRP Auto,2026-09-08,DEV V.,phase
+QA 22.1.31.3,IRP Auto,2026-09-08,LCT-1,phase
+TNR 22.1.30,IRP Auto,2026-09-08,PPRD,phase
+Param 22.1.31,IRP Auto,2026-09-09,Param/Sisense,phase
+Analyse 22.1.32,IRP Auto,2026-09-09,DEV V.,phase
+QA 22.1.31.3,IRP Auto,2026-09-09,LCT-1,phase
+TNR 22.1.30,IRP Auto,2026-09-09,PPRD,phase
+Param 22.1.31,IRP Auto,2026-09-10,Param/Sisense,phase
+Analyse 22.1.32,IRP Auto,2026-09-10,DEV V.,phase
+QA 22.1.31.3,IRP Auto,2026-09-10,LCT-1,phase
+TNR 22.1.30,IRP Auto,2026-09-10,PPRD,phase
+Param 22.1.31/12h,IRP Auto,2026-09-11,Param/Sisense,phase
+Analyse 22.1.32,IRP Auto,2026-09-11,DEV V.,phase
+QA 22.1.31.3,IRP Auto,2026-09-11,LCT-1,phase
+22.1.31.3001,IRP Auto,2026-09-11,UAT-1,version
+TNR 22.1.30,IRP Auto,2026-09-11,PPRD,phase
+22.1.30,IRP Auto,2026-09-12,Production,version
+Sprint 22.1.32.1,IRP Auto,2026-09-14,DEV V.,phase
+UAT1 22.1.31,IRP Auto,2026-09-14,UAT-1,phase
+Sprint 22.1.32.1,IRP Auto,2026-09-15,DEV V.,phase
+UAT1 22.1.31,IRP Auto,2026-09-15,UAT-1,phase
+Sprint 22.1.32.1,IRP Auto,2026-09-16,DEV V.,phase
+UAT1 22.1.31,IRP Auto,2026-09-16,UAT-1,phase
+Sprint 22.1.32.1,IRP Auto,2026-09-17,DEV V.,phase
+UAT1 22.1.31,IRP Auto,2026-09-17,UAT-1,phase
+Infra 26.1,IRP Auto,2026-09-17,PPRD,infra
+Deadline Sisense,IRP Auto,2026-09-18,Param/Sisense,deadline
+22.1.32.1001,IRP Auto,2026-09-18,DEV V.,version
+22.1.32.1001,IRP Auto,2026-09-18,LCT-1,version
+22.1.31.4001,IRP Auto,2026-09-18,UAT-1,version
+Param 22.1.32,IRP Auto,2026-09-21,Param/Sisense,phase
+Sprint 22.1.32.2,IRP Auto,2026-09-21,DEV V.,phase
+QA 22.1.32.1,IRP Auto,2026-09-21,LCT-1,phase
+UAT1 22.1.31,IRP Auto,2026-09-21,UAT-1,phase
+Param 22.1.32,IRP Auto,2026-09-22,Param/Sisense,phase
+Sprint 22.1.32.2,IRP Auto,2026-09-22,DEV V.,phase
+QA 22.1.32.1,IRP Auto,2026-09-22,LCT-1,phase
+UAT1 22.1.31,IRP Auto,2026-09-22,UAT-1,phase
+Param 22.1.32,IRP Auto,2026-09-23,Param/Sisense,phase
+Sprint 22.1.32.2,IRP Auto,2026-09-23,DEV V.,phase
+QA 22.1.32.1,IRP Auto,2026-09-23,LCT-1,phase
+UAT1 22.1.31,IRP Auto,2026-09-23,UAT-1,phase
+Param 22.1.32,IRP Auto,2026-09-24,Param/Sisense,phase
+Sprint 22.1.32.2,IRP Auto,2026-09-24,DEV V.,phase
+QA 22.1.32.1,IRP Auto,2026-09-24,LCT-1,phase
+UAT1 22.1.31,IRP Auto,2026-09-24,UAT-1,phase
+Param 22.1.32/12h,IRP Auto,2026-09-25,Param/Sisense,phase
+22.1.32.2001,IRP Auto,2026-09-25,DEV V.,version
+22.1.32.2001,IRP Auto,2026-09-25,LCT-1,version
+UAT1 22.1.31,IRP Auto,2026-09-25,UAT-1,phase
+22.1.31.4001,IRP Auto,2026-09-25,PPRD,version
+Infra 26.1,IRP Auto,2026-09-27,Production,infra
+Param 22.1.32,IRP Auto,2026-09-28,Param/Sisense,phase
+Analyse 22.1.33,IRP Auto,2026-09-28,DEV V.,phase
+QA 22.1.32.2,IRP Auto,2026-09-28,LCT-1,phase
+TNR 22.1.31,IRP Auto,2026-09-28,PPRD,phase
+Param 22.1.32,IRP Auto,2026-09-29,Param/Sisense,phase
+Analyse 22.1.33,IRP Auto,2026-09-29,DEV V.,phase
+QA 22.1.32.2,IRP Auto,2026-09-29,LCT-1,phase
+TNR 22.1.31,IRP Auto,2026-09-29,PPRD,phase
+Param 22.1.32,IRP Auto,2026-09-30,Param/Sisense,phase
+Analyse 22.1.33,IRP Auto,2026-09-30,DEV V.,phase
+QA 22.1.32.2,IRP Auto,2026-09-30,LCT-1,phase
+TNR 22.1.31,IRP Auto,2026-09-30,PPRD,phase
+Param 22.1.32,IRP Auto,2026-10-01,Param/Sisense,phase
+Analyse 22.1.33,IRP Auto,2026-10-01,DEV V.,phase
+QA 22.1.32.2,IRP Auto,2026-10-01,LCT-1,phase
+Infra 26.2,IRP Auto,2026-10-01,UAT-1,infra
+TNR 22.1.31,IRP Auto,2026-10-01,PPRD,phase
+Param 22.1.32/12h,IRP Auto,2026-10-02,Param/Sisense,phase
+Analyse 22.1.33,IRP Auto,2026-10-02,DEV V.,phase
+QA 22.1.32.2,IRP Auto,2026-10-02,LCT-1,phase
+22.1.32.2001,IRP Auto,2026-10-02,UAT-1,version
+TNR 22.1.31,IRP Auto,2026-10-02,PPRD,phase
+22.1.31,IRP Auto,2026-10-03,Production,version
+Sprint 22.1.33.1,IRP Auto,2026-10-05,DEV V.,phase
+UAT1 22.1.32,IRP Auto,2026-10-05,UAT-1,phase
+Sprint 22.1.33.1,IRP Auto,2026-10-06,DEV V.,phase
+UAT1 22.1.32,IRP Auto,2026-10-06,UAT-1,phase
+Sprint 22.1.33.1,IRP Auto,2026-10-07,DEV V.,phase
+UAT1 22.1.32,IRP Auto,2026-10-07,UAT-1,phase
+Sprint 22.1.33.1,IRP Auto,2026-10-08,DEV V.,phase
+UAT1 22.1.32,IRP Auto,2026-10-08,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-10-09,Param/Sisense,deadline
+22.1.33.1001,IRP Auto,2026-10-09,DEV V.,version
+22.1.33.1001,IRP Auto,2026-10-09,LCT-1,version
+22.1.32.3001,IRP Auto,2026-10-09,UAT-1,version
+Param 22.1.33,IRP Auto,2026-10-12,Param/Sisense,phase
+Sprint 22.1.33.2,IRP Auto,2026-10-12,DEV V.,phase
+QA 22.1.33.1,IRP Auto,2026-10-12,LCT-1,phase
+UAT1 22.1.32,IRP Auto,2026-10-12,UAT-1,phase
+Param 22.1.33,IRP Auto,2026-10-13,Param/Sisense,phase
+Sprint 22.1.33.2,IRP Auto,2026-10-13,DEV V.,phase
+QA 22.1.33.1,IRP Auto,2026-10-13,LCT-1,phase
+UAT1 22.1.32,IRP Auto,2026-10-13,UAT-1,phase
+Param 22.1.33,IRP Auto,2026-10-14,Param/Sisense,phase
+Sprint 22.1.33.2,IRP Auto,2026-10-14,DEV V.,phase
+QA 22.1.33.1,IRP Auto,2026-10-14,LCT-1,phase
+UAT1 22.1.32,IRP Auto,2026-10-14,UAT-1,phase
+Param 22.1.33,IRP Auto,2026-10-15,Param/Sisense,phase
+Sprint 22.1.33.2,IRP Auto,2026-10-15,DEV V.,phase
+QA 22.1.33.1,IRP Auto,2026-10-15,LCT-1,phase
+UAT1 22.1.32,IRP Auto,2026-10-15,UAT-1,phase
+Param 22.1.33/12h,IRP Auto,2026-10-16,Param/Sisense,phase
+22.1.33.2001,IRP Auto,2026-10-16,DEV V.,version
+22.1.33.2001,IRP Auto,2026-10-16,LCT-1,version
+UAT1 22.1.32,IRP Auto,2026-10-16,UAT-1,phase
+22.1.32.3001,IRP Auto,2026-10-16,PPRD,version
+PCI IRPAUTO,IRP Auto,2026-10-17,Comments,note
+Param 22.1.33,IRP Auto,2026-10-19,Param/Sisense,phase
+Analyse 22.1.34,IRP Auto,2026-10-19,DEV V.,phase
+QA 22.1.33.2,IRP Auto,2026-10-19,LCT-1,phase
+TNR 22.1.32,IRP Auto,2026-10-19,PPRD,phase
+Param 22.1.33,IRP Auto,2026-10-20,Param/Sisense,phase
+Analyse 22.1.34,IRP Auto,2026-10-20,DEV V.,phase
+QA 22.1.33.2,IRP Auto,2026-10-20,LCT-1,phase
+TNR 22.1.32,IRP Auto,2026-10-20,PPRD,phase
+Conseil admin / Augmentations,IRP Auto,2026-10-20,Comments,note
+Param 22.1.33,IRP Auto,2026-10-21,Param/Sisense,phase
+Analyse 22.1.34,IRP Auto,2026-10-21,DEV V.,phase
+QA 22.1.33.2,IRP Auto,2026-10-21,LCT-1,phase
+TNR 22.1.32,IRP Auto,2026-10-21,PPRD,phase
+Conseil admin / Augmentations,IRP Auto,2026-10-21,Comments,note
+Param 22.1.33,IRP Auto,2026-10-22,Param/Sisense,phase
+Analyse 22.1.34,IRP Auto,2026-10-22,DEV V.,phase
+QA 22.1.33.2,IRP Auto,2026-10-22,LCT-1,phase
+TNR 22.1.32,IRP Auto,2026-10-22,PPRD,phase
+Param 22.1.33/12h,IRP Auto,2026-10-23,Param/Sisense,phase
+Analyse 22.1.34,IRP Auto,2026-10-23,DEV V.,phase
+QA 22.1.33.2,IRP Auto,2026-10-23,LCT-1,phase
+22.1.33.2001,IRP Auto,2026-10-23,UAT-1,version
+TNR 22.1.32,IRP Auto,2026-10-23,PPRD,phase
+22.1.32,IRP Auto,2026-10-24,Production,version
+Sprint 22.1.34.1,IRP Auto,2026-10-26,DEV V.,phase
+UAT1 22.1.33,IRP Auto,2026-10-26,UAT-1,phase
+Sprint 22.1.34.1,IRP Auto,2026-10-27,DEV V.,phase
+UAT1 22.1.33,IRP Auto,2026-10-27,UAT-1,phase
+Sprint 22.1.34.1,IRP Auto,2026-10-28,DEV V.,phase
+UAT1 22.1.33,IRP Auto,2026-10-28,UAT-1,phase
+Sprint 22.1.34.1,IRP Auto,2026-10-29,DEV V.,phase
+UAT1 22.1.33,IRP Auto,2026-10-29,UAT-1,phase
+Deadline Sisense,IRP Auto,2026-10-30,Param/Sisense,deadline
+22.1.34.1001,IRP Auto,2026-10-30,DEV V.,version
+22.1.34.1001,IRP Auto,2026-10-30,LCT-1,version
+UAT1 22.1.33,IRP Auto,2026-10-30,UAT-1,phase
+Param 22.1.34,IRP Auto,2026-11-02,Param/Sisense,phase
+Sprint 22.1.34.2,IRP Auto,2026-11-02,DEV V.,phase
+QA 22.1.34.1,IRP Auto,2026-11-02,LCT-1,phase
+22.1.33.3001,IRP Auto,2026-11-02,UAT-1,version
+Param 22.1.34,IRP Auto,2026-11-03,Param/Sisense,phase
+Sprint 22.1.34.2,IRP Auto,2026-11-03,DEV V.,phase
+QA 22.1.34.1,IRP Auto,2026-11-03,LCT-1,phase
+UAT1 22.1.33,IRP Auto,2026-11-03,UAT-1,phase
+Param 22.1.34,IRP Auto,2026-11-04,Param/Sisense,phase
+Sprint 22.1.34.2,IRP Auto,2026-11-04,DEV V.,phase
+QA 22.1.34.1,IRP Auto,2026-11-04,LCT-1,phase
+UAT1 22.1.33,IRP Auto,2026-11-04,UAT-1,phase
+Param 22.1.34,IRP Auto,2026-11-05,Param/Sisense,phase
+Sprint 22.1.34.2,IRP Auto,2026-11-05,DEV V.,phase
+QA 22.1.34.1,IRP Auto,2026-11-05,LCT-1,phase
+UAT1 22.1.33,IRP Auto,2026-11-05,UAT-1,phase
+Param 22.1.34/12h,IRP Auto,2026-11-06,Param/Sisense,phase
+22.1.34.2001,IRP Auto,2026-11-06,DEV V.,version
+22.1.34.2001,IRP Auto,2026-11-06,LCT-1,version
+UAT1 22.1.33,IRP Auto,2026-11-06,UAT-1,phase
+Param 22.1.34,IRP Auto,2026-11-09,Param/Sisense,phase
+Sprint 22.1.34.3,IRP Auto,2026-11-09,DEV V.,phase
+QA 22.1.34.2,IRP Auto,2026-11-09,LCT-1,phase
+22.1.33.4001,IRP Auto,2026-11-09,UAT-1,version
+Param 22.1.34,IRP Auto,2026-11-10,Param/Sisense,phase
+Sprint 22.1.34.3,IRP Auto,2026-11-10,DEV V.,phase
+QA 22.1.34.2,IRP Auto,2026-11-10,LCT-1,phase
+UAT1 22.1.33,IRP Auto,2026-11-10,UAT-1,phase
+Param 22.1.34,IRP Auto,2026-11-11,Param/Sisense,phase
+Sprint 22.1.34.3,IRP Auto,2026-11-11,DEV V.,phase
+QA 22.1.34.2,IRP Auto,2026-11-11,LCT-1,phase
+UAT1 22.1.33,IRP Auto,2026-11-11,UAT-1,phase
+Param 22.1.34,IRP Auto,2026-11-12,Param/Sisense,phase
+Sprint 22.1.34.3,IRP Auto,2026-11-12,DEV V.,phase
+QA 22.1.34.2,IRP Auto,2026-11-12,LCT-1,phase
+UAT1 22.1.33,IRP Auto,2026-11-12,UAT-1,phase
+Param 22.1.34/12h,IRP Auto,2026-11-13,Param/Sisense,phase
+22.1.34.3001,IRP Auto,2026-11-13,DEV V.,version
+22.1.34.3001,IRP Auto,2026-11-13,LCT-1,version
+UAT1 22.1.33,IRP Auto,2026-11-13,UAT-1,phase
+22.1.33.4001,IRP Auto,2026-11-13,PPRD,version
+Param 22.1.34,IRP Auto,2026-11-16,Param/Sisense,phase
+QA 22.1.34.3,IRP Auto,2026-11-16,LCT-1,phase
+TNR 22.1.33,IRP Auto,2026-11-16,PPRD,phase
+Param 22.1.34,IRP Auto,2026-11-17,Param/Sisense,phase
+QA 22.1.34.3,IRP Auto,2026-11-17,LCT-1,phase
+TNR 22.1.33,IRP Auto,2026-11-17,PPRD,phase
+Param 22.1.34,IRP Auto,2026-11-18,Param/Sisense,phase
+QA 22.1.34.3,IRP Auto,2026-11-18,LCT-1,phase
+TNR 22.1.33,IRP Auto,2026-11-18,PPRD,phase
+Param 22.1.34,IRP Auto,2026-11-19,Param/Sisense,phase
+QA 22.1.34.3,IRP Auto,2026-11-19,LCT-1,phase
+TNR 22.1.33,IRP Auto,2026-11-19,PPRD,phase
+Param 22.1.34/12h,IRP Auto,2026-11-20,Param/Sisense,phase
+QA 22.1.34.3,IRP Auto,2026-11-20,LCT-1,phase
+22.1.34.3001,IRP Auto,2026-11-20,UAT-1,version
+TNR 22.1.33,IRP Auto,2026-11-20,PPRD,phase
+22.1.33,IRP Auto,2026-11-21,Production,version
+UAT1 22.1.34,IRP Auto,2026-11-23,UAT-1,phase
+UAT1 22.1.34,IRP Auto,2026-11-24,UAT-1,phase
+UAT1 22.1.34,IRP Auto,2026-11-25,UAT-1,phase
+UAT1 22.1.34,IRP Auto,2026-11-26,UAT-1,phase
+UAT1 22.1.34,IRP Auto,2026-11-27,UAT-1,phase
+HF Param V33 ?,IRP Auto,2026-11-28,PPRD,version
+HF Param pour les échéanciers (barèmes),IRP Auto,2026-11-28,Comments,note
+22.1.34.4001,IRP Auto,2026-11-30,UAT-1,version
+UAT1 22.1.34,IRP Auto,2026-12-01,UAT-1,phase
+UAT1 22.1.34,IRP Auto,2026-12-02,UAT-1,phase
+UAT1 22.1.34,IRP Auto,2026-12-03,UAT-1,phase
+UAT1 22.1.34,IRP Auto,2026-12-04,UAT-1,phase
+22.1.34.4001,IRP Auto,2026-12-04,PPRD,version
+Echéancier + Fiches DSN,IRP Auto,2026-12-06,Comments,note
+TNR 22.1.34,IRP Auto,2026-12-07,PPRD,phase
+TNR 22.1.34,IRP Auto,2026-12-08,PPRD,phase
+TNR 22.1.34,IRP Auto,2026-12-09,PPRD,phase
+TNR 22.1.34,IRP Auto,2026-12-10,PPRD,phase
+TNR 22.1.34,IRP Auto,2026-12-11,PPRD,phase
+22.1.34,IRP Auto,2026-12-12,Production,version

@@ -2,18 +2,13 @@ import { useParams, Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowLeft } from "lucide-react"
-import { useClient } from "@/hooks/useDataverse"
-
-const environments = [
-  { id: "prod", name: "PROD", color: "bg-red-100 dark:bg-red-900 hover:bg-red-200", icon: "🔴" },
-  { id: "pprod", name: "PPROD", color: "bg-yellow-100 dark:bg-yellow-900 hover:bg-yellow-200", icon: "🟡" },
-  { id: "uat1", name: "UAT1", color: "bg-blue-100 dark:bg-blue-900 hover:bg-blue-200", icon: "🔵" },
-  { id: "hfprd", name: "HFPRD", color: "bg-green-100 dark:bg-green-900 hover:bg-green-200", icon: "🟢" }
-]
+import { useClient, useEnvironments } from "@/hooks/useDataverse"
 
 export default function ClientEnvironmentsPage() {
   const { id } = useParams<{ id: string }>()
   const { client } = useClient(id || null)
+  const { environments: envMap, loading: envLoading } = useEnvironments(id || null)
+  const environments = Object.entries(envMap).map(([envId, env]) => ({ id: envId, ...env }))
 
   if (!client) {
     return (
@@ -53,6 +48,9 @@ export default function ClientEnvironmentsPage() {
           </div>
         </div>
 
+        {!envLoading && environments.length === 0 && (
+          <p className="text-muted-foreground">Aucun environnement configuré pour ce client.</p>
+        )}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {environments.map((env) => (
             <Link key={env.id} to={`/tickets?clientId=${client.id}&env=${env.id}`}>

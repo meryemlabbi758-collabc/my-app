@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useNavigate, useSearchParams, Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import {
   Select,
   SelectContent,
@@ -19,14 +19,7 @@ import {
 } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
 import { Clipboard, ChevronRight, X, ArrowLeft, Loader } from "lucide-react"
-import { useClient, useEnvironments, useClientEnvironmentTickets } from "@/hooks/useDataverse"
-
-const environmentNames: Record<string, string> = {
-  prod: "PROD",
-  pprod: "PPROD",
-  uat1: "UAT1",
-  hfprd: "HFPRD"
-}
+import { useClient, useEnvironments, useClientEnvironmentTickets, useTickets } from "@/hooks/useDataverse"
 
 export default function TicketsPage() {
   const navigate = useNavigate()
@@ -37,7 +30,11 @@ export default function TicketsPage() {
   // Fetch data from Dataverse service
   const { client, loading: clientLoading } = useClient(clientId)
   const { environments, loading: envLoading } = useEnvironments(clientId)
-  const { tickets: envTickets, loading: ticketsLoading } = useClientEnvironmentTickets(clientId, environment)
+  const { tickets: scopedTickets, loading: scopedLoading } = useClientEnvironmentTickets(clientId, environment)
+  const { tickets: allTickets, loading: allLoading } = useTickets()
+  const scoped = !!clientId && !!environment
+  const envTickets = scoped ? scopedTickets : allTickets
+  const ticketsLoading = scoped ? scopedLoading : allLoading
 
   const [fixVersion, setFixVersion] = useState("")
   const [buildId, setBuildId] = useState("")
@@ -85,18 +82,18 @@ export default function TicketsPage() {
     }
   }
 
-  if (clientLoading || envLoading) {
+  if (scoped && (clientLoading || envLoading)) {
     return (
       <div className="space-y-8 pb-8">
         <div className="flex items-center justify-center py-12">
-          <Loader className="w-8 h-8 animate-spin text-blue-600" />
+          <Loader className="w-8 h-8 animate-spin text-primary" />
           <p className="ml-3 text-muted-foreground">Chargement des données...</p>
         </div>
       </div>
     )
   }
 
-  if (!client || !environment || !environments[environment]) {
+  if (scoped && (!client || !environments[environment!])) {
     return (
       <div className="space-y-4">
         <Link to="/clients">
@@ -114,219 +111,185 @@ export default function TicketsPage() {
     )
   }
 
-  const envData = environments[environment]
+  const envData = scoped && environment ? environments[environment] : null
 
-  // Get the most common fix version and build ID from tickets
-  const mostCommonFixVersion = uniqueFixVersions.length > 0
-    ? uniqueFixVersions[0]
-    : envData.fixVersion
-  const mostCommonBuildId = uniqueBuildIds.length > 0
-    ? uniqueBuildIds[0]
-    : envData.buildId
+  // Most common fix version and build ID shown in the banner
+  const mostCommonFixVersion = uniqueFixVersions[0]
+  const mostCommonBuildId = uniqueBuildIds[0]
+  const hasFilters = !!(fixVersion || buildId || statusFilter)
+  const clearFilters = () => {
+    setFixVersion("")
+    setBuildId("")
+    setStatusFilter("")
+  }
 
   return (
-    <div className="space-y-8 pb-8">
-      {/* Client & Environment Header */}
-      <div className="space-y-4">
+    <div className="space-y-5 pb-8">
+      {/* Title + client/environment banner */}
+      <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
         <Link to="/clients">
           <Button variant="outline" size="sm">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour aux clients
+            Clients
           </Button>
         </Link>
 
-        <Card className={`${envData.color} border-2 transition-all`}>
-          <CardContent className="pt-8">
-            <div className="flex items-start gap-6">
-              <div className="text-5xl">{client.logo}</div>
-              <div className="flex-1">
-                <div className="flex items-center gap-3 mb-4">
-                  <h2 className="text-3xl font-bold">{client.name}</h2>
-                  <Badge className="text-lg px-3 py-1">{envData.icon} {environmentNames[environment]}</Badge>
-                </div>
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Build ID</p>
-                    <p className="font-mono text-sm font-semibold">{mostCommonBuildId}</p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Fix Version</p>
-                    <p className="font-mono text-sm font-semibold">{mostCommonFixVersion}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-
-      {/* Header */}
-      <div className="space-y-2">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-            <Clipboard className="w-6 h-6 text-white" />
+          <div className="grid size-10 place-items-center rounded-lg bg-primary text-primary-foreground">
+            <Clipboard className="size-5" />
           </div>
           <div>
-            <h1 className="text-3xl font-bold">Jira Delivery Tickets</h1>
-            <p className="text-muted-foreground">Tickets pour {client.name} - {environmentNames[environment]}</p>
+            <h1 className="text-2xl font-bold leading-tight tracking-tight">Jira Delivery Tickets</h1>
+            <p className="text-sm text-muted-foreground">
+              {scoped && client && envData ? `Tickets pour ${client.name} - ${envData.name}` : "Tous les tickets"}
+            </p>
           </div>
         </div>
+
+        {client && envData && environment && (
+          <div className={`${envData.color} ml-auto flex flex-wrap items-center gap-x-6 gap-y-2 rounded-xl border px-4 py-2.5`}>
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">{client.logo}</span>
+              <span className="text-lg font-bold">{client.name}</span>
+              <Badge className="px-2.5 py-0.5">
+                {envData.icon} {envData.name}
+              </Badge>
+            </div>
+            <div className="text-xs">
+              <span className="text-muted-foreground">Build ID </span>
+              <span className="font-mono font-semibold">{mostCommonBuildId || "—"}</span>
+            </div>
+            <div className="text-xs">
+              <span className="text-muted-foreground">Fix Version </span>
+              <span className="font-mono font-semibold">{mostCommonFixVersion || "—"}</span>
+            </div>
+          </div>
+        )}
       </div>
 
-      {/* Filters Section */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-lg">Filtrer les Tickets</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <label className="text-sm font-medium">Fix version</label>
-              <Select value={fixVersion} onValueChange={setFixVersion}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Toutes les versions" />
-                </SelectTrigger>
-                <SelectContent>
-                  {uniqueFixVersions.map((version) => (
-                    <SelectItem key={version} value={version}>
-                      {version}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-            <div className="space-y-2">
-              <label className="text-sm font-medium">Build ID</label>
-              <Select value={buildId} onValueChange={setBuildId}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Tous les builds" />
-                </SelectTrigger>
-                <SelectContent>
-                  {uniqueBuildIds.map((id) => (
-                    <SelectItem key={id} value={id}>
-                      {id}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      {/* Filters + total on one line */}
+      <Card className="py-0">
+        <CardContent className="flex flex-wrap items-end gap-x-5 gap-y-3 p-4">
+          <h2 className="mr-1 self-center text-base font-semibold">Filtrer les Tickets</h2>
 
-      {/* Total Tickets Card */}
-      <Card>
-        <CardContent className="pt-6">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-muted-foreground mb-2">Total Tickets</p>
-              <p className="text-4xl font-bold">{filteredTickets.length}</p>
-              <p className="text-xs text-muted-foreground mt-2">Pour cet environnement</p>
-            </div>
-            <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
-              <Clipboard className="w-8 h-8 text-blue-600" />
-            </div>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Tickets List Section */}
-      <Card>
-        <CardHeader>
-          <div className="flex items-center justify-between">
-            <CardTitle className="text-lg">Tickets List</CardTitle>
-            {statusFilter && (
-              <button
-                onClick={() => setStatusFilter("")}
-                className="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-              >
-                <X className="w-4 h-4" />
-                Clear Status Filter
-              </button>
-            )}
-          </div>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4 mb-6">
-            <div className="flex items-center justify-between">
-              <label className="text-sm font-medium">Status</label>
-              <Select value={statusFilter} onValueChange={setStatusFilter}>
-                <SelectTrigger className="w-40">
-                  <SelectValue placeholder="Tous les statuts" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="open">Open</SelectItem>
-                  <SelectItem value="in-progress">In Progress</SelectItem>
-                  <SelectItem value="review">Review</SelectItem>
-                  <SelectItem value="done">Done</SelectItem>
-                </SelectContent>
-              </Select>
-              <ChevronRight className="w-5 h-5 text-blue-600" />
-            </div>
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-muted-foreground">Fix version</label>
+            <Select value={fixVersion} onValueChange={setFixVersion}>
+              <SelectTrigger className="w-44">
+                <SelectValue placeholder="Toutes les versions" />
+              </SelectTrigger>
+              <SelectContent>
+                {uniqueFixVersions.map((version) => (
+                  <SelectItem key={version} value={version}>
+                    {version}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
 
-          {/* Table */}
-          {ticketsLoading ? (
-            <div className="flex items-center justify-center py-8">
-              <Loader className="w-6 h-6 animate-spin text-blue-600" />
-              <p className="ml-3 text-muted-foreground">Chargement des tickets...</p>
-            </div>
-          ) : filteredTickets.length > 0 ? (
-            <div className="overflow-x-auto">
-              <Table>
-                <TableHeader>
-                  <TableRow>
-                    <TableHead>ID</TableHead>
-                    <TableHead>Title</TableHead>
-                    <TableHead>Status</TableHead>
-                    <TableHead>Priority</TableHead>
-                    <TableHead>Assignee</TableHead>
-                    <TableHead>Due Date</TableHead>
-                    <TableHead>Action</TableHead>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {filteredTickets.map((ticket) => (
-                    <TableRow
-                      key={ticket.id}
-                      onClick={() => navigate(`/tickets/${ticket.id}`)}
-                      className="cursor-pointer hover:bg-muted/50 transition-colors"
-                    >
-                      <TableCell className="font-medium text-blue-600">{ticket.id}</TableCell>
-                      <TableCell>{ticket.title}</TableCell>
-                      <TableCell>
-                        <Badge className={getStatusColor(ticket.status)}>
-                          {ticket.status}
-                        </Badge>
-                      </TableCell>
-                      <TableCell>
-                        <Badge className={getPriorityColor(ticket.priority)}>
-                          {ticket.priority}
-                        </Badge>
-                      </TableCell>
-                      <TableCell className="text-sm">{ticket.assignee}</TableCell>
-                      <TableCell className="text-sm">{ticket.dueDate}</TableCell>
-                      <TableCell>
-                        <Button size="sm" variant="ghost">
-                          <ChevronRight className="w-4 h-4" />
-                        </Button>
-                      </TableCell>
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </Table>
-            </div>
-          ) : (
-            <div className="text-center py-8">
-              <p className="text-muted-foreground">Aucun ticket trouvé pour cet environnement</p>
-            </div>
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-muted-foreground">Build ID</label>
+            <Select value={buildId} onValueChange={setBuildId}>
+              <SelectTrigger className="w-44">
+                <SelectValue placeholder="Tous les builds" />
+              </SelectTrigger>
+              <SelectContent>
+                {uniqueBuildIds.map((id) => (
+                  <SelectItem key={id} value={id}>
+                    {id}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-muted-foreground">Status</label>
+            <Select value={statusFilter} onValueChange={setStatusFilter}>
+              <SelectTrigger className="w-44">
+                <SelectValue placeholder="Tous les statuts" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="open">Open</SelectItem>
+                <SelectItem value="in-progress">In Progress</SelectItem>
+                <SelectItem value="review">Review</SelectItem>
+                <SelectItem value="done">Done</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          {hasFilters && (
+            <button
+              onClick={clearFilters}
+              className="flex items-center gap-1 self-center pt-4 text-sm text-muted-foreground hover:text-foreground"
+            >
+              <X className="w-4 h-4" />
+              Effacer les filtres
+            </button>
           )}
 
-          {/* Pagination info */}
-          <div className="mt-6 text-sm text-muted-foreground">
-            Affichage de {filteredTickets.length} ticket(s)
+          <div className="ml-auto flex items-center gap-3 rounded-xl bg-primary/10 px-4 py-2">
+            <Clipboard className="size-5 text-primary" />
+            <div className="leading-tight">
+              <p className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">Total Tickets</p>
+              <p className="text-2xl font-bold">{filteredTickets.length}</p>
+            </div>
           </div>
         </CardContent>
+      </Card>
+
+      {/* Tickets list */}
+      <Card className="gap-0 py-0">
+        {ticketsLoading ? (
+          <div className="flex items-center justify-center py-10">
+            <Loader className="w-6 h-6 animate-spin text-primary" />
+            <p className="ml-3 text-muted-foreground">Chargement des tickets...</p>
+          </div>
+        ) : filteredTickets.length > 0 ? (
+          <div className="overflow-x-auto">
+            <Table>
+              <TableHeader>
+                <TableRow className="bg-muted/40 hover:bg-muted/40">
+                  <TableHead className="px-4 text-[11px] font-semibold uppercase tracking-wide">ID</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Title</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Status</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Priority</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Assignee</TableHead>
+                  <TableHead className="text-[11px] font-semibold uppercase tracking-wide">Due Date</TableHead>
+                  <TableHead className="w-10" />
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {filteredTickets.map((ticket) => (
+                  <TableRow
+                    key={ticket.id}
+                    onClick={() => navigate(`/tickets/${ticket.id}`)}
+                    className="cursor-pointer transition-colors hover:bg-muted/50"
+                  >
+                    <TableCell className="px-4 font-semibold text-primary">{ticket.title}</TableCell>
+                    <TableCell className="max-w-md truncate">{ticket.summary}</TableCell>
+                    <TableCell>
+                      <Badge className={getStatusColor(ticket.status)}>{ticket.status}</Badge>
+                    </TableCell>
+                    <TableCell>
+                      <Badge className={getPriorityColor(ticket.priority)}>{ticket.priority}</Badge>
+                    </TableCell>
+                    <TableCell className="text-sm">{ticket.assignee}</TableCell>
+                    <TableCell className="text-sm">{ticket.dueDate || "—"}</TableCell>
+                    <TableCell>
+                      <ChevronRight className="size-4 text-muted-foreground" />
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </div>
+        ) : (
+          <div className="py-10 text-center">
+            <p className="text-muted-foreground">Aucun ticket trouvé pour cet environnement</p>
+          </div>
+        )}
       </Card>
     </div>
   )

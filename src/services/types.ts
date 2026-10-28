@@ -7,6 +7,7 @@ export interface Client {
 }
 
 export interface EnvironmentData {
+  name?: string
   buildId: string
   fixVersion: string
   icon: string
@@ -16,6 +17,7 @@ export interface EnvironmentData {
 export interface Ticket {
   id: string
   title: string
+  summary?: string
   status: "open" | "in-progress" | "review" | "done"
   fixVersion: string
   buildId: string
@@ -37,4 +39,26 @@ export interface TicketDetail extends Ticket {
   updatedDate?: string
   summary?: string
   sprint?: string
+}
+
+export type TeamGroup = "dxc" | "customer" | "developers" | "build" | "observers"
+
+export interface TeamMember {
+  id: string
+  name: string
+  email: string
+  phone: string
+  role: string
+  group: string
+  team: TeamGroup
+  color: string
+}
+
+export interface VersionEntry {
+  id: string
+  client: string
+  date: string
+  environment: string
+  label: string
+  kind: string
 }
